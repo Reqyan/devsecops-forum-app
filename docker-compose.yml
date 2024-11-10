@@ -1,34 +1,19 @@
 version: '3.8'
+
 services:
-    web:
-        image: 'app-name:latest'
+    laravel.test:
         build:
-            target: web
             context: .
-        env_file:
-            - .env
+        user: root
         ports:
-            - '8000:80'
-        volumes:
-            - '.:/var/www/html'
+            - '80:80'  # Map internal port 80 to host port 80
         depends_on:
-            - db
-    db:
-        platform: linux/amd64
-        image: 'mysql:5.7'
-        env_file:
-            - .env
-        environment:
-            MYSQL_ROOT_PASSWORD: root
-            MYSQL_DATABASE: '${DB_DATABASE}'
-            MYSQL_USER: '${DB_USERNAME}'
-            MYSQL_PASSWORD: '${DB_PASSWORD}'
-        ports:
-            - '3306:3306'
-        volumes:
-            - 'dbdata:/var/lib/mysql'
-    mysql:
-        image: 'mysql/mysql-server:8.0'
+            - mariadb
+        networks:
+            - sail
+
+    mariadb:
+        image: 'mariadb:11'
         ports:
             - '${FORWARD_DB_PORT:-3306}:3306'
         environment:
@@ -37,24 +22,34 @@ services:
             MYSQL_DATABASE: '${DB_DATABASE}'
             MYSQL_USER: '${DB_USERNAME}'
             MYSQL_PASSWORD: '${DB_PASSWORD}'
-            MYSQL_ALLOW_EMPTY_PASSWORD: 1
+            MYSQL_ALLOW_EMPTY_PASSWORD: 'yes'
         volumes:
-            - 'sail-mysql:/var/lib/mysql'
-            - './vendor/laravel/sail/database/mysql/create-testing-database.sh:/docker-entrypoint-initdb.d/10-create-testing-database.sh'
+            - 'sail-mariadb:/var/lib/mysql'
+            - './vendor/laravel/sail/database/mariadb/create-testing-database.sh:/docker-entrypoint-initdb.d/10-create-testing-database.sh'
         networks:
             - sail
         healthcheck:
-            test:
-                - CMD
-                - mysqladmin
-                - ping
-                - '-p${DB_PASSWORD}'
+            test: ["CMD", "mysqladmin", "ping", "-p${DB_PASSWORD}"]
             retries: 3
             timeout: 5s
+
+    phpmyadmin:
+        image: phpmyadmin:latest
+        ports:
+            - '8080:80'  # Access phpMyAdmin on http://localhost:8080
+        environment:
+            PMA_HOST: mariadb  # Links phpMyAdmin to your MariaDB container
+            PMA_PORT: 3306
+            MYSQL_ROOT_PASSWORD: '${DB_PASSWORD}'  # Use the root password for access
+        depends_on:
+            - mariadb
+        networks:
+            - sail
+
 networks:
     sail:
         driver: bridge
+
 volumes:
-    dbdata: null
-    sail-mysql:
+    sail-mariadb:
         driver: local

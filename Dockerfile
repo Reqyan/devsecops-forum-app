@@ -27,6 +27,9 @@ COPY . /var/www/html
 # Set the working directory
 WORKDIR /var/www/html
 
+RUN groupadd --force -g 1000 sail
+RUN useradd -ms /bin/bash --no-user-group -g 1000 -u 1337 sail
+
 # Install composer
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 
@@ -35,3 +38,7 @@ RUN composer install
 
 # Set permissions
 RUN chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cache
+# RUN chown -r www-data:www-data *
+# RUN chown -R sail:sail /var/www/
+
+
