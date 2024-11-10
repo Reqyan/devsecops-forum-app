@@ -8,7 +8,13 @@ use App\Models\Posts;
 class PostController extends Controller
 {
     public function index(){
-        return view('posts.index');        
+        $post = Posts::all();
+        return view('posts.index', compact('post'));        
+    }
+
+    public function detail($id){
+        $detail = Posts::find($id);
+        return view('posts.detail');
     }
 
     public function create()
@@ -27,6 +33,7 @@ class PostController extends Controller
         $request->validate([
             'user_id' => 'required|string',
             'title' => 'required|string',
+            'category' => 'required|string',
             'content' => 'required|string',
             'about' => 'required|string',
         ]);
@@ -42,6 +49,7 @@ class PostController extends Controller
         $request->validate([
             'user_id' => 'required|string',
             'title' => 'required|string',
+            'category' => 'required|string',
             'content' => 'required|string',
             'about' => 'required|string',
         ]);
