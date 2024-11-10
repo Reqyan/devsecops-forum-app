@@ -8,62 +8,56 @@ use App\Models\Posts;
 class PostController extends Controller
 {
     public function index(){
-        $post = Posts::all();
-        return view('posts.index', compact('post'));        
+        $posts = Posts::all();
+        return view('posts.index', compact('posts'));        
     }
 
     public function detail($id){
-        $detail = Posts::find($id);
-        return view('posts.detail');
+        $post = Posts::findOrFail($id);
+        return view('posts.detail', compact('post'));
     }
 
     public function create()
     {
-        $posts = Posts::all();
-        return view('posts.create', compact('posts'));
+        return view('posts.create');
     }
 
     public function edit($id){
-        $posts = Posts::all();
-        $data = Posts::find($id);
-        return view('posts.edit', compact('posts', 'data'));
+        $post = Posts::findOrFail($id);
+        return view('posts.edit', compact('post'));
     }
 
     public function store(Request $request){
         $request->validate([
-            'user_id' => 'required|string',
             'title' => 'required|string',
             'category' => 'required|string',
             'content' => 'required|string',
-            'about' => 'required|string',
         ]);
 
-        $posts_create = $request->except('_token');
-        Posts::create($posts_create);
+        Posts::create($request->only('title', 'category', 'content'));
 
-        return redirect()->route('posts.index')->with('success', 'Postingan Berhasil Ditambahkan');
+        return redirect()->route('index')->with('success', 'Postingan Berhasil Ditambahkan');
     }
 
     public function update(Request $request, $id)
     {
         $request->validate([
-            'user_id' => 'required|string',
             'title' => 'required|string',
             'category' => 'required|string',
             'content' => 'required|string',
-            'about' => 'required|string',
         ]);
 
-        $posts_update = $request->except('_token');
-        $post = Posts::find($id);
-        $post->update($posts_update);
+        $post = Posts::findOrFail($id);
+        $post->update($request->only('title', 'category', 'content'));
 
-        return redirect()->route('posts.index')->with('success', 'Postingan Diperbarui');
+        return redirect()->route('index')->with('success', 'Postingan Diperbarui');
     }
 
     public function delete($id)
     {
-        Posts::find($id)->delete();
-        return redirect()->route('posts.index')->with('success', 'Postingan Dihapus');
+        $post = Posts::findOrFail($id);
+        $post->delete();
+
+        return redirect()->route('index')->with('success', 'Postingan Dihapus');
     }
 }

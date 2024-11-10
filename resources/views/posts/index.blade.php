@@ -19,7 +19,7 @@
                     <input id="tab5" type="radio" name="tabs">
                     <label for="tab5">Recent Post</label>
                     <section id="content1">
-                        @foreach ($post as $data_post)
+                        @foreach ($posts as $data_post)
                         <div class="question-type2033">
                             <div class="row">
                                 <div class="col-md-1">
@@ -29,7 +29,8 @@
                                 <div class="col-md-9">
                                     <div class="right-description893">
                                         <div id="que-hedder2983">
-                                            <h3><a href="post-deatils.html" target="_blank">{{ $data_post->title }}</a></h3> </div>
+                                            <h3><a href="{{ route('detail-posts', $data_post->id) }}" target="_blank">{{ $data_post->title }}</a></h3> </div>
+
                                         <div class="ques-details10018">
                                             <p>{{ $data_post->content }}</p>
                                         </div>

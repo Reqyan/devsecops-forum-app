@@ -1,7 +1,7 @@
 @extends('posts.layouts.base')
 @section('title', 'Tambah Postingan')
 
-@section ('content')
+@section('content')
 
 <section class="header-descriptin329">
     <div class="container">
@@ -16,261 +16,82 @@
     <div class="container">
         <div class="row">
             <div class="col-md-9">
-            <div class="ask-question-input-part032">
-                  <h4>Ask Question</h4>
-             <hr>
-    <form>
-    <div class="username-part940">
-                <span class="form-description43">Title</span><input type="text" name="title" class="username029" placeholder="Enter your Title">  
-    </div>
-                    
-    <div class="categori49">
-        <span class="form-description43305">Category </span>
-        <label><input list="browsers" name="category" class="list-category53"/></label>
-        <datalist id="browsers">
-        <option value="Front_End Web Developer">
-        <option value="Back-End develoer">
-        <option value="Andriod Developer">
-        <option value="Web Application">
-        <option value="System Analyst">
-        <option value="Security">
-        </datalist>
-    </div>
-   <div class="details2-239">
-    <div class="col-md-12 nopadding">
-        <textarea id="txtEditor"></textarea> 
-    </div>
-                    </div>	
-                 
-</form>
-             <div class="publish-button2389">
-                <button type="button" class="publis1291">Publish your Question</button>
-            </div>
-           
-            </div>
-         
-          
-            </div>
-<!--                end of col-md-9 -->
-       
-<!--           strart col-md-3 (side bar)-->
-       <aside class="col-md-3 sidebar97239">
-         <div class="status-part3821">
-        <h4>stats</h4>
-            
-             <a href="#"><i class="fa fa-question-circle" aria-hidden="true"> Question(20)</i></a>
-             <i class="fa fa-comment" aria-hidden="true"> Answers(50)</i>
-         </div>  
-         <div class="categori-part329">
-             <h4>Category</h4>
-             <ul>
-                 <li><a href="#">web developer</a></li>
-                 <li><a href="#">Andriod developer</a></li>
-                 <li><a href="#">grapics developer</a></li>
-                 <li><a href="#">web developer</a></li>
-                 
-             </ul>
-         </div>
-         
-<!--             social part -->
-          <div class="social-part2189">
-          <h4>Find us</h4>
-         <li class="rss-one">
-            <a href="#" target="_blank">
-             <strong>
-                <span>Subscribe</span>
-                 <i class="fa fa-rss" aria-hidden="true"></i>
-   
-                 <br>
-                 <small>To RSS Feed</small>
-                 
-             </strong>
-             </a>
-         </li>
-                   <li class="facebook-two">
-            <a href="#" target="_blank">
-             <strong>
-                <span>Subscribe</span>
-                     <i class="fa fa-facebook" aria-hidden="true"></i>
-   
-                 <br>
-                 <small>To Facebook Feed</small>
-                 
-             </strong>
-             </a>
-         </li>
-                            <li class="twitter-three">
-            <a href="#" target="_blank">
-             <strong>
-                <span>Subscribe</span>
-            <i class="fa fa-twitter" aria-hidden="true"></i>
-   
-                 <br>
-                 <small>To twitter Feed</small>
-                 
-             </strong>
-             </a>
-         </li>
-                            <li class="youtube-four">
-            <a href="#" target="_blank">
-             <strong>
-                <span>Subscribe</span>
-           <i class="fa fa-youtube" aria-hidden="true"></i>
-   
-                 <br>
-                 <small>To youtube Feed</small>
-                 
-             </strong>
-             </a>
-         </li>
-              
-          </div>
-          
-<!--              login part-->
-          <div class="login-part2389">
-              <h4>Login</h4>
-              <div class="input-group300">
-              <span><i class="fa fa-user" aria-hidden="true"></i></span>
-              <input type="text" class="namein309" placeholder="Username">
-              </div>
-                  <div class="input-group300">
-              <span><i class="fa fa-lock" aria-hidden="true"></i></span>
-              <input type="password" class="passin309" placeholder="Name">
-              </div>
-              <a href="#"><button type="button" class="userlogin320">Log In</button></a>
-              <div class="rememberme">
-                            <label><input type="checkbox" checked="checked"> Remember Me</label>
-                            <a href="#" class="resbutton3892">Register</a>
+                <div class="ask-question-input-part032">
+                    <h4>Ask Question</h4>
+                    <hr>
+                    <form method="POST" action="{{ route('store-post') }}">
+                        @csrf
+                        <div class="username-part940">
+                            <span class="form-description43">Title</span>
+                            <input type="text" name="title" class="username029" placeholder="Enter your Title">
                         </div>
-          </div>
-<!--              highest part-->
-          <div class="highest-part302">
-            <h4>Highest Points</h4>  
-            <div class="pints-wrapper">
-             <div class="left-user3898">
-                 <a href="#"><img src="image/images.png" alt="Image"></a>
-                 <div class="imag-overlay39">
-                     <a href="#"><i class="fa fa-plus" aria-hidden="true"></i></a>
-                 </div>
-             </div>
-             <span class="points-details938">
-                 <a href="#"><h5>Ahmed Hasan</h5></a>
-            <a href="#" class="designetion439">Pundit</a>
-                 <p>206 points</p>
-             </span>
-             
-              </div>
-              <hr>
-                       <div class="pints-wrapper">
-             <div class="left-user3898">
-                 <a href="#"><img src="image/images.png" alt="Image"></a>
-                 <div class="imag-overlay39">
-                     <a href="#"><i class="fa fa-plus" aria-hidden="true"></i></a>
-                 </div>
-             </div>
-             <span class="points-details938">
-                 <a href="#"><h5>Ahmed Hasan</h5></a>
-            <a href="#" class="designetion439">Pundit</a>
-                 <p>206 points</p>
-             </span>
-             
-              </div>
-              <hr>
-                       <div class="pints-wrapper">
-             <div class="left-user3898">
-                 <a href="#"><img src="image/images.png" alt="Image"></a>
-                 <div class="imag-overlay39">
-                     <a href="#"><i class="fa fa-plus" aria-hidden="true"></i></a>
-                 </div>
-             </div>
-             <span class="points-details938">
-                 <a href="#"><h5>Ahmed Hasan</h5></a>
-            <a href="#" class="designetion439">Pundit</a>
-                 <p>206 points</p>
-             </span>
-             
-              </div>
-              <hr>
-              <div class="pints-wrapper">
-             <div class="left-user3898">
-                 <a href="#"><img src="image/images.png" alt="Image"></a>
-                 <div class="imag-overlay39">
-                     <a href="#"><i class="fa fa-plus" aria-hidden="true"></i></a>
-                 </div>
-             </div>
-             <span class="points-details938">
-                 <a href="#"><h5>Ahmed Hasan</h5></a>
-            <a href="#" class="designetion439">Pundit</a>
-                 <p>206 points</p>
-             </span>
-             
-              </div>
-              <hr>
-              <div class="pints-wrapper">
-             <div class="left-user3898">
-                 <a href="#"><img src="image/images.png" alt="Image"></a>
-                 <div class="imag-overlay39">
-                     <a href="#"><i class="fa fa-plus" aria-hidden="true"></i></a>
-                 </div>
-             </div>
-             <span class="points-details938">
-                 <a href="#"><h5>Ahmed Hasan</h5></a>
-            <a href="#" class="designetion439">Pundit</a>
-                 <p>206 points</p>
-             </span>
-             
-              </div>
-              
-          </div>
-<!--               end of Highest points -->
-<!--          start tags part-->
-<div class="tags-part2398">
-<h4>Tags</h4>
-<ul>
-    <li><a href="#">analytics</a></li>
-    <li><a href="#">Computer</a></li>
-    <li><a href="#">Developer</a></li>
-    <li><a href="#">Google</a></li>
-    <li><a href="#">Interview</a></li>
-    <li><a href="#">Programmer</a></li>
-    <li><a href="#">Salary</a></li>
-    <li><a href="#">University</a></li>
-    <li><a href="#">Employee</a></li>
-    
-</ul>
+                        
+                        <div class="categori49">
+                            <span class="form-description43305">Category</span>
+                            <input list="category" name="category" class="list-category53"/>
+                            <datalist id="category">
+                                <option value="Front_End Web Developer">
+                                <option value="Back-End Developer">
+                                <option value="Android Developer">
+                                <option value="Web Application">
+                                <option value="System Analyst">
+                                <option value="Security">
+                            </datalist>
+                        </div>
 
+                        <div class="details2-239">
+                            <div class="col-md-12 nopadding">
+                                <textarea id="content" name="content" placeholder="Enter your question details"></textarea>
+                            </div>
+                        </div>
+                        
+                        <div class="publish-button2389">
+                            <button type="submit" class="publis1291">Publish your Question</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
 
-</div>
-<!--          End tags part-->
-<!--        start recent post  -->
-<div class="recent-post3290">
-<h4>Recent Post</h4>
-<div class="post-details021">
-    <a href="#"><h5>How much do web developers</h5></a>
-    <p>I am thinking of pursuing web developing as a career & was ...</p>
-    <small style="color: #848991">July 16, 2017</small>
-</div>
-<hr>
-    <div class="post-details021">
-    <a href="#"><h5>How much do web developers</h5></a>
-    <p>I am thinking of pursuing web developing as a career & was ...</p>
-    <small style="color: #848991">July 16, 2017</small>
-</div>
-   <hr>
-    <div class="post-details021">
-    <a href="#"><h5>How much do web developers</h5></a>
-    <p>I am thinking of pursuing web developing as a career & was ...</p>
-    <small style="color: #848991">July 16, 2017</small>
-</div>
+            <!-- Sidebar -->
+            <aside class="col-md-3 sidebar97239">
+                <div class="categori-part329">
+                    <h4>Category</h4>
+                    <ul>
+                        <li><a href="#">Web Developer</a></li>
+                        <li><a href="#">Android Developer</a></li>
+                        <li><a href="#">Graphics Developer</a></li>
+                    </ul>
+                </div>
+                
+                <div class="tags-part2398">
+                    <h4>Tags</h4>
+                    <ul>
+                        <li><a href="#">Analytics</a></li>
+                        <li><a href="#">Computer</a></li>
+                        <li><a href="#">Developer</a></li>
+                        <li><a href="#">Google</a></li>
+                        <li><a href="#">Interview</a></li>
+                    </ul>
+                </div>
 
-
-</div>
-<!--       end recent post    -->
-      
-       </aside>
+                <div class="recent-post3290">
+                    <h4>Recent Post</h4>
+                    <div class="post-details021">
+                        <a href="#"><h5>How much do web developers</h5></a>
+                        <p>I am thinking of pursuing web developing as a career & was ...</p>
+                        <small style="color: #848991">July 16, 2017</small>
+                    </div>
+                </div>
+            </aside>
         </div>
     </div>
 </section>
 
+@endsection
 
+@section('js')
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="{{ asset('js/jquery-3.1.1.min.js') }}"></script>
+<script src="{{ asset('js/bootstrap.min.js') }}"></script>
+<script src="{{ asset('js/npm.js') }}"></script>
 @endsection
