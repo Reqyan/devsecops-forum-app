@@ -14,12 +14,12 @@ class CommentController extends Controller
     {
         $comment = $request->validate([
             'content' => 'required',
-            'post_id' => 'required|exists:posts',
-            'user_id' => 'required|exists:users'
+            'post_id' => 'required|exists:posts,id',
+            // 'user_id' => 'required|exists:users'
         ]);
 
         Comment::create($comment);
-        return true;
+        return redirect(route('detail-posts', $comment['post_id']));
     }
 
     /**
@@ -30,7 +30,7 @@ class CommentController extends Controller
         $data = $request->validate([
             'content' => 'required',
             'post_id' => 'required|exists:posts',
-            'user_id' => 'required|exists:users'
+            // 'user_id' => 'required|exists:users'
         ]);
 
         $comment->content = $data['content'];

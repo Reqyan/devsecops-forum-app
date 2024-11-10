@@ -13,7 +13,7 @@ class PostController extends Controller
     }
 
     public function detail($id){
-        $post = Posts::findOrFail($id);
+        $post = Posts::with('comments')->findOrFail($id);
         return view('posts.detail', compact('post'));
     }
 

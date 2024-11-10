@@ -66,92 +66,46 @@
                        
                             <div class="comments-container">
                                 <ul id="comments-list" class="comments-list">
-                                    <li>
-                                         <div class="comment-main-level">
-                                            <!-- Avatar -->
-                                            <div class="comment-avatar"><img src="image/images.png" alt=""></div>
-                                            <!-- Contenedor del Comentario -->
-                                            <div class="comment-box">
-                                                <div class="comment-head">
-                                                    <h6 class="comment-name"><a href="#">Lorena Rojero</a></h6> <span><i class="fa fa-clock-o" aria-hidden="true"> January 15 , 2014 at 10:00 pm</i></span> <i class="fa fa-reply"></i> <i class="fa fa-heart"></i> </div>
-                                                <div class="comment-content"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit omnis animi et iure laudantium vitae, praesentium optio, sapiente distinctio illo? </div>
+                                    @foreach ($post->comments as $c)
+                                        <li>
+                                            <div class="comment-main-level">
+                                                <!-- Avatar -->
+                                                <div class="comment-avatar"><img src="https://e7.pngegg.com/pngimages/108/97/png-clipart-anonymous-desktop-anonymity-advertising-anonymous-emblem-logo.png" alt=""></div>
+                                                <!-- Contenedor del Comentario -->
+                                                <div class="comment-box">
+                                                    <div class="comment-head">
+                                                        <h6 class="comment-name"><a href="#">Anonymous</a></h6> <span><i class="fa fa-clock-o" aria-hidden="true"> January 15 , 2014 at 10:00 pm</i></span> <i class="fa fa-reply"></i> <i class="fa fa-heart"></i> </div>
+                                                    <div class="comment-content">{!! $c->content !!}</div>
+                                                </div>
                                             </div>
-                                        </div>
-                                            
-                                  
-                                        <ul class="comments-list reply-list">
-                                            <li>
-                                                <div class="comment-avatar"><img src="image/images.png" alt=""></div>
-                                                <div class="comment-box">
-                                                    <div class="comment-head">
-                                                        <h6 class="comment-name"><a href="#">Lorena Rojero</a></h6> <span><i class="fa fa-clock-o" aria-hidden="true"> January 15 , 2014 at 10:00 pm</i></span> <i class="fa fa-reply"></i> <i class="fa fa-heart"></i> </div>
-                                                    <div class="comment-content"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit omnis animi et iure laudantium vitae, praesentium optio, sapiente distinctio illo? </div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="comment-avatar"><img src="image/images.png" alt=""></div>
-                                                <div class="comment-box">
-                                                    <div class="comment-head">
-                                                        <h6 class="comment-name by-author"><a href="#">Agustin Ortiz</a></h6> <span><i class="fa fa-clock-o" aria-hidden="true"> January 15 , 2014 at 10:00 pm</i></span> <i class="fa fa-reply"></i> <i class="fa fa-heart"></i> </div>
-                                                    <div class="comment-content"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit omnis animi et iure laudantium vitae, praesentium optio, sapiente distinctio illo? </div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="comment-avatar"><img src="image/images.png" alt=""></div>
-                                                <div class="comment-box">
-                                                    <div class="comment-head">
-                                                        <h6 class="comment-name"><a href="#">Lorena Rojero</a></h6> <span><i class="fa fa-clock-o" aria-hidden="true"> January 15 , 2014 at 10:00 pm</i></span> <i class="fa fa-reply"></i> <i class="fa fa-heart"></i> </div>
-                                                    <div class="comment-content"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit omnis animi et iure laudantium vitae, praesentium optio, sapiente distinctio illo? </div>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <div class="comment-main-level">
-                                            <!-- Avatar -->
-                                            <div class="comment-avatar"><img src="image/images.png" alt=""></div>
-                                            <!-- Contenedor del Comentario -->
-                                            <div class="comment-box">
-                                                <div class="comment-head">
-                                                    <h6 class="comment-name"><a href="#">Lorena Rojero</a></h6> <span><i class="fa fa-clock-o" aria-hidden="true"> January 15 , 2014 at 10:00 pm</i></span> <i class="fa fa-reply"></i> <i class="fa fa-heart"></i> </div>
-                                                <div class="comment-content"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit omnis animi et iure laudantium vitae, praesentium optio, sapiente distinctio illo? </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                       
+                                        </li>
+                                    @endforeach
                                 </ul>
                     
                         </div>
                         </div>
                     </div>
                 </div>
-                <div class="comment289-box">
+                <form class="comment289-box" method="POST">
+                    @csrf()
+                    <input type="text" style="display: none" name="post_id" value="{{ $post->id }}">
                     <h3>Leave A Reply</h3>
                     <hr>
                     <div class="row">
-                        <div class="col-md-4">
+                        <!-- <div class="col-md-4">
                             <div class="replay-input-name42389">
                                 <p>Name*</p>
                                 <input type="text" class="name-box24894 input238-design" placeholder="Name"> </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="replay-email-input89298">
-                                <p>E-mail*</p>
-                                <input type="text" class="name-box24894 input238-design" placeholder="E-mail"> </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="replay-input-websit128923">
-                                <p>Website*</p>
-                                <input type="text" class="name-box24894 input238-design" placeholder="Website"> </div>
-                        </div>
+                        </div> -->
                         <div class="col-md-12">
                             <div class="post9320-box">
-                                <input type="text" class="comment-input219882" placeholder="Enter Your Post"> </div>
-                            <button type="button" class="pos393-submit">Post Your Answer</button>
+                                <input type="text" class="comment-input219882" name="content" placeholder="Enter Your Post">
+                            </div>
+                            <button type="submit" class="pos393-submit">Post Your Answer</button>
                         </div>
                        
                     </div>
-                </div>
+                </form>
             </div>
             <!--                end of col-md-9 -->
             <!--           strart col-md-3 (side bar)-->
