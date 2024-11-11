@@ -22,29 +22,31 @@
                     <form method="POST" action="{{ route('store-post') }}">
                         @csrf
                         <div class="username-part940">
-                            <span class="form-description43">Title</span>
+                            <span class="form-description43" style="margin: 0 100px 0 0;">Title</span>
                             <input type="text" name="title" class="username029" placeholder="Enter your Title">
                         </div>
-                        
-                        <div class="categori49">
-                            <span class="form-description43305">Category</span>
-                            <input list="category" name="category" class="list-category53"/>
-                            <datalist id="category">
-                                <option value="Front_End Web Developer">
-                                <option value="Back-End Developer">
-                                <option value="Android Developer">
-                                <option value="Web Application">
-                                <option value="System Analyst">
-                                <option value="Security">
-                            </datalist>
+
+                        <div class="categori49" style="display: flex;">
+                                <span class="form-description433"  style="margin: 0 75px 0 0;">Category</span>
+
+                                <input list="category" name="category" class="list-category53" style="margin: 0 75px 0 0;" />
+
+                                <datalist id="category">
+                                    <option value="Front_End Web Developer">
+                                    <option value="Back-End Developer">
+                                    <option value="Android Developer">
+                                    <option value="Web Application">
+                                    <option value="System Analyst">
+                                    <option value="Security">
+                                </datalist>
                         </div>
 
                         <div class="details2-239">
                             <div class="col-md-12 nopadding">
-                                <textarea id="content" name="content" placeholder="Enter your question details"></textarea>
+                                <textarea id="content" name="content" placeholder="Enter your question details" class="form-control" style="padding: 10px 10px; margin: 0 0 0 115px; width: 78%"></textarea>
                             </div>
                         </div>
-                        
+
                         <div class="publish-button2389">
                             <button type="submit" class="publis1291">Publish your Question</button>
                         </div>
@@ -62,7 +64,7 @@
                         <li><a href="#">Graphics Developer</a></li>
                     </ul>
                 </div>
-                
+
                 <div class="tags-part2398">
                     <h4>Tags</h4>
                     <ul>
@@ -77,7 +79,9 @@
                 <div class="recent-post3290">
                     <h4>Recent Post</h4>
                     <div class="post-details021">
-                        <a href="#"><h5>How much do web developers</h5></a>
+                        <a href="#">
+                            <h5>How much do web developers</h5>
+                        </a>
                         <p>I am thinking of pursuing web developing as a career & was ...</p>
                         <small style="color: #848991">July 16, 2017</small>
                     </div>
