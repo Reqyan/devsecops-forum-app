@@ -4,11 +4,12 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Posts;
+use Illuminate\Support\Facades\Auth;
 
 class PostController extends Controller
 {
     public function index(){
-        $posts = Posts::all();
+        $posts = Posts::with('user')->get();
         return view('posts.index', compact('posts'));        
     }
 
@@ -28,13 +29,16 @@ class PostController extends Controller
     }
 
     public function store(Request $request){
-        $request->validate([
+        $validatedData = $request->validate([
             'title' => 'required|string',
             'category' => 'required|string',
             'content' => 'required|string',
         ]);
+        
+        // Assign user_id from the authenticated user to the validated data
+        $validatedData['user_id'] = Auth::id();
 
-        Posts::create($request->only('title', 'category', 'content'));
+        Posts::create($validatedData);
 
         return redirect()->route('index')->with('success', 'Postingan Berhasil Ditambahkan');
     }
