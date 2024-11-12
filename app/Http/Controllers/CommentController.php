@@ -16,8 +16,9 @@ class CommentController extends Controller
         $comment = $request->validate([
             'content' => 'required',
             'post_id' => 'required|exists:posts,id',
+            'user_id' => 'required|numeric',
         ]);
-        $comment['user_id'] = Auth::id();
+        //$comment['user_id'] = Auth::id();
 
         Comment::create($comment);
         return redirect(route('detail-posts', $comment['post_id']));
