@@ -24,26 +24,54 @@
                         <div class="username-part940">
                             <span class="form-description43" style="margin: 0 100px 0 0;">Title</span>
                             <input type="text" name="title" class="username029" placeholder="Enter your Title">
+                            <style>
+                                .username029 {
+                                    border-color: #DEDEDE;
+                                    background-color: white;
+                                }
+
+                                .username029:focus {
+                                    border-color: #FF7361;
+                                }
+                            </style>
                         </div>
 
                         <div class="categori49" style="display: flex;">
-                                <span class="form-description433"  style="margin: 0 75px 0 0;">Category</span>
+                            <span class="form-description433" style="margin: 0 75px 0 0;">Category</span>
 
-                                <input list="category" name="category" class="list-category53" style="margin: 0 75px 0 0;" />
+                            <input list="category" name="category" class="list-category53 " style="margin: 0 75px 0 0;" placeholder="Enter your Category" />
+                            <style>
+                                .list-category53 {
+                                    border-color: #DEDEDE;
+                                    background-color: white;
+                                }
 
-                                <datalist id="category">
-                                    <option value="Front_End Web Developer">
-                                    <option value="Back-End Developer">
-                                    <option value="Android Developer">
-                                    <option value="Web Application">
-                                    <option value="System Analyst">
-                                    <option value="Security">
-                                </datalist>
+                                .list-category53:focus {
+                                    border-color: #FF7361;
+                                }
+                            </style>
+                            <datalist id="category">
+                                <option value="Front_End Web Developer">
+                                <option value="Back-End Developer">
+                                <option value="Android Developer">
+                                <option value="Web Application">
+                                <option value="System Analyst">
+                                <option value="Security">
+                            </datalist>
                         </div>
 
                         <div class="details2-239">
                             <div class="col-md-12 nopadding">
-                                <textarea id="content" name="content" placeholder="Enter your question details" class="form-control" style="padding: 10px 10px; margin: 0 0 0 115px; width: 78%"></textarea>
+                                <textarea id="content" name="content" placeholder="Enter your question details" class="content form-control" style="padding: 10px 10px; margin: 0 0 0 115px; width: 78%;"></textarea>
+                                <style>
+                                    .content {
+                                        border-color: #DEDEDE;
+                                    }
+
+                                    .content:focus {
+                                        border-color: #FF7361;
+                                    }
+                                </style>
                             </div>
                         </div>
 

@@ -58,6 +58,7 @@
         }
 
         input[type="text"],
+        input[type="password"],
         input[type="email"] {
             padding: 10px 20px;
             border: 1px solid #999;
@@ -69,6 +70,7 @@
         }
 
         input[type="text"]:focus,
+        input[type="password"]:focus,
         input[type="email"]:focus {
             border-color: #FF7361;
         }
