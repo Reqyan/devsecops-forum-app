@@ -1,16 +1,19 @@
-    
     <!--======= welcome section on top background=====-->
     <section class="welcome-part-one">
         <div class="container">
             <div class="welcome-demop102 text-center">
-                <h2>Welcome to Ask me, Awesome Questions & Answer Template</h2>
-                <p>Duis dapibus aliquam mi, eget euismod sem scelerisque ut. Vivamus at elit quis urna adipiscing iaculis. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque. Pellentesque
-                    <br> habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vitae velit in neque dictum blandit</p>
-                <div class="button0239-item">
-                    <a href="#">
-                        <button type="button" class="join92">Join Now</button>
-                    </a>
-                </div>
+                <h2>Selamat datang di Filkomfess</h2>
+                <p>platform tempat mahasiswa FILKOM berbagi cerita, pengalaman, dan pendapat secara anonim! Di sini,
+                    kamu bisa membaca dan mengirimkan berbagai pengakuan, berbagi tips, dan mencari inspirasi dari
+                    sesama mahasiswa. Filkomfess adalah ruang untuk mengekspresikan diri tanpa batas, mendengarkan, dan
+                    memahami satu
+                    sama lain. Yuk, mari bergabung dan jadilah bagian dari komunitas yang saling mendukung!
+                </p>
+                {{-- <div class="button0239-item"> --}}
+                {{-- <a href="#">
+                    <button type="button" class="join92">Join Now</button>
+                </a> --}}
             </div>
+        </div>
         </div>
     </section>

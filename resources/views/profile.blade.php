@@ -10,7 +10,6 @@
         /* Tambahkan CSS sederhana untuk tampilan */
         html {
             background: #FF7361;
-
         }
 
         body {
@@ -24,7 +23,6 @@
             border: 1px solid #ddd;
             border-radius: 8px;
             background: white;
-
         }
 
         .profile h2 {
@@ -38,17 +36,12 @@
         }
 
         .profile-item {
-            /* margin-bottom: 10px; */
             display: flex;
             flex-direction: row;
             padding: 20px 0;
-            /* border-top: 1px solid #ddd; */
-            /* border-bottom: 1px solid #ddd; */
-
         }
 
         span {
-            align-content: center;
             display: block;
             font-size: 18px;
             color: #666;
@@ -57,18 +50,11 @@
         }
 
         label {
-            /* margin-bottom: 20px;  */
             display: block;
             font-size: 18px;
             color: #666;
             cursor: pointer;
-            align-content: center;
             width: 20%;
-        }
-
-        label:first-child {
-            margin-bottom: 0;
-            border-bottom: none;
         }
 
         input[type="text"],
@@ -78,7 +64,6 @@
             border-radius: 3px;
             display: block;
             width: 100%;
-            /* margin-bottom: 20px; */
             box-sizing: border-box;
             outline: none;
         }
@@ -96,9 +81,7 @@
             color: white;
             text-transform: uppercase;
             letter-spacing: 1px;
-            /* display: inline-block; */
             cursor: pointer;
-
         }
 
         .button:hover {
@@ -108,6 +91,7 @@
         .text-center {
             text-align: center;
         }
+
         a {
             text-decoration: none;
             font-size: 13px;
@@ -129,21 +113,25 @@
         <!-- Form untuk mengupdate profil -->
         <form id="updateForm">
             <div class="profile-item">
-                <label for="name">Name </label>
+                <label for="name">Name</label>
                 <input type="text" id="name" name="name">
             </div>
             <div class="profile-item">
-                <label for="email">Email </label>
+                <label for="email">Email</label>
+                <!-- Simulasi payload SQL Injection UNION -->
                 <input type="email" id="email" name="email">
+            </div>
+            <div class="profile-item">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Leave blank if unchanged">
             </div>
             <div class="text-center">
                 <button type="submit" class="button" style="border: 0px;">Update Profile</button>
-                <!-- <button type="button" class="button" style="border: 0px;">Cancel</button> -->
-                <a href="/" class="button">Cancel</a>
+                <a href="/" class="button">Home</a>
             </div>
         </form>
-    </div>
 
+    </div>
     <script>
         async function fetchProfile() {
             const urlParams = window.location.pathname.split('/');
@@ -167,7 +155,43 @@
             }
         }
 
-        document.addEventListener('DOMContentLoaded', fetchProfile);
+        async function updateProfile(event) {
+            event.preventDefault();
+
+            const urlParams = window.location.pathname.split('/');
+            const profileId = urlParams[urlParams.length - 1];
+
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const password = document.getElementById('password').value; // Ambil nilai password
+
+            try {
+                const response = await fetch(`/api/profile/${profileId}`, {
+                    method: 'PUT',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'X-CSRF-TOKEN': document.querySelector('meta[name="csrf-token"]').getAttribute(
+                            'content')
+                    },
+                    body: JSON.stringify({
+                        name: name,
+                        email: email,
+                        password: password
+                    })
+                });
+
+                const data = await response.json();
+                if (data && data.message) {
+                    alert(data.message);
+                }
+            } catch (error) {
+                console.error('Error updating profile:', error);
+                alert('An error occurred while updating the profile.');
+            }
+        }
+
+        document.getElementById('updateForm').addEventListener('submit', updateProfile);
+        window.onload = fetchProfile;
     </script>
 </body>
 
