@@ -62,16 +62,14 @@
 
                         <div class="details2-239">
                             <div class="col-md-12 nopadding">
-                                <textarea id="content" name="content" placeholder="Enter your question details" class="content form-control" style="padding: 10px 10px; margin: 0 0 0 115px; width: 78%;"></textarea>
+                                <textarea id="txtEditor" name="content" class="content form-control" style="padding: 10px 10px; margin: 0 0 0 115px; width: 78%;"></textarea>
                                 <style>
-                                    .content {
-                                        border-color: #DEDEDE;
-                                    }
-
-                                    .content:focus {
-                                        border-color: #FF7361;
+                                    .note-editor {
+                                        margin: 0 0 0 130px;
+                                        width: 75%;
                                     }
                                 </style>
+
                             </div>
                         </div>
 
@@ -122,8 +120,21 @@
 @endsection
 
 @section('js')
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="{{ asset('js/jquery-3.1.1.min.js') }}"></script>
 <script src="{{ asset('js/bootstrap.min.js') }}"></script>
 <script src="{{ asset('js/npm.js') }}"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.18/summernote-lite.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.18/summernote-lite.min.css" rel="stylesheet">
+
+<script>
+    $(document).ready(function() {
+        $('#txtEditor').summernote({
+            placeholder: 'Enter your question details',
+            tabsize: 10,
+            height: 200,
+        });
+    });
+</script>
 @endsection

@@ -10,18 +10,23 @@
     <meta name="keywords" content="HTML, CSS, JavaScript, Bootstrap, js, Forum, webstagram, webdesign, website, web, webdesigner, webdevelopment">
     <meta name="robots" content="index, nofollow">
     <meta name="language" content="English">
-    
+
 
     <link href="{{ asset('css/bootstrap.css') }}" rel="stylesheet" type="text/css">
     <link href="{{ asset('css/style.css') }}" rel="stylesheet" type="text/css">
     <link href="{{ asset('css/font-awesome.min.css') }}" rel="stylesheet" type="text/css">
+    <!-- <link href="{{ asset('css/editor.css') }}" rel="stylesheet" type="text/css"> -->
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.18/summernote-lite.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.18/summernote-lite.min.js"></script>
+
 </head>
 
 <body>
     @include('posts.layouts.header')
     @include('posts.layouts.navbar')
     @include('posts.layouts.welcome')
-    
+
     <!-- ======content section/body=====-->
     @yield('content')
 
@@ -29,11 +34,10 @@
 
 
 
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.18/summernote-lite.min.js"></script> -->
+    @yield('js')
 </body>
 
-@yield('js')
 
 
 </html>
-
-

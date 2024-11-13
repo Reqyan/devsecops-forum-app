@@ -28,7 +28,8 @@
                       <h3><a href="{{ route('detail-posts', $data_post->id) }}" target="_blank">{{ $data_post->title }}</a></h3>
                     </div>
                     <div class="ques-details10018">
-                      <p>{{ $data_post->content }}</p>
+                      <p>{!! $data_post->content !!}</p>
+                      
                     </div>
                     <hr>
                     <div class="ques-icon-info3293">
