@@ -44,7 +44,7 @@ pipeline {
             sh 'php artisan config:clear'
             sh 'php artisan sail:install --with=mariadb'
             sh "${SAIL} down" // Ensure no running containers
-            sh "${SAIL} up -d"
+            sh "${SAIL} up --build -d"
             sh "${SAIL} composer install"
             }
         }
