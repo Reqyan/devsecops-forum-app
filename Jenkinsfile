@@ -5,6 +5,12 @@ pipeline {
         SAIL = './vendor/bin/sail'
     }
 
+    stage('Check Docker Compose') {
+    steps {
+        sh 'docker-compose --version'
+        sh 'docker-compose config' // Validates the docker-compose.yml file
+    }
+}
     stages {
         stage('Load .env') {
             steps {
