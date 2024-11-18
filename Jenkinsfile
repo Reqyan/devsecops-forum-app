@@ -42,6 +42,7 @@ pipeline {
             steps {
             sh 'composer require laravel/sail --dev'
             sh 'php artisan sail:install --with=mariadb'
+            sh "php artisan cache:clear"
             sh "${SAIL} down" // Ensure no running containers
             sh "${SAIL} up -d"
             sh "${SAIL} composer install"
