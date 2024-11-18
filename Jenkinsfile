@@ -6,6 +6,17 @@ pipeline {
     }
 
     stages {
+        stage('Load .env') {
+            steps {
+                script {
+                    def props = readProperties file: '.env'
+                    for (entry in props) {
+                        env[entry.key] = entry.value
+                    }
+                }
+            }
+        }
+
         stage('Checkout') {
             steps {
                 git branch: 'main', url: 'https://github.com/Reqyan/devsecops-forum-app.git'
