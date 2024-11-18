@@ -6,7 +6,7 @@ services:
             context: .
         user: root
         ports:
-            - '80:80'  # Map internal port 80 to host port 80
+            - '81:80'  # Map internal port 80 to host port 80
         depends_on:
             - mariadb
         networks:
