@@ -41,11 +41,11 @@ pipeline {
         stage('Install Dependencies') {
             steps {
             sh 'composer require laravel/sail --dev'
-            sh 'php artisan cache:clear'
             sh 'php artisan config:clear'
             sh 'php artisan sail:install --with=mariadb'
             sh "${SAIL} down" // Ensure no running containers
             sh "${SAIL} up -d"
+            sh "${SAIL} artisan cache:clear"
             sh "${SAIL} composer install"
             }
         }
