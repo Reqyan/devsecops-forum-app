@@ -37,7 +37,7 @@ services:
     phpmyadmin:
         image: phpmyadmin:latest
         ports:
-            - '8080:80'  # Access phpMyAdmin on http://localhost:8080
+            - '8081:80'  # Access phpMyAdmin on http://localhost:8080
         environment:
             PMA_HOST: mariadb  # Links phpMyAdmin to your MariaDB container
             PMA_PORT: 3306
