@@ -45,7 +45,7 @@ services:
         depends_on:
             - mariadb
         networks:
-            - sail
+            - sailc
 
 networks:
     sail:

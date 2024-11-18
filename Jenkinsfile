@@ -6,9 +6,16 @@ pipeline {
     }
 
     stages {
-        stage('Check Docker Compose') {
+        stage('Pre-checks') {
             steps {
+                sh 'which docker-compose || { echo "docker-compose not installed"; exit 1; }'
+                sh 'which composer || { echo "composer not installed"; exit 1; }'
                 sh 'docker-compose --version'
+            }
+        }
+
+        stage('Check Docker Compose Config') {
+            steps {
                 sh 'docker-compose config' // Validates the docker-compose.yml file
             }
         }
@@ -17,14 +24,15 @@ pipeline {
             steps {
                 script {
                     def props = readProperties file: '.env'
-                    props.each { key, value ->
-                        env[key] = value
+                    def envVars = props.collect { key, value -> "${key}=${value}" }
+                    withEnv(envVars) {
+                        echo "Environment variables loaded."
                     }
                 }
             }
         }
 
-        stage('Checkout') {
+        stage('Checkout Code') {
             steps {
                 git branch: 'main', url: 'https://github.com/Reqyan/devsecops-forum-app.git'
             }
