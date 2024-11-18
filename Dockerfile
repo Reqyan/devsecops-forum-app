@@ -4,7 +4,9 @@ FROM php:8.3-apache as web
 # Install Additional System Dependencies
 RUN apt-get update && apt-get install -y \
     libzip-dev \
-    zip
+    zip \
+    curl \
+    git
 
 # Clear cache
 RUN apt-get clean && rm -rf /var/lib/apt/lists/*
@@ -16,7 +18,6 @@ RUN a2enmod rewrite
 RUN docker-php-ext-install pdo_mysql zip
 
 # Configure Apache DocumentRoot to point to Laravel's public directory
-# and update Apache configuration files
 ENV APACHE_DOCUMENT_ROOT=/var/www/html/public
 RUN sed -ri -e 's!/var/www/html!${APACHE_DOCUMENT_ROOT}!g' /etc/apache2/sites-available/*.conf
 RUN sed -ri -e 's!/var/www/!${APACHE_DOCUMENT_ROOT}!g' /etc/apache2/apache2.conf /etc/apache2/conf-available/*.conf
@@ -38,7 +39,4 @@ RUN composer install
 
 # Set permissions
 RUN chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cache
-# RUN chown -r www-data:www-data *
-# RUN chown -R sail:sail /var/www/
-
-
+RUN chmod -R 775 /var/www/html/storage /var/www/html/bootstrap/cache

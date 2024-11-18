@@ -16,19 +16,7 @@ pipeline {
 
         stage('Check Docker Compose Config') {
             steps {
-                sh 'docker-compose config' // Validates the docker-compose.yml file
-            }
-        }
-
-        stage('Load .env') {
-            steps {
-                script {
-                    def props = readProperties file: '.env'
-                    def envVars = props.collect { key, value -> "${key}=${value}" }
-                    withEnv(envVars) {
-                        echo "Environment variables loaded."
-                    }
-                }
+                sh 'docker-compose config'  // Validates the docker-compose.yml file
             }
         }
 
@@ -40,12 +28,23 @@ pipeline {
 
         stage('Install Dependencies') {
             steps {
-            sh 'composer require laravel/sail --dev'
-            sh 'php artisan config:clear'
-            sh 'php artisan sail:install --with=mariadb'
-            sh "${SAIL} down" // Ensure no running containers
-            sh "${SAIL} up --build -d"
-            sh "${SAIL} composer install"
+                script {
+                    sh 'composer require laravel/sail --dev'
+                    sh 'php artisan config:clear'
+                    sh 'php artisan sail:install --with=mariadb'
+                    sh "${SAIL} down" // Ensure no running containers
+                    sh "${SAIL} up --build -d"  // Build and start containers
+                }
+            }
+        }
+
+        stage('Fix Permissions') {
+            steps {
+                script {
+                    // Fix file permissions for storage and cache directories
+                    sh "${SAIL} exec laravel.test chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cache"
+                    sh "${SAIL} exec laravel.test chmod -R 775 /var/www/html/storage /var/www/html/bootstrap/cache"
+                }
             }
         }
 
