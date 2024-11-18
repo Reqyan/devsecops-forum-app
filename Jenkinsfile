@@ -5,19 +5,20 @@ pipeline {
         SAIL = './vendor/bin/sail'
     }
 
-    stage('Check Docker Compose') {
-    steps {
-        sh 'docker-compose --version'
-        sh 'docker-compose config' // Validates the docker-compose.yml file
-    }
-}
     stages {
+        stage('Check Docker Compose') {
+            steps {
+                sh 'docker-compose --version'
+                sh 'docker-compose config' // Validates the docker-compose.yml file
+            }
+        }
+
         stage('Load .env') {
             steps {
                 script {
                     def props = readProperties file: '.env'
-                    for (entry in props) {
-                        env[entry.key] = entry.value
+                    props.each { key, value ->
+                        env[key] = value
                     }
                 }
             }
