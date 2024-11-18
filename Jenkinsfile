@@ -38,15 +38,6 @@ pipeline {
             }
         }
 
-        stage('Set Permissions') {
-            steps {
-                script {
-                    sh 'sudo chown -R jenkins:jenkins /var/www/html/storage /var/www/html/bootstrap/cache'
-                    sh 'sudo chmod -R 775 /var/www/html/storage /var/www/html/bootstrap/cache'
-                }
-            }
-        }
-
         stage('Install Dependencies') {
             steps {
             sh 'composer require laravel/sail --dev'
