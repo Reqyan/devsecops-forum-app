@@ -38,15 +38,15 @@ pipeline {
             }
         }
 
-        stage('Fix Permissions') {
-            steps {
-                script {
-                    // Fix file permissions for storage and cache directories
-                    sh "${SAIL} exec laravel.test chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cache"
-                    sh "${SAIL} exec laravel.test chmod -R 777 /var/www/html/storage /var/www/html/bootstrap/cache"
-                }
-            }
-        }
+        // stage('Fix Permissions') {
+        //     steps {
+        //         script {
+        //             // Fix file permissions for storage and cache directories
+        //             sh "${SAIL} exec laravel.test chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cache"
+        //             sh "${SAIL} exec laravel.test chmod -R 777 /var/www/html/storage /var/www/html/bootstrap/cache"
+        //         }
+        //     }
+        // }
 
         stage('Run Tests') {
             steps {
