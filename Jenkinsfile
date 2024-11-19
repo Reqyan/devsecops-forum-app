@@ -10,7 +10,7 @@ pipeline {
         stage('Build and Start Containers') {
             steps {
                 // sh 'docker-compose build --build-arg WWWUSER=1000 --build-arg WWWGROUP=1000'
-                sh "${SAIL} up --build -d"
+                sh "docker compose up --build -d"
             }
         }
 
