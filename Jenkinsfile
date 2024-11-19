@@ -11,8 +11,10 @@ pipeline {
         
         stage('Build and Start Containers') {
             steps {
-                sh 'docker-compose build --build-arg WWWUSER=$WWWUSER --build-arg WWWGROUP=$WWWGROUP'
-                sh "${SAIL} up --build -d"
+            sh 'docker-compose build --build-arg WWWUSER=$WWWUSER --build-arg WWWGROUP=$WWWGROUP'
+            sh "${SAIL} up --build -d"
+            sh "${SAIL} exec -u root app usermod -u ${WWWUSER} jenkins"
+            sh "${SAIL} exec -u root app groupmod -g ${WWWGROUP} jenkins"
             }
         }
 
