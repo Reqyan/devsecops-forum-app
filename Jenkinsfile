@@ -13,9 +13,6 @@ pipeline {
             steps {
             sh 'docker-compose build --build-arg WWWUSER=$WWWUSER --build-arg WWWGROUP=$WWWGROUP'
             sh "${SAIL} up --build -d"
-            sh "${SAIL} exec -u root laravel.test useradd -u ${WWWUSER} jenkins"
-            sh "${SAIL} exec -u root laravel.test usermod -u ${WWWUSER} jenkins"
-            sh "${SAIL} exec -u root laravel.test groupmod -g ${WWWGROUP} jenkins"
             }
         }
 
