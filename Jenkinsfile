@@ -3,35 +3,32 @@ pipeline {
 
     environment {
         SAIL = './vendor/bin/sail'
-        scannerHome = tool 'jenkins'
+        scannerHome = tool 'SonarScanner' // Pastikan ini sesuai nama tool di Jenkins
     }
 
     stages {
         stage('SCM Checkout') {
-            steps{
-           git branch: 'main', url: 'https://github.com/Reqyan/devsecops-forum-app.git'
+            steps {
+                git branch: 'main', url: 'https://github.com/Reqyan/devsecops-forum-app.git'
             }
         }
 
         stage('SonarQube Analysis') {
             steps {
-                withSonarQubeEnv('SonarQube') {
-                    withSonarQubeEnv(credentialsId: 'jenkins', installationName: 'jenkins') {
-                                   sh "${scannerHome}/bin/sonar-scanner"
-                    }
+                withSonarQubeEnv('SonarQube') { // Pastikan ini sesuai nama konfigurasi di Jenkins
+                    sh "${scannerHome}/bin/sonar-scanner"
                 }
             }
         }
+
         stage('Remove Containers') {
             steps {
-                // Remove the running Docker Compose containers
-                sh "docker compose down"
+                sh "docker compose down || true" // Gunakan || true agar tidak gagal jika tidak ada container berjalan
             }
         }
-        
+
         stage('Build and Start Containers') {
             steps {
-                // Build and start containers using Docker Compose
                 sh "docker compose up --build -d"
             }
         }
@@ -39,21 +36,16 @@ pipeline {
         stage('Run Migration') {
             steps {
                 script {
-                    // Sleep to ensure the containers are up before running commands
                     sleep(time: 15, unit: 'SECONDS')
                 }
-                // Run migrations
                 sh "docker exec forum_app-laravel.test-1 php artisan migrate:fresh --seed"
             }
         }
 
         stage('Set Permissions') {
             steps {
-                // Set permissions for the storage directory to 777
                 sh "docker exec forum_app-laravel.test-1 chmod -R 777 /var/www/html/storage"
             }
         }
-
-        
     }
 }
