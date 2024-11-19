@@ -15,7 +15,7 @@ pipeline {
 
         stage('SonarQube Analysis') {
             steps {
-                withSonarQubeEnv('SonarQube Scanner') { // Pastikan ini sesuai nama konfigurasi di Jenkins
+                withSonarQubeEnv('jenkins-installation') { // Pastikan ini sesuai nama konfigurasi di Jenkins
                     sh "${scannerHome}/bin/sonar-scanner"
                 }
             }
