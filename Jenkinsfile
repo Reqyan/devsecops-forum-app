@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         SAIL = './vendor/bin/sail'
-        scannerHome = tool 'jenkins' // Pastikan ini sesuai nama tool di Jenkins
+        scannerHome = tool 'jenkins-tool' // Pastikan ini sesuai nama tool di Jenkins
     }
 
     stages {
@@ -15,7 +15,7 @@ pipeline {
 
         stage('SonarQube Analysis') {
             steps {
-                withSonarQubeEnv(credentialsId: 'jenkins', installationName: 'jenkins') { // Pastikan ini sesuai nama konfigurasi di Jenkins
+                withSonarQubeEnv(credentialsId: 'jenkins-credentials', installationName: 'jenkins-installationf') { // Pastikan ini sesuai nama konfigurasi di Jenkins
                     sh "${scannerHome}/bin/sonar-scanner"
                 }
             }
