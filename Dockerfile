@@ -29,11 +29,11 @@ COPY . /var/www/html
 WORKDIR /var/www/html
 
 # Add customizable user and group for permissions
-ARG WWWUSER
-ARG WWWGROUP
-
+ARG WWWUSER=1000  
+ARG WWWGROUP=1000 
 RUN groupadd --gid ${WWWGROUP} sail \
     && useradd -ms /bin/bash --uid ${WWWUSER} --gid ${WWWGROUP} sail
+
 
 # Install composer
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
