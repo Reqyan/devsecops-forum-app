@@ -45,8 +45,8 @@ pipeline {
         stage('Fix Permissions') {
             steps {
                 script {
-                    sh "docker-compose exec -T laravel.test sudo chmod g+w -R /var/www/html/storage /var/www/html/bootstrap/cache"
-                    sh "docker-compose exec -T laravel.test sudo chmod -R 775 /var/www/html/storage /var/www/html/bootstrap/cache"
+                    sh "docker-compose exec -T laravel.test chmod g+w -R /var/www/html/storage /var/www/html/bootstrap/cache"
+                    sh "docker-compose exec -T laravel.test chmod -R 775 /var/www/html/storage /var/www/html/bootstrap/cache"
                 }
             }
         }
