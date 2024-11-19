@@ -35,7 +35,6 @@ pipeline {
                     sh 'php artisan config:clear'
                     sh 'php artisan route:clear'
                     sh 'php artisan view:clear'
-                    sh 'php artisan optimize:clear'
                     sh 'php artisan sail:install --with=mariadb'
                     sh "${SAIL} down" // Ensure no running containers
                     sh "${SAIL} up --build -d"  // Build and start containers
