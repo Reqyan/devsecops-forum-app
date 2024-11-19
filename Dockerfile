@@ -28,8 +28,11 @@ COPY . /var/www/html
 # Set the working directory
 WORKDIR /var/www/html
 
-RUN groupadd --force -g 1000 sail
-RUN useradd -ms /bin/bash --no-user-group -g 1000 -u 1337 sail
+# Add customizable user and group for permissions
+ARG WWWUSER=1000
+ARG WWWGROUP=1000
+RUN groupadd --force -g ${WWWGROUP} sail
+RUN useradd -ms /bin/bash --no-user-group -g ${WWWGROUP} -u ${WWWUSER} sail
 
 # Install composer
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
@@ -38,5 +41,5 @@ RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local
 RUN composer install
 
 # Set permissions
-RUN chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cache
+RUN chown -R sail:sail /var/www/html/storage /var/www/html/bootstrap/cache
 RUN chmod -R 775 /var/www/html/storage /var/www/html/bootstrap/cache

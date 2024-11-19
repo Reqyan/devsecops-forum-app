@@ -3,6 +3,8 @@ pipeline {
 
     environment {
         SAIL = './vendor/bin/sail'
+        WWWUSER = sh(script: 'id -u jenkins', returnStdout: true).trim()
+        WWWGROUP = sh(script: 'id -g jenkins', returnStdout: true).trim()
     }
 
     stages {
@@ -38,19 +40,17 @@ pipeline {
             }
         }
 
-        // stage('Fix Permissions') {
-        //     steps {
-        //         script {
-        //             // Fix file permissions for storage and cache directories
-        //             sh "${SAIL} exec laravel.test chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cache"
-        //             sh "${SAIL} exec laravel.test chmod -R 777 /var/www/html/storage /var/www/html/bootstrap/cache"
-        //         }
-        //     }
-        // }
+        stage('Fix Permissions') {
+            steps {
+                script {
+                    sh "docker-compose exec -T laravel.test chown -R ${WWWUSER}:${WWWGROUP} /var/www/html/storage /var/www/html/bootstrap/cache"
+                    sh "docker-compose exec -T laravel.test chmod -R 775 /var/www/html/storage /var/www/html/bootstrap/cache"
+                }
+            }
+        }
 
         stage('Run Tests') {
             steps {
-                // sh "${SAIL} artisan migrate:fresh --seed"
                 sh "${SAIL} artisan migrate"
                 sh "${SAIL} test"
             }
