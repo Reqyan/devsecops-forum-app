@@ -13,6 +13,13 @@ pipeline {
             }
         }
 
+        stage('SonarQube Analysis') {
+            steps {
+                withSonarQubeEnv('SonarQube') {
+                    sh "${scannerHome}/bin/sonar-scanner"
+                }
+            }
+        }
         stage('Remove Containers') {
             steps {
                 // Remove the running Docker Compose containers
@@ -27,13 +34,6 @@ pipeline {
             }
         }
 
-        stage('SonarQube Analysis') {
-            steps {
-                withSonarQubeEnv('SonarQube') {
-                    sh "${scannerHome}/bin/sonar-scanner"
-                }
-            }
-        }
         stage('Run Migration') {
             steps {
                 script {
