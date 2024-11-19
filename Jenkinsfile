@@ -50,7 +50,8 @@ pipeline {
 
         stage('Run Tests') {
             steps {
-                sh "${SAIL} artisan migrate:fresh --seed"
+                // sh "${SAIL} artisan migrate:fresh --seed"
+                sh "${SAIL} artisan migrate"
                 sh "${SAIL} test"
             }
         }
