@@ -3,15 +3,15 @@ pipeline {
 
     environment {
         SAIL = './vendor/bin/sail'
-        WWWUSER = sh(returnStdout: true, script: 'id -u jenkins').trim()
-        WWWGROUP = sh(returnStdout: true, script: 'id -g jenkins').trim()
+        WWWUSER = sh(returnStdout: true, script: '1000').trim()
+        WWWGROUP = sh(returnStdout: true, script: '1000').trim()
     }
 
     stages {
         
         stage('Build and Start Containers') {
             steps {
-            sh 'docker-compose build --build-arg WWWUSER=$WWWUSER --build-arg WWWGROUP=$WWWGROUP'
+            sh 'docker-compose build --build-arg WWWUSER=1000 --build-arg WWWGROUP=1000'
             sh "${SAIL} up --build -d"
             }
         }
