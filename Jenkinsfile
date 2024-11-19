@@ -18,6 +18,7 @@ pipeline {
                 withSonarQubeEnv('jenkins-installation') { // Pastikan ini sesuai nama konfigurasi di Jenkins
                     sh "${scannerHome}/bin/sonar-scanner"
                 }
+                waitForQualityGate()
             }
         }
 
