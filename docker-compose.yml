@@ -7,7 +7,7 @@ services:
             args:
                 WWWUSER: ${WWWUSER:-1000}  # Fallback to 1000 if not provided
                 WWWGROUP: ${WWWGROUP:-1000}
-        user: "${WWWUSER:-1000}:${WWWGROUP:-1000}"
+        user: "root:root"  # Run as root user
         ports:
             - '81:80'  # Map internal port 80 to host port 81
         depends_on:
