@@ -3,8 +3,6 @@ pipeline {
 
     environment {
         SAIL = './vendor/bin/sail'
-        WWWUSER = sh(returnStdout: true, script: '1000').trim()
-        WWWGROUP = sh(returnStdout: true, script: '1000').trim()
     }
 
     stages {
