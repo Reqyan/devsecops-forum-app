@@ -32,7 +32,7 @@ WORKDIR /var/www/html
 ARG WWWUSER=1000  
 ARG WWWGROUP=1000 
 RUN groupadd --gid ${WWWGROUP} sail \
-    && useradd -ms /bin/bash --uid ${WWWUSER} --gid ${WWWGROUP} sail
+    && useradd -ms /bin/bash --uid 1000 --gid ${WWWGROUP} sail
 
 
 # Install composer
