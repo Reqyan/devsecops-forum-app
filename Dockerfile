@@ -32,7 +32,7 @@ WORKDIR /var/www/html
 ARG WWWUSER=1000
 ARG WWWGROUP=1000
 RUN groupadd --force -g ${WWWGROUP} sail
-RUN useradd -ms /bin/bash --no-user-group -g ${WWWGROUP} -u ${WWWUSER} sail
+RUN useradd -ms /bin/bash --no-user-group -g ${WWWGROUP} -u 1000 sail
 
 # Install composer
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
