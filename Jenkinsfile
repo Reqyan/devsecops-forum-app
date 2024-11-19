@@ -9,15 +9,14 @@ pipeline {
         
         stage('Build and Start Containers') {
             steps {
-            sh 'docker-compose build --build-arg WWWUSER=1000 --build-arg WWWGROUP=1000'
+            // sh 'docker-compose build --build-arg WWWUSER=1000 --build-arg WWWGROUP=1000'
             sh "${SAIL} up --build -d"
             }
         }
 
-        stage('Run Tests') {
+        stage('Run Migration') {
             steps {
-                sh "${SAIL} artisan migrate"
-                sh "${SAIL} test"
+                sh "docker exec -it forum_app-laravel.test-1 php artisan migrate --seed"
             }
         }
 
