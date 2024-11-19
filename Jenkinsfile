@@ -3,9 +3,22 @@ pipeline {
 
     environment {
         SAIL = './vendor/bin/sail'
+        scannerHome = tool 'jenkins'
     }
 
     stages {
+        stage('SCM Checkout') {
+            steps{
+           git branch: 'main', url: 'https://github.com/Reqyan/devsecops-forum-app.git'
+            }
+        }
+
+        stage('Remove Containers') {
+            steps {
+                // Remove the running Docker Compose containers
+                sh "docker compose down"
+            }
+        }
         
         stage('Build and Start Containers') {
             steps {
@@ -14,6 +27,13 @@ pipeline {
             }
         }
 
+        stage('SonarQube Analysis') {
+            steps {
+                withSonarQubeEnv('SonarQube') {
+                    sh "${scannerHome}/bin/sonar-scanner"
+                }
+            }
+        }
         stage('Run Migration') {
             steps {
                 script {
@@ -31,5 +51,7 @@ pipeline {
                 sh "docker exec forum_app-laravel.test-1 chmod -R 777 /var/www/html/storage"
             }
         }
+
+        
     }
 }
