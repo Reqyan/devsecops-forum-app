@@ -40,14 +40,14 @@ pipeline {
             }
         }
 
-        stage('Fix Permissions') {
-            steps {
-                script {
-                    sh "docker-compose exec -T laravel.test chown -R ${WWWUSER}:${WWWGROUP} /var/www/html/storage /var/www/html/bootstrap/cache"
-                    sh "docker-compose exec -T laravel.test chmod -R 775 /var/www/html/storage /var/www/html/bootstrap/cache"
-                }
-            }
-        }
+        // stage('Fix Permissions') {
+        //     steps {
+        //         script {
+        //             sh "docker-compose exec -T laravel.test chown -R ${WWWUSER}:${WWWGROUP} /var/www/html/storage /var/www/html/bootstrap/cache"
+        //             sh "docker-compose exec -T laravel.test chmod -R 775 /var/www/html/storage /var/www/html/bootstrap/cache"
+        //         }
+        //     }
+        // }
 
         stage('Run Tests') {
             steps {
