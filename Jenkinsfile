@@ -16,7 +16,10 @@ pipeline {
 
         stage('Run Migration') {
             steps {
-                sh "docker exec forum_app-laravel.test-1 php artisan migrate --seed"
+            script {
+                sleep(time: 30, unit: 'SECONDS')
+            }
+            sh "docker exec forum_app-laravel.test-1 php artisan migrate --seed"
             }
         }
 
