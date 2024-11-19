@@ -33,6 +33,9 @@ pipeline {
                 script {
                     sh 'composer require laravel/sail --dev'
                     sh 'php artisan config:clear'
+                    sh 'php artisan route:clear'
+                    sh 'php artisan view:clear'
+                    sh 'php artisan optimize:clear'
                     sh 'php artisan sail:install --with=mariadb'
                     sh "${SAIL} down" // Ensure no running containers
                     sh "${SAIL} up --build -d"  // Build and start containers
@@ -40,14 +43,14 @@ pipeline {
             }
         }
 
-        // stage('Fix Permissions') {
-        //     steps {
-        //         script {
-        //             sh "docker-compose exec -T laravel.test chown -R ${WWWUSER}:${WWWGROUP} /var/www/html/storage /var/www/html/bootstrap/cache"
-        //             sh "docker-compose exec -T laravel.test chmod -R 775 /var/www/html/storage /var/www/html/bootstrap/cache"
-        //         }
-        //     }
-        // }
+        stage('Fix Permissions') {
+            steps {
+                script {
+                    sh "docker-compose exec -T laravel.test sudo chmod g+w -R /var/www/html/storage /var/www/html/bootstrap/cache"
+                    sh "docker-compose exec -T laravel.test sudo chmod -R 775 /var/www/html/storage /var/www/html/bootstrap/cache"
+                }
+            }
+        }
 
         stage('Run Tests') {
             steps {
