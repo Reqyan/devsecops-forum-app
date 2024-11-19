@@ -15,7 +15,7 @@ pipeline {
 
         stage('SonarQube Analysis') {
             steps {
-                withSonarQubeEnv(credentialsId: 'jenkins-credentials', installationName: 'jenkins-installationf') { // Pastikan ini sesuai nama konfigurasi di Jenkins
+                withSonarQubeEnv(credentialsId: 'jenkins-credentials', installationName: 'jenkins-installation') { // Pastikan ini sesuai nama konfigurasi di Jenkins
                     sh "${scannerHome}/bin/sonar-scanner"
                 }
             }
