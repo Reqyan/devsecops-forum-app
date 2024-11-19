@@ -27,11 +27,11 @@ COPY . /var/www/html
 WORKDIR /var/www/html
 
 # Add dynamic user and group setup
-ARG WWWUSER
-ARG WWWGROUP
-RUN groupadd --gid 1000 sail \
-    && useradd -ms /bin/bash --uid 1000 --gid 1000 sail \
-    && chown -R sail:sail /var/www/html/storage /var/www/html/bootstrap/cache
+# ARG WWWUSER
+# ARG WWWGROUP
+# RUN groupadd --gid 1000 sail \
+#     && useradd -ms /bin/bash --uid 1000 --gid 1000 sail \
+#     && chown -R sail:sail /var/www/html/storage /var/www/html/bootstrap/cache
 
 # Install composer
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
