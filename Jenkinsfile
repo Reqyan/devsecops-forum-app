@@ -8,13 +8,7 @@ pipeline {
     }
 
     stages {
-        stage('Prepare Environment') {
-            steps {
-                sh 'sudo chown -R jenkins:jenkins storage bootstrap/cache'
-                sh 'sudo chmod -R 775 storage bootstrap/cache'
-            }
-        }
-
+        
         stage('Build and Start Containers') {
             steps {
                 sh 'docker-compose build --build-arg WWWUSER=$WWWUSER --build-arg WWWGROUP=$WWWGROUP'
