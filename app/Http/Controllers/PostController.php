@@ -8,6 +8,8 @@ use Illuminate\Support\Facades\Auth;
 
 class PostController extends Controller
 {
+    private $validationRequiredStr = 'required|string';
+
     public function index(){
         $posts = Posts::with('user')->get();
         return view('posts.index', compact('posts'));        
@@ -31,9 +33,9 @@ class PostController extends Controller
 
     public function store(Request $request){
         $validatedData = $request->validate([
-            'title' => 'required|string',
-            'category' => 'required|string',
-            'content' => 'required|string',
+            'title' => $this->validationRequiredStr,
+            'category' => $this->validationRequiredStr,
+            'content' => $this->validationRequiredStr,
         ]);
         
         // Assign user_id from the authenticated user to the validated data
@@ -47,9 +49,9 @@ class PostController extends Controller
     public function update(Request $request, $id)
     {
         $request->validate([
-            'title' => 'required|string',
-            'category' => 'required|string',
-            'content' => 'required|string',
+            'title' => $this->validationRequiredStr,
+            'category' => $this->validationRequiredStr,
+            'content' => $this->validationRequiredStr,
         ]);
 
         $post = Posts::findOrFail($id);

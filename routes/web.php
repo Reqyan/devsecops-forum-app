@@ -38,11 +38,11 @@ Route::group(['middleware'=>['auth']], function(){
 
 
 // Rute untuk API JSON
-Route::prefix('api')->group(function () {
-    Route::post('/profile', [ProfileController::class, 'store'])->name('profile.store');
-    Route::put('/profile', [ProfileController::class, 'update'])->name('profile.update');
-    Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
-    Route::get('/profile', [ProfileController::class, 'show'])->name('profile.show');
+Route::prefix('api/profile')->group(function () {
+    Route::post('/', [ProfileController::class, 'store'])->name('profile.store');
+    Route::put('/', [ProfileController::class, 'update'])->name('profile.update');
+    Route::delete('/', [ProfileController::class, 'destroy'])->name('profile.destroy');
+    Route::get('/', [ProfileController::class, 'show'])->name('profile.show');
 });
 
 // Rute untuk tampilan HTML
