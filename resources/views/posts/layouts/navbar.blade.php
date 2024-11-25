@@ -44,7 +44,7 @@
                         <!-- Cek apakah pengguna sudah login -->
                         @if (Auth::check())
                             <!-- Jika sudah login, tampilkan nama pengguna dan tautan ke profil -->
-                            <li><a href="/profile/{{ Auth::user()->id }}"><i class="fa fa-user"
+                            <li><a href="/profile"><i class="fa fa-user"
                                         aria-hidden="true"></i>{{ Auth::user()->name }}</a></li>
                             <li><a href="/logout"><i class="fa fa-sign-out" aria-hidden="true"></i>Logout</a></li>
                         @else

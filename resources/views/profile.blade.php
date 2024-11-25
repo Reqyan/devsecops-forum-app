@@ -137,10 +137,10 @@
     <script>
         async function fetchProfile() {
             const urlParams = window.location.pathname.split('/');
-            const profileId = urlParams[urlParams.length - 1];
+            // const profileId = urlParams[urlParams.length - 1];
 
             try {
-                const response = await fetch(`/api/profile/${profileId}`);
+                const response = await fetch(`/api/profile`);
                 const data = await response.json();
 
                 if (data && data.user) {
@@ -161,14 +161,14 @@
             event.preventDefault();
 
             const urlParams = window.location.pathname.split('/');
-            const profileId = urlParams[urlParams.length - 1];
+            // const profileId = urlParams[urlParams.length - 1];
 
             const name = document.getElementById('name').value;
             const email = document.getElementById('email').value;
             const password = document.getElementById('password').value; // Ambil nilai password
 
             try {
-                const response = await fetch(`/api/profile/${profileId}`, {
+                const response = await fetch(`/api/profile`, {
                     method: 'PUT',
                     headers: {
                         'Content-Type': 'application/json',
