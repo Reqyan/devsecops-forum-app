@@ -25,18 +25,40 @@
                 <div class="col-md-9">
                   <div class="right-description893">
                     <div id="que-hedder2983">
-                      <h3><a href="{{ route('detail-posts', $data_post->id) }}" target="_blank">{{ $data_post->title }}</a></h3>
+                      <h3>
+                        <a href="{{ route('detail-posts', $data_post->id) }}" target="_blank">
+                          {{ $data_post->title }}
+                        </a>
+                      </h3>
                     </div>
                     <div class="ques-details10018">
                       <p>{!! $data_post->content !!}</p>
-                      
                     </div>
                     <hr>
-                    <div class="ques-icon-info3293">
-											<a href="#"><i class="fa fa-user" aria-hidden="true"> {{ $data_post->user->name }}</i></a>
-										</div>
+                    <div class="ques-icon-info3293 d-flex align-items-center">
+                      <!-- User Info -->
+
+
+                      <form action="{{ route('delete-post', $data_post->id) }}" method="POST" class="d-inline ml-3">
+                        @csrf
+                        @method('DELETE')
+                        <a href="#" class="mr-3">
+                          <i class="fa fa-user" aria-hidden="true"> {{ $data_post->user->name }}</i>
+                        </a>
+                        <a href="{{ route('edit-post', $data_post->id) }}" class="btn btn-primary btn-sm ml-3">
+                          Edit Postingan
+                        </a>
+                        <button type="submit" class="btn btn-danger btn-sm" onclick="return confirm('Are you sure you want to delete this post?')">
+                          Delete
+                        </button>
+                      </form>
+                    </div>
+                    
+                    
                   </div>
                 </div>
+                
+                
               </div>
             </div>
             @endforeach
