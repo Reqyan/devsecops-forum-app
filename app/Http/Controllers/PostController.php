@@ -25,6 +25,7 @@ class PostController extends Controller
 
     public function edit($id){
         $post = Posts::findOrFail($id);
+        abort_if($post->user_id != Auth::user()->id, 403);
         return view('posts.edit', compact('post'));
     }
 
@@ -52,6 +53,7 @@ class PostController extends Controller
         ]);
 
         $post = Posts::findOrFail($id);
+        abort_if($post->user_id != Auth::user()->id, 403);
         $post->update($request->only('title', 'category', 'content'));
 
         return redirect()->route('index')->with('success', 'Postingan Diperbarui');
@@ -60,6 +62,7 @@ class PostController extends Controller
     public function delete($id)
     {
         $post = Posts::findOrFail($id);
+        abort_if($post->user_id != Auth::user()->id, 403);
         $post->delete();
 
         return redirect()->route('index')->with('success', 'Postingan Dihapus');

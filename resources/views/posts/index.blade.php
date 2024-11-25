@@ -45,12 +45,14 @@
                         <a href="#" class="mr-3">
                           <i class="fa fa-user" aria-hidden="true"> {{ $data_post->user->name }}</i>
                         </a>
-                        <a href="{{ route('edit-post', $data_post->id) }}" class="btn btn-primary btn-sm ml-3">
-                          Edit Postingan
-                        </a>
-                        <button type="submit" class="btn btn-danger btn-sm" onclick="return confirm('Are you sure you want to delete this post?')">
-                          Delete
-                        </button>
+                        @if ($data_post->user->id == auth()->user()->id)
+                          <a href="{{ route('edit-post', $data_post->id) }}" class="btn btn-primary btn-sm ml-3">
+                            Edit Postingan
+                          </a>
+                          <button type="submit" class="btn btn-danger btn-sm" onclick="return confirm('Are you sure you want to delete this post?')">
+                            Delete
+                          </button>
+                        @endif
                       </form>
                     </div>
                     
