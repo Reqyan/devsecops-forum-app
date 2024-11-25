@@ -75,7 +75,7 @@
                 <form class="comment289-box" method="POST">
                     @csrf()
                     <input type="text" style="display: none" name="post_id" value="{{ $post->id }}">
-                    <input type="text" style="display: none" name="user_id" value="{{ Auth::id() }}">
+                    {{-- <input type="text" style="display: none" name="user_id" value="{{ Auth::id() }}"> --}}
                     <div class="row">
                         <div class="col-md-12">
                             <div class="post9320-box">
