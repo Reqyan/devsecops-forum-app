@@ -2,8 +2,10 @@
 
 namespace App\Http\Controllers\Auth;
 use App\Models\User;
+use Exception;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Throwable;
 
 class AuthController extends Controller
 {
@@ -20,58 +22,48 @@ class AuthController extends Controller
         ]);
     }
 
-    // public function login(Request $request){
-    //     $credentials = $request->validate([
-    //         'email' => 'required',
-    //         'password' => 'required'
-    //     ]);
-
-    //     if(Auth::attempt($credentials)){
-    //         $request->session()->regenerate();
-    //         return redirect()->intended('/');
-    //     }
-
-    //     return back()->with('error','Email/Password salah');
-    // }
-
     public function login(Request $request){
-        $maxAttempts = 3;
-        $cooldownMinutes = 15;
-    
-        // Check if there's a cooldown in session
-        $cooldownUntil = session('cooldown_until');
-    
-        if ($cooldownUntil && now()->lessThan($cooldownUntil)) {
-            $remainingTime = now()->diffInMinutes($cooldownUntil);
-            return back()->with('error', "Too many login attempts. Please try again in $remainingTime minutes.");
+        try {
+            $maxAttempts = 3;
+            $cooldownMinutes = 15;
+        
+            // Check if there's a cooldown in session
+            $cooldownUntil = session('cooldown_until');
+        
+            if ($cooldownUntil && now()->lessThan($cooldownUntil)) {
+                $remainingTime = round(now()->diffInMinutes($cooldownUntil));
+                throw new Exception("Too many login attempts. Please try again in $remainingTime minutes.");
+            }
+        
+            // Retrieve the current attempt count
+            $attempts = session('login_attempts', 0);
+        
+            if ($attempts >= $maxAttempts) {
+                // Set cooldown time and notify the user
+                session(['cooldown_until' => now()->addMinutes($cooldownMinutes)]);
+                throw new Exception("Too many login attempts. Please try again in 15 minutes.");
+            }
+        
+            // Validate the credentials
+            $credentials = $request->validate([
+                'email' => 'required',
+                'password' => 'required'
+            ]);
+        
+            if (Auth::attempt($credentials)) {
+                // Reset attempts and cooldown on successful login
+                $request->session()->regenerate();
+                session()->forget(['login_attempts', 'cooldown_until']);
+                return redirect()->intended('/');
+            }
+        
+            // Increment attempts on failure
+            session(['login_attempts' => $attempts + 1]);
+        
+            throw new Exception('Email/Password incorrect. Attempt ' . ($attempts + 1) . ' of ' . $maxAttempts);
+        } catch (Throwable $th) {
+            return back()->with('error', $th->getMessage());
         }
-    
-        // Retrieve the current attempt count
-        $attempts = session('login_attempts', 0);
-    
-        if ($attempts >= $maxAttempts) {
-            // Set cooldown time and notify the user
-            session(['cooldown_until' => now()->addMinutes($cooldownMinutes)]);
-            return back()->with('error', 'Too many login attempts. Please try again in 15 minutes.');
-        }
-    
-        // Validate the credentials
-        $credentials = $request->validate([
-            'email' => 'required',
-            'password' => 'required'
-        ]);
-    
-        if (Auth::attempt($credentials)) {
-            // Reset attempts and cooldown on successful login
-            $request->session()->regenerate();
-            session()->forget(['login_attempts', 'cooldown_until']);
-            return redirect()->intended('/');
-        }
-    
-        // Increment attempts on failure
-        session(['login_attempts' => $attempts + 1]);
-    
-        return back()->with('error', 'Email/Password incorrect. Attempt ' . ($attempts + 1) . ' of ' . $maxAttempts);
     }
     
     public function store(Request $request){
