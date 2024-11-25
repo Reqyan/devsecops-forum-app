@@ -10,32 +10,30 @@ use Illuminate\Support\Facades\Auth;
 class ProfileController extends Controller
 {
     public function update(Request $request)
-{
-    // Validate inputs
-    $name = $request->input('name');
-    $email = $request->input('email');
-    $password = $request->input('password');
-    $id = Auth::id();
+    {
+        // Validate inputs
+        $name = $request->input('name');
+        $email = $request->input('email');
+        $password = $request->input('password');
+        $id = Auth::id();
 
-    // Check if password is provided
-    if ($password) {
-        // Hash the password
-        $password = bcrypt($password);
+        // Check if password is provided
+        if ($password) {
+            // Hash the password
+            $password = bcrypt($password);
 
-        // Query with password binding
-        $updateQuery = "UPDATE users SET name = ?, email = ?, password = ? WHERE id = ?";
-        DB::update($updateQuery, [$name, $email, $password, $id]);
-    } else {
-        // Query without password binding
-        $updateQuery = "UPDATE users SET name = ?, email = ? WHERE id = ?";
-        DB::update($updateQuery, [$name, $email, $id]);
+            // Query with password binding
+            $updateQuery = "UPDATE users SET name = ?, email = ?, password = ? WHERE id = ?";
+            DB::update($updateQuery, [$name, $email, $password, $id]);
+        } else {
+            // Query without password binding
+            $updateQuery = "UPDATE users SET name = ?, email = ? WHERE id = ?";
+            DB::update($updateQuery, [$name, $email, $id]);
+        }
+
+        return response()->json(['message' => 'Profile updated successfully'], 200);
     }
 
-    return response()->json(['message' => 'Profile updated successfully'], 200);
-}
-
-    
-    
     public function destroy()
     {
         $id = Auth::id();
@@ -56,7 +54,7 @@ class ProfileController extends Controller
         return response()->json(['message' => 'User created successfully'], 201);
     }
 
-    public function show()   
+    public function show()
     {
         $id = Auth::id();
         // Find the user by ID, if not found, return a 404 response

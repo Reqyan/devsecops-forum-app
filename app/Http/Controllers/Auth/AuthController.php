@@ -5,6 +5,7 @@ use App\Models\User;
 use Exception;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use RuntimeException;
 use Throwable;
 
 class AuthController extends Controller
@@ -32,7 +33,7 @@ class AuthController extends Controller
         
             if ($cooldownUntil && now()->lessThan($cooldownUntil)) {
                 $remainingTime = round(now()->diffInMinutes($cooldownUntil));
-                throw new Exception("Too many login attempts. Please try again in $remainingTime minutes.");
+                throw new RuntimeException("Too many login attempts. Please try again in $remainingTime minutes.");
             }
         
             // Retrieve the current attempt count
@@ -41,7 +42,7 @@ class AuthController extends Controller
             if ($attempts >= $maxAttempts) {
                 // Set cooldown time and notify the user
                 session(['cooldown_until' => now()->addMinutes($cooldownMinutes)]);
-                throw new Exception("Too many login attempts. Please try again in 15 minutes.");
+                throw new RuntimeException("Too many login attempts. Please try again in 15 minutes.");
             }
         
             // Validate the credentials
@@ -60,7 +61,7 @@ class AuthController extends Controller
             // Increment attempts on failure
             session(['login_attempts' => $attempts + 1]);
         
-            throw new Exception('Email/Password incorrect. Attempt ' . ($attempts + 1) . ' of ' . $maxAttempts);
+            throw new RuntimeException('Email/Password incorrect. Attempt ' . ($attempts + 1) . ' of ' . $maxAttempts);
         } catch (Throwable $th) {
             return back()->with('error', $th->getMessage());
         }

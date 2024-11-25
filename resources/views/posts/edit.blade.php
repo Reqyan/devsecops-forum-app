@@ -62,11 +62,7 @@
 
                         <div class="details2-239">
                             <div class="col-md-12 nopadding">
-                                <textarea 
-                                    id="txtEditor" 
-                                    name="content" 
-                                    class="content form-control" 
-                                    style="padding: 10px 10px; margin: 0 0 0 115px; width: 78%;">{{ $post->content }}</textarea>
+                                <textarea id="txtEditor" name="content" class="content form-control" style="padding: 10px 10px; margin: 0 0 0 115px; width: 78%;">{{ $post->content }}</textarea>
                                 <style>
                                     .note-editor {
                                         margin: 0 0 0 130px;
