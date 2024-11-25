@@ -26,7 +26,7 @@
                   <div class="right-description893">
                     <div id="que-hedder2983">
                       <h3>
-                        <a href="{{ route('detail-posts', $data_post->id) }}" target="_blank">
+                        <a href="{{ route('detail-posts', $data_post->id) }}" target="_blank" rel="noopener noreferrer">
                           {{ $data_post->title }}
                         </a>
                       </h3>
