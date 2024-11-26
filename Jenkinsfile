@@ -66,7 +66,7 @@ pipeline {
             }
             steps {
                 catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
-                    sh 'zap-baseline.py -t http://localhost:81 -r zapbaseline.html -x zapbaseline.xml'
+                    sh 'zap-baseline.py -t https://filkomfess.reqyan.my.id -r zapbaseline.html -x zapbaseline.xml'
                 }
                 sh 'cp /zap/wrk/zapbaseline.html ./zapbaseline.html'
                 sh 'cp /zap/wrk/zapbaseline.xml ./zapbaseline.xml'
