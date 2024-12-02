@@ -23,7 +23,7 @@ services:
         image: 'mariadb:11'
         container_name: mariadb_container  # Add a name to the container
         ports:
-            - '${FORWARD_DB_PORT:-3307}:3307'
+            - '${FORWARD_DB_PORT:-3307}:3306'
         environment:
             MYSQL_ROOT_PASSWORD: '${DB_PASSWORD}'
             MYSQL_ROOT_HOST: '%'
