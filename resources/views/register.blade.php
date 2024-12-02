@@ -100,7 +100,7 @@
             </div>
         </div>
     </div>
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" \
         integrity="sha384-zosEB8zRHEmC5Rwz4zIU3PvJbQ6WFQY30He5HVpIqzz0Y21adJ7npF6D5e8Qo2W2" crossorigin="anonymous">
     </script>
 </body>
