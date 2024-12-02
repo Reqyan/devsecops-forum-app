@@ -37,7 +37,7 @@ RUN groupadd --gid 1000 sail \
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 
 # Install Laravel dependencies
-RUN composer install
+RUN composer install --no-dev --optimize-autoloader
 
 # Permissions for storage and cache
 RUN chmod -R 775 /var/www/html/storage /var/www/html/bootstrap/cache
