@@ -75,7 +75,7 @@
                     {{-- <div class="info-part-four320"> --}}
                     <h4>Latest Tweets</h4>
                     <div class="tweet-details29">
-                        <p><i class="fa fa-twitter-square" aria-hidden="true"></i><a href="#"> codeThemesCheck a
+                        <p><i class="fa fa-twitter-square"></i><a href="#"> codeThemesCheck a
                                 new
                                 update #AskMe #ThemeForest #WordPress #2code #Envato#2code
                                 Themehttps://t.co/urb3LgsOCi</a>
@@ -83,7 +83,7 @@
                         <small>about 2 weeks ago</small>
                     </div>
                     <div class="tweet-details29">
-                        <p><i class="fa fa-twitter-square" aria-hidden="true"></i><a href="#"> codeThemesCheck a
+                        <p><i class="fa fa-twitter-square"></i><a href="#"> codeThemesCheck a
                                 new
                                 update #AskMe #ThemeForest #WordPress #2code #Envato#2code
                                 Themehttps://t.co/urb3LgsOCi</a>
@@ -91,7 +91,7 @@
                         <small>about 2 weeks ago</small>
                     </div>
                     <div class="tweet-details29">
-                        <p><i class="fa fa-twitter-square" aria-hidden="true"></i><a href="#"> codeThemesCheck a
+                        <p><i class="fa fa-twitter-square"></i><a href="#"> codeThemesCheck a
                                 new
                                 update #AskMe #ThemeForest #WordPress #2code #Envato#2code
                                 Themehttps://t.co/urb3LgsOCi</a>
@@ -111,13 +111,13 @@
                 </div>
                 {{-- <div class="col-md-6">
                     <div class="social-right2389"> <a href="#"><i class="fa fa-twitter-square"
-                                aria-hidden="true"></i></a> <a href="#"><i class="fa fa-facebook"
-                                aria-hidden="true"></i></a> <a href="#"><i class="fa fa-google-plus"
-                                aria-hidden="true"></i></a> <a href="#"><i class="fa fa-youtube"
-                                aria-hidden="true"></i></a> <a href="#"><i class="fa fa-skype"
-                                aria-hidden="true"></i></a> <a href="#"><i class="fa fa-linkedin"
-                                aria-hidden="true"></i></a> <a href="#"><i class="fa fa-rss"
-                                aria-hidden="true"></i></a> </div>
+                                 ></i></a> <a href="#"><i class="fa fa-facebook"
+                                 ></i></a> <a href="#"><i class="fa fa-google-plus"
+                                 ></i></a> <a href="#"><i class="fa fa-youtube"
+                                 ></i></a> <a href="#"><i class="fa fa-skype"
+                                 ></i></a> <a href="#"><i class="fa fa-linkedin"
+                                 ></i></a> <a href="#"><i class="fa fa-rss"
+                                 ></i></a> </div>
                 </div> --}}
             </div>
         </div>

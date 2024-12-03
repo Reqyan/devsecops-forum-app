@@ -31,11 +31,11 @@
                             <hr>
                             <div class="post-footer29032">
                                 <div class="l-side2023">
-                                    <i class="fa fa-folder folder2" aria-hidden="true"> {{ $post->category }}</i>
-                                    <i class="fa fa-clock-o clock2" aria-hidden="true">
+                                    <i class="fa fa-folder folder2"> {{ $post->category }}</i>
+                                    <i class="fa fa-clock-o clock2">
                                         {{ $post->created_at->format('j F Y') }}</i> <a href="#">
-                                        <i class="fa fa-commenting commenting2" aria-hidden="true"> 5 answer</i></a>
-                                    <i class="fa fa-user user2" aria-hidden="true"> {{ $post->user->name }}</i>
+                                        <i class="fa fa-commenting commenting2"> 5 answer</i></a>
+                                    <i class="fa fa-user user2"> {{ $post->user->name }}</i>
                                 </div>
                             </div>
                         </div>
@@ -57,7 +57,7 @@
                                                         <div class="comment-head">
                                                             <h6 class="comment-name"><a
                                                                     href="#">{{ $c->user->name }}</a></h6>
-                                                            <span><i class="fa fa-clock-o" aria-hidden="true"> January 15 ,
+                                                            <span><i class="fa fa-clock-o"> January 15 ,
                                                                     2014 at 10:00 pm</i></span> <i class="fa fa-reply"></i>
                                                             <i class="fa fa-heart"></i>
                                                         </div>

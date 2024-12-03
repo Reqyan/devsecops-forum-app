@@ -23,8 +23,8 @@
                                 <div class="row">
                                     <div class="col-md-1">
                                         <div class="left-user12923 left-user12923-repeat">
-                                            <a href="#"><img src="image/images.png" alt="image"> </a> <a
-                                                href="#"><i class="fa fa-check" aria-hidden="true"></i></a>
+                                            <a href="#"><img src="image/images.png" alt="test"> </a>
+                                            <a href="#"><i class="fa fa-check"></i></a>
                                         </div>
                                     </div>
                                     <div class="col-md-9">
@@ -47,24 +47,23 @@
                                                 </p>
                                             </div>
                                             <hr>
-                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star"
-                                                        aria-hidden="true"> 5 </i> </a> <a href="#"><i
-                                                        class="fa fa-folder" aria-hidden="true"> wordpress</i></a> <a
-                                                    href="#"><i class="fa fa-clock-o" aria-hidden="true"> 4 min
-                                                        ago</i></a> <a href="#"><i class="fa fa-question-circle-o"
-                                                        aria-hidden="true"> Question</i></a> <a href="#"><i
-                                                        class="fa fa-bug" aria-hidden="true"> Report</i></a> </div>
+                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star"> 5 </i>
+                                                </a> <a href="#"><i class="fa fa-folder"> wordpress</i></a> <a
+                                                    href="#"><i class="fa fa-clock-o"> 4 min
+                                                        ago</i></a> <a href="#"><i class="fa fa-question-circle-o">
+                                                        Question</i></a> <a href="#"><i class="fa fa-bug">
+                                                        Report</i></a> </div>
                                         </div>
                                     </div>
                                     <div class="col-md-2">
                                         <div class="ques-type302">
                                             <a href="#">
-                                                <button type="button" class="q-type238"><i class="fa fa-comment"
-                                                        aria-hidden="true"> 333335 answer</i></button>
+                                                <button type="button" class="q-type238"><i class="fa fa-comment"> 333335
+                                                        answer</i></button>
                                             </a>
                                             <a href="#">
                                                 <button type="button" class="q-type23 button-ques2973"> <i
-                                                        class="fa fa-user-circle-o" aria-hidden="true"> 70 view</i>
+                                                        class="fa fa-user-circle-o"> 70 view</i>
                                                 </button>
                                             </a>
                                         </div>
@@ -75,8 +74,8 @@
                                 <div class="row">
                                     <div class="col-md-1">
                                         <div class="left-user12923 left-user12923-repeat">
-                                            <a href="#"><img src="image/images.png" alt="image"> </a> <a
-                                                href="#"><i class="fa fa-check" aria-hidden="true"></i></a>
+                                            <a href="#"><img src="image/images.png" alt="test"> </a> <a
+                                                href="#"><i class="fa fa-check"></i></a>
                                         </div>
                                     </div>
                                     <div class="col-md-9">
@@ -91,24 +90,23 @@
                                                     scelerisque ut. Vivamus at elit quis urna adipiscing iaculis.</p>
                                             </div>
                                             <hr>
-                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star"
-                                                        aria-hidden="true"> 5 </i> </a> <a href="#"><i
-                                                        class="fa fa-folder" aria-hidden="true"> wordpress</i></a> <a
-                                                    href="#"><i class="fa fa-clock-o" aria-hidden="true"> 4 min
-                                                        ago</i></a> <a href="#"><i class="fa fa-question-circle-o"
-                                                        aria-hidden="true"> Question</i></a> <a href="#"><i
-                                                        class="fa fa-bug" aria-hidden="true"> Report</i></a> </div>
+                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star"> 5 </i>
+                                                </a> <a href="#"><i class="fa fa-folder"> wordpress</i></a> <a
+                                                    href="#"><i class="fa fa-clock-o"> 4 min
+                                                        ago</i></a> <a href="#"><i class="fa fa-question-circle-o">
+                                                        Question</i></a> <a href="#"><i class="fa fa-bug">
+                                                        Report</i></a> </div>
                                         </div>
                                     </div>
                                     <div class="col-md-2">
                                         <div class="ques-type302">
                                             <a href="#">
-                                                <button type="button" class="q-type238"><i class="fa fa-comment"
-                                                        aria-hidden="true"> 333335 answer</i></button>
+                                                <button type="button" class="q-type238"><i class="fa fa-comment"> 333335
+                                                        answer</i></button>
                                             </a>
                                             <a href="#">
                                                 <button type="button" class="q-type23 button-ques2973"> <i
-                                                        class="fa fa-user-circle-o" aria-hidden="true"> 70 view</i>
+                                                        class="fa fa-user-circle-o"> 70 view</i>
                                                 </button>
                                             </a>
                                         </div>
@@ -119,8 +117,8 @@
                                 <div class="row">
                                     <div class="col-md-1">
                                         <div class="left-user12923 left-user12923-repeat">
-                                            <a href="#"><img src="image/images.png" alt="image"> </a> <a
-                                                href="#"><i class="fa fa-check" aria-hidden="true"></i></a>
+                                            <a href="#"><img src="image/images.png" alt="test"> </a>
+                                            <a href="#"><i class="fa fa-check"></i></a>
                                         </div>
                                     </div>
                                     <div class="col-md-9">
@@ -135,24 +133,24 @@
                                                     scelerisque ut. Vivamus at elit quis urna adipiscing iaculis.</p>
                                             </div>
                                             <hr>
-                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star"
-                                                        aria-hidden="true"> 5 </i> </a> <a href="#"><i
-                                                        class="fa fa-folder" aria-hidden="true"> wordpress</i></a> <a
-                                                    href="#"><i class="fa fa-clock-o" aria-hidden="true"> 4 min
-                                                        ago</i></a> <a href="#"><i class="fa fa-question-circle-o"
-                                                        aria-hidden="true"> Question</i></a> <a href="#"><i
-                                                        class="fa fa-bug" aria-hidden="true"> Report</i></a> </div>
+                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star"> 5
+                                                    </i> </a> <a href="#"><i class="fa fa-folder"> wordpress</i></a>
+                                                <a href="#"><i class="fa fa-clock-o"> 4 min
+                                                        ago</i></a> <a href="#"><i class="fa fa-question-circle-o">
+                                                        Question</i></a> <a href="#"><i class="fa fa-bug">
+                                                        Report</i></a>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="col-md-2">
                                         <div class="ques-type302">
                                             <a href="#">
-                                                <button type="button" class="q-type238"><i class="fa fa-comment"
-                                                        aria-hidden="true"> 333335 answer</i></button>
+                                                <button type="button" class="q-type238"><i class="fa fa-comment"> 333335
+                                                        answer</i></button>
                                             </a>
                                             <a href="#">
                                                 <button type="button" class="q-type23 button-ques2973"> <i
-                                                        class="fa fa-user-circle-o" aria-hidden="true"> 70 view</i>
+                                                        class="fa fa-user-circle-o"> 70 view</i>
                                                 </button>
                                             </a>
                                         </div>
@@ -163,8 +161,8 @@
                                 <div class="row">
                                     <div class="col-md-1">
                                         <div class="left-user12923 left-user12923-repeat">
-                                            <a href="#"><img src="image/images.png" alt="image"> </a> <a
-                                                href="#"><i class="fa fa-check" aria-hidden="true"></i></a>
+                                            <a href="#"><img src="image/images.png" alt="test"> </a> <a
+                                                href="#"><i class="fa fa-check"></i></a>
                                         </div>
                                     </div>
                                     <div class="col-md-9">
@@ -179,24 +177,24 @@
                                                     scelerisque ut. Vivamus at elit quis urna adipiscing iaculis.</p>
                                             </div>
                                             <hr>
-                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star"
-                                                        aria-hidden="true"> 5 </i> </a> <a href="#"><i
-                                                        class="fa fa-folder" aria-hidden="true"> wordpress</i></a> <a
-                                                    href="#"><i class="fa fa-clock-o" aria-hidden="true"> 4 min
-                                                        ago</i></a> <a href="#"><i class="fa fa-question-circle-o"
-                                                        aria-hidden="true"> Question</i></a> <a href="#"><i
-                                                        class="fa fa-bug" aria-hidden="true"> Report</i></a> </div>
+                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star"> 5
+                                                    </i> </a> <a href="#"><i class="fa fa-folder"> wordpress</i></a>
+                                                <a href="#"><i class="fa fa-clock-o"> 4 min
+                                                        ago</i></a> <a href="#"><i class="fa fa-question-circle-o">
+                                                        Question</i></a> <a href="#"><i class="fa fa-bug">
+                                                        Report</i></a>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="col-md-2">
                                         <div class="ques-type302">
                                             <a href="#">
-                                                <button type="button" class="q-type238"><i class="fa fa-comment"
-                                                        aria-hidden="true"> 333335 answer</i></button>
+                                                <button type="button" class="q-type238"><i class="fa fa-comment"> 333335
+                                                        answer</i></button>
                                             </a>
                                             <a href="#">
                                                 <button type="button" class="q-type23 button-ques2973"> <i
-                                                        class="fa fa-user-circle-o" aria-hidden="true"> 70 view</i>
+                                                        class="fa fa-user-circle-o"> 70 view</i>
                                                 </button>
                                             </a>
                                         </div>
@@ -207,8 +205,8 @@
                                 <div class="row">
                                     <div class="col-md-1">
                                         <div class="left-user12923 left-user12923-repeat">
-                                            <a href="#"><img src="image/images.png" alt="image"> </a> <a
-                                                href="#"><i class="fa fa-check" aria-hidden="true"></i></a>
+                                            <a href="#"><img src="image/images.png" alt="test"> </a> <a
+                                                href="#"><i class="fa fa-check"></i></a>
                                         </div>
                                     </div>
                                     <div class="col-md-9">
@@ -223,24 +221,24 @@
                                                     scelerisque ut. Vivamus at elit quis urna adipiscing iaculis.</p>
                                             </div>
                                             <hr>
-                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star"
-                                                        aria-hidden="true"> 5 </i> </a> <a href="#"><i
-                                                        class="fa fa-folder" aria-hidden="true"> wordpress</i></a> <a
-                                                    href="#"><i class="fa fa-clock-o" aria-hidden="true"> 4 min
-                                                        ago</i></a> <a href="#"><i class="fa fa-question-circle-o"
-                                                        aria-hidden="true"> Question</i></a> <a href="#"><i
-                                                        class="fa fa-bug" aria-hidden="true"> Report</i></a> </div>
+                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star"> 5
+                                                    </i> </a> <a href="#"><i class="fa fa-folder"> wordpress</i></a>
+                                                <a href="#"><i class="fa fa-clock-o"> 4 min
+                                                        ago</i></a> <a href="#"><i class="fa fa-question-circle-o">
+                                                        Question</i></a> <a href="#"><i class="fa fa-bug">
+                                                        Report</i></a>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="col-md-2">
                                         <div class="ques-type302">
                                             <a href="#">
-                                                <button type="button" class="q-type238"><i class="fa fa-comment"
-                                                        aria-hidden="true"> 333335 answer</i></button>
+                                                <button type="button" class="q-type238"><i class="fa fa-comment"> 333335
+                                                        answer</i></button>
                                             </a>
                                             <a href="#">
                                                 <button type="button" class="q-type23 button-ques2973"> <i
-                                                        class="fa fa-user-circle-o" aria-hidden="true"> 70 view</i>
+                                                        class="fa fa-user-circle-o"> 70 view</i>
                                                 </button>
                                             </a>
                                         </div>
@@ -251,8 +249,8 @@
                                 <div class="row">
                                     <div class="col-md-1">
                                         <div class="left-user12923 left-user12923-repeat">
-                                            <a href="#"><img src="image/images.png" alt="image"> </a> <a
-                                                href="#"><i class="fa fa-check" aria-hidden="true"></i></a>
+                                            <a href="#"><img src="image/images.png" alt="test"> </a> <a
+                                                href="#"><i class="fa fa-check"></i></a>
                                         </div>
                                     </div>
                                     <div class="col-md-9">
@@ -267,24 +265,24 @@
                                                     scelerisque ut. Vivamus at elit quis urna adipiscing iaculis.</p>
                                             </div>
                                             <hr>
-                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star"
-                                                        aria-hidden="true"> 5 </i> </a> <a href="#"><i
-                                                        class="fa fa-folder" aria-hidden="true"> wordpress</i></a> <a
-                                                    href="#"><i class="fa fa-clock-o" aria-hidden="true"> 4 min
-                                                        ago</i></a> <a href="#"><i class="fa fa-question-circle-o"
-                                                        aria-hidden="true"> Question</i></a> <a href="#"><i
-                                                        class="fa fa-bug" aria-hidden="true"> Report</i></a> </div>
+                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star"> 5
+                                                    </i> </a> <a href="#"><i class="fa fa-folder"> wordpress</i></a>
+                                                <a href="#"><i class="fa fa-clock-o"> 4 min
+                                                        ago</i></a> <a href="#"><i class="fa fa-question-circle-o">
+                                                        Question</i></a> <a href="#"><i class="fa fa-bug">
+                                                        Report</i></a>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="col-md-2">
                                         <div class="ques-type302">
                                             <a href="#">
-                                                <button type="button" class="q-type238"><i class="fa fa-comment"
-                                                        aria-hidden="true"> 333335 answer</i></button>
+                                                <button type="button" class="q-type238"><i class="fa fa-comment"> 333335
+                                                        answer</i></button>
                                             </a>
                                             <a href="#">
                                                 <button type="button" class="q-type23 button-ques2973"> <i
-                                                        class="fa fa-user-circle-o" aria-hidden="true"> 70 view</i>
+                                                        class="fa fa-user-circle-o"> 70 view</i>
                                                 </button>
                                             </a>
                                         </div>
@@ -295,8 +293,8 @@
                                 <div class="row">
                                     <div class="col-md-1">
                                         <div class="left-user12923 left-user12923-repeat">
-                                            <a href="#"><img src="image/images.png" alt="image"> </a> <a
-                                                href="#"><i class="fa fa-check" aria-hidden="true"></i></a>
+                                            <a href="#"><img src="image/images.png" alt="test"> </a> <a
+                                                href="#"><i class="fa fa-check"></i></a>
                                         </div>
                                     </div>
                                     <div class="col-md-9">
@@ -311,24 +309,24 @@
                                                     scelerisque ut. Vivamus at elit quis urna adipiscing iaculis.</p>
                                             </div>
                                             <hr>
-                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star"
-                                                        aria-hidden="true"> 5 </i> </a> <a href="#"><i
-                                                        class="fa fa-folder" aria-hidden="true"> wordpress</i></a> <a
-                                                    href="#"><i class="fa fa-clock-o" aria-hidden="true"> 4 min
-                                                        ago</i></a> <a href="#"><i class="fa fa-question-circle-o"
-                                                        aria-hidden="true"> Question</i></a> <a href="#"><i
-                                                        class="fa fa-bug" aria-hidden="true"> Report</i></a> </div>
+                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star"> 5
+                                                    </i> </a> <a href="#"><i class="fa fa-folder"> wordpress</i></a>
+                                                <a href="#"><i class="fa fa-clock-o"> 4 min
+                                                        ago</i></a> <a href="#"><i class="fa fa-question-circle-o">
+                                                        Question</i></a> <a href="#"><i class="fa fa-bug">
+                                                        Report</i></a>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="col-md-2">
                                         <div class="ques-type302">
                                             <a href="#">
-                                                <button type="button" class="q-type238"><i class="fa fa-comment"
-                                                        aria-hidden="true"> 333335 answer</i></button>
+                                                <button type="button" class="q-type238"><i class="fa fa-comment"> 333335
+                                                        answer</i></button>
                                             </a>
                                             <a href="#">
                                                 <button type="button" class="q-type23 button-ques2973"> <i
-                                                        class="fa fa-user-circle-o" aria-hidden="true"> 70 view</i>
+                                                        class="fa fa-user-circle-o"> 70 view</i>
                                                 </button>
                                             </a>
                                         </div>
@@ -339,8 +337,8 @@
                                 <div class="row">
                                     <div class="col-md-1">
                                         <div class="left-user12923 left-user12923-repeat">
-                                            <a href="#"><img src="image/images.png" alt="image"> </a> <a
-                                                href="#"><i class="fa fa-check" aria-hidden="true"></i></a>
+                                            <a href="#"><img src="image/images.png" alt="test"> </a> <a
+                                                href="#"><i class="fa fa-check"></i></a>
                                         </div>
                                     </div>
                                     <div class="col-md-9">
@@ -355,24 +353,24 @@
                                                     scelerisque ut. Vivamus at elit quis urna adipiscing iaculis.</p>
                                             </div>
                                             <hr>
-                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star"
-                                                        aria-hidden="true"> 5 </i> </a> <a href="#"><i
-                                                        class="fa fa-folder" aria-hidden="true"> wordpress</i></a> <a
-                                                    href="#"><i class="fa fa-clock-o" aria-hidden="true"> 4 min
-                                                        ago</i></a> <a href="#"><i class="fa fa-question-circle-o"
-                                                        aria-hidden="true"> Question</i></a> <a href="#"><i
-                                                        class="fa fa-bug" aria-hidden="true"> Report</i></a> </div>
+                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star"> 5
+                                                    </i> </a> <a href="#"><i class="fa fa-folder"> wordpress</i></a>
+                                                <a href="#"><i class="fa fa-clock-o"> 4 min
+                                                        ago</i></a> <a href="#"><i class="fa fa-question-circle-o">
+                                                        Question</i></a> <a href="#"><i class="fa fa-bug">
+                                                        Report</i></a>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="col-md-2">
                                         <div class="ques-type302">
                                             <a href="#">
-                                                <button type="button" class="q-type238"><i class="fa fa-comment"
-                                                        aria-hidden="true"> 333335 answer</i></button>
+                                                <button type="button" class="q-type238"><i class="fa fa-comment"> 333335
+                                                        answer</i></button>
                                             </a>
                                             <a href="#">
                                                 <button type="button" class="q-type23 button-ques2973"> <i
-                                                        class="fa fa-user-circle-o" aria-hidden="true"> 70 view</i>
+                                                        class="fa fa-user-circle-o"> 70 view</i>
                                                 </button>
                                             </a>
                                         </div>
@@ -383,8 +381,8 @@
                                 <div class="row">
                                     <div class="col-md-1">
                                         <div class="left-user12923 left-user12923-repeat">
-                                            <a href="#"><img src="image/images.png" alt="image"> </a> <a
-                                                href="#"><i class="fa fa-check" aria-hidden="true"></i></a>
+                                            <a href="#"><img src="image/images.png" alt="test"> </a> <a
+                                                href="#"><i class="fa fa-check"></i></a>
                                         </div>
                                     </div>
                                     <div class="col-md-9">
@@ -399,24 +397,24 @@
                                                     scelerisque ut. Vivamus at elit quis urna adipiscing iaculis.</p>
                                             </div>
                                             <hr>
-                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star"
-                                                        aria-hidden="true"> 5 </i> </a> <a href="#"><i
-                                                        class="fa fa-folder" aria-hidden="true"> wordpress</i></a> <a
-                                                    href="#"><i class="fa fa-clock-o" aria-hidden="true"> 4 min
-                                                        ago</i></a> <a href="#"><i class="fa fa-question-circle-o"
-                                                        aria-hidden="true"> Question</i></a> <a href="#"><i
-                                                        class="fa fa-bug" aria-hidden="true"> Report</i></a> </div>
+                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star"> 5
+                                                    </i> </a> <a href="#"><i class="fa fa-folder"> wordpress</i></a>
+                                                <a href="#"><i class="fa fa-clock-o"> 4 min
+                                                        ago</i></a> <a href="#"><i class="fa fa-question-circle-o">
+                                                        Question</i></a> <a href="#"><i class="fa fa-bug">
+                                                        Report</i></a>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="col-md-2">
                                         <div class="ques-type302">
                                             <a href="#">
-                                                <button type="button" class="q-type238"><i class="fa fa-comment"
-                                                        aria-hidden="true"> 333335 answer</i></button>
+                                                <button type="button" class="q-type238"><i class="fa fa-comment"> 333335
+                                                        answer</i></button>
                                             </a>
                                             <a href="#">
                                                 <button type="button" class="q-type23 button-ques2973"> <i
-                                                        class="fa fa-user-circle-o" aria-hidden="true"> 70 view</i>
+                                                        class="fa fa-user-circle-o"> 70 view</i>
                                                 </button>
                                             </a>
                                         </div>
@@ -427,8 +425,8 @@
                                 <div class="row">
                                     <div class="col-md-1">
                                         <div class="left-user12923 left-user12923-repeat">
-                                            <a href="#"><img src="image/images.png" alt="image"> </a> <a
-                                                href="#"><i class="fa fa-check" aria-hidden="true"></i></a>
+                                            <a href="#"><img src="image/images.png" alt="test"> </a> <a
+                                                href="#"><i class="fa fa-check"></i></a>
                                         </div>
                                     </div>
                                     <div class="col-md-9">
@@ -443,24 +441,24 @@
                                                     scelerisque ut. Vivamus at elit quis urna adipiscing iaculis.</p>
                                             </div>
                                             <hr>
-                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star"
-                                                        aria-hidden="true"> 5 </i> </a> <a href="#"><i
-                                                        class="fa fa-folder" aria-hidden="true"> wordpress</i></a> <a
-                                                    href="#"><i class="fa fa-clock-o" aria-hidden="true"> 4 min
-                                                        ago</i></a> <a href="#"><i class="fa fa-question-circle-o"
-                                                        aria-hidden="true"> Question</i></a> <a href="#"><i
-                                                        class="fa fa-bug" aria-hidden="true"> Report</i></a> </div>
+                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star"> 5
+                                                    </i> </a> <a href="#"><i class="fa fa-folder"> wordpress</i></a>
+                                                <a href="#"><i class="fa fa-clock-o"> 4 min
+                                                        ago</i></a> <a href="#"><i class="fa fa-question-circle-o">
+                                                        Question</i></a> <a href="#"><i class="fa fa-bug">
+                                                        Report</i></a>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="col-md-2">
                                         <div class="ques-type302">
                                             <a href="#">
-                                                <button type="button" class="q-type238"><i class="fa fa-comment"
-                                                        aria-hidden="true"> 333335 answer</i></button>
+                                                <button type="button" class="q-type238"><i class="fa fa-comment"> 333335
+                                                        answer</i></button>
                                             </a>
                                             <a href="#">
                                                 <button type="button" class="q-type23 button-ques2973"> <i
-                                                        class="fa fa-user-circle-o" aria-hidden="true"> 70 view</i>
+                                                        class="fa fa-user-circle-o"> 70 view</i>
                                                 </button>
                                             </a>
                                         </div>
@@ -471,7 +469,7 @@
                                 <ul class="pagination">
                                     <li>
                                         <a href="#" aria-label="Previous">
-                                            <span aria-hidden="true">&laquo;</span>
+                                            <span>&laquo;</span>
                                         </a>
                                     </li>
                                     <li><a href="#">1</a></li>
@@ -481,7 +479,7 @@
                                     <li><a href="#">5</a></li>
                                     <li>
                                         <a href="#" aria-label="Next">
-                                            <span aria-hidden="true">&raquo;</span>
+                                            <span>&raquo;</span>
                                         </a>
                                     </li>
                                 </ul>
@@ -494,8 +492,8 @@
                                 <div class="row">
                                     <div class="col-md-1">
                                         <div class="left-user12923 left-user12923-repeat">
-                                            <a href="#"><img src="image/images.png" alt="image"> </a> <a
-                                                href="#"><i class="fa fa-check" aria-hidden="true"></i></a>
+                                            <a href="#"><img src="image/images.png" alt="test"> </a> <a
+                                                href="#"><i class="fa fa-check"></i></a>
                                         </div>
                                     </div>
                                     <div class="col-md-9">
@@ -510,26 +508,26 @@
                                                     scelerisque ut. Vivamus at elit quis urna adipiscing iaculis.</p>
                                             </div>
                                             <hr>
-                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-check"
-                                                        aria-hidden="true"> solved</i></a> <a href="#"><i
-                                                        class="fa fa-star" aria-hidden="true"> 5</i> </a> <a
-                                                    href="#"><i class="fa fa-folder" aria-hidden="true">
-                                                        wordpress</i></a> <a href="#"><i class="fa fa-clock-o"
-                                                        aria-hidden="true"> 4 min ago</i></a> <a href="#"><i
-                                                        class="fa fa-comment" aria-hidden="true"> 5 answer</i></a> <a
-                                                    href="#"><i class="fa fa-user-circle-o" aria-hidden="true"> 70
-                                                        view</i> </a> </div>
+                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-check">
+                                                        solved</i></a> <a href="#"><i class="fa fa-star"> 5</i> </a>
+                                                <a href="#"><i class="fa fa-folder">
+                                                        wordpress</i></a> <a href="#"><i class="fa fa-clock-o"> 4
+                                                        min ago</i></a> <a href="#"><i class="fa fa-comment"> 5
+                                                        answer</i></a> <a href="#"><i class="fa fa-user-circle-o">
+                                                        70
+                                                        view</i> </a>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="col-md-2">
                                         <div class="ques-type302">
                                             <a href="#">
-                                                <button type="button" class="q-type238"><i class="fa fa-comment"
-                                                        aria-hidden="true"> 333335 answer</i></button>
+                                                <button type="button" class="q-type238"><i class="fa fa-comment"> 333335
+                                                        answer</i></button>
                                             </a>
                                             <a href="#">
                                                 <button type="button" class="q-type23 button-ques2973"> <i
-                                                        class="fa fa-user-circle-o" aria-hidden="true"> 70 view</i>
+                                                        class="fa fa-user-circle-o"> 70 view</i>
                                                 </button>
                                             </a>
                                         </div>
@@ -540,8 +538,8 @@
                                 <div class="row">
                                     <div class="col-md-1">
                                         <div class="left-user12923 left-user12923-repeat">
-                                            <a href="#"><img src="image/images.png" alt="image"> </a> <a
-                                                href="#"><i class="fa fa-check" aria-hidden="true"></i></a>
+                                            <a href="#"><img src="image/images.png" alt="test"> </a> <a
+                                                href="#"><i class="fa fa-check"></i></a>
                                         </div>
                                     </div>
                                     <div class="col-md-9">
@@ -556,24 +554,24 @@
                                                     scelerisque ut. Vivamus at elit quis urna adipiscing iaculis.</p>
                                             </div>
                                             <hr>
-                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star"
-                                                        aria-hidden="true"> 5 </i> </a> <a href="#"><i
-                                                        class="fa fa-folder" aria-hidden="true"> wordpress</i></a> <a
-                                                    href="#"><i class="fa fa-clock-o" aria-hidden="true"> 4 min
-                                                        ago</i></a> <a href="#"><i class="fa fa-question-circle-o"
-                                                        aria-hidden="true"> Question</i></a> <a href="#"><i
-                                                        class="fa fa-bug" aria-hidden="true"> Report</i></a> </div>
+                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star"> 5
+                                                    </i> </a> <a href="#"><i class="fa fa-folder"> wordpress</i></a>
+                                                <a href="#"><i class="fa fa-clock-o"> 4 min
+                                                        ago</i></a> <a href="#"><i class="fa fa-question-circle-o">
+                                                        Question</i></a> <a href="#"><i class="fa fa-bug">
+                                                        Report</i></a>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="col-md-2">
                                         <div class="ques-type302">
                                             <a href="#">
-                                                <button type="button" class="q-type238"><i class="fa fa-comment"
-                                                        aria-hidden="true"> 333335 answer</i></button>
+                                                <button type="button" class="q-type238"><i class="fa fa-comment"> 333335
+                                                        answer</i></button>
                                             </a>
                                             <a href="#">
                                                 <button type="button" class="q-type23 button-ques2973"> <i
-                                                        class="fa fa-user-circle-o" aria-hidden="true"> 70 view</i>
+                                                        class="fa fa-user-circle-o"> 70 view</i>
                                                 </button>
                                             </a>
                                         </div>
@@ -584,8 +582,8 @@
                                 <div class="row">
                                     <div class="col-md-1">
                                         <div class="left-user12923 left-user12923-repeat">
-                                            <a href="#"><img src="image/images.png" alt="image"> </a> <a
-                                                href="#"><i class="fa fa-check" aria-hidden="true"></i></a>
+                                            <a href="#"><img src="image/images.png" alt="test"> </a> <a
+                                                href="#"><i class="fa fa-check"></i></a>
                                         </div>
                                     </div>
                                     <div class="col-md-9">
@@ -600,24 +598,24 @@
                                                     scelerisque ut. Vivamus at elit quis urna adipiscing iaculis.</p>
                                             </div>
                                             <hr>
-                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star"
-                                                        aria-hidden="true"> 5 </i> </a> <a href="#"><i
-                                                        class="fa fa-folder" aria-hidden="true"> wordpress</i></a> <a
-                                                    href="#"><i class="fa fa-clock-o" aria-hidden="true"> 4 min
-                                                        ago</i></a> <a href="#"><i class="fa fa-question-circle-o"
-                                                        aria-hidden="true"> Question</i></a> <a href="#"><i
-                                                        class="fa fa-bug" aria-hidden="true"> Report</i></a> </div>
+                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star"> 5
+                                                    </i> </a> <a href="#"><i class="fa fa-folder"> wordpress</i></a>
+                                                <a href="#"><i class="fa fa-clock-o"> 4 min
+                                                        ago</i></a> <a href="#"><i class="fa fa-question-circle-o">
+                                                        Question</i></a> <a href="#"><i class="fa fa-bug">
+                                                        Report</i></a>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="col-md-2">
                                         <div class="ques-type302">
                                             <a href="#">
-                                                <button type="button" class="q-type238"><i class="fa fa-comment"
-                                                        aria-hidden="true"> 333335 answer</i></button>
+                                                <button type="button" class="q-type238"><i class="fa fa-comment"> 333335
+                                                        answer</i></button>
                                             </a>
                                             <a href="#">
                                                 <button type="button" class="q-type23 button-ques2973"> <i
-                                                        class="fa fa-user-circle-o" aria-hidden="true"> 70 view</i>
+                                                        class="fa fa-user-circle-o"> 70 view</i>
                                                 </button>
                                             </a>
                                         </div>
@@ -628,8 +626,8 @@
                                 <div class="row">
                                     <div class="col-md-1">
                                         <div class="left-user12923 left-user12923-repeat">
-                                            <a href="#"><img src="image/images.png" alt="image"> </a> <a
-                                                href="#"><i class="fa fa-check" aria-hidden="true"></i></a>
+                                            <a href="#"><img src="image/images.png" alt="test"> </a> <a
+                                                href="#"><i class="fa fa-check"></i></a>
                                         </div>
                                     </div>
                                     <div class="col-md-9">
@@ -644,24 +642,24 @@
                                                     scelerisque ut. Vivamus at elit quis urna adipiscing iaculis.</p>
                                             </div>
                                             <hr>
-                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star"
-                                                        aria-hidden="true"> 5 </i> </a> <a href="#"><i
-                                                        class="fa fa-folder" aria-hidden="true"> wordpress</i></a> <a
-                                                    href="#"><i class="fa fa-clock-o" aria-hidden="true"> 4 min
-                                                        ago</i></a> <a href="#"><i class="fa fa-question-circle-o"
-                                                        aria-hidden="true"> Question</i></a> <a href="#"><i
-                                                        class="fa fa-bug" aria-hidden="true"> Report</i></a> </div>
+                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star"> 5
+                                                    </i> </a> <a href="#"><i class="fa fa-folder"> wordpress</i></a>
+                                                <a href="#"><i class="fa fa-clock-o"> 4 min
+                                                        ago</i></a> <a href="#"><i class="fa fa-question-circle-o">
+                                                        Question</i></a> <a href="#"><i class="fa fa-bug">
+                                                        Report</i></a>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="col-md-2">
                                         <div class="ques-type302">
                                             <a href="#">
-                                                <button type="button" class="q-type238"><i class="fa fa-comment"
-                                                        aria-hidden="true"> 333335 answer</i></button>
+                                                <button type="button" class="q-type238"><i class="fa fa-comment"> 333335
+                                                        answer</i></button>
                                             </a>
                                             <a href="#">
                                                 <button type="button" class="q-type23 button-ques2973"> <i
-                                                        class="fa fa-user-circle-o" aria-hidden="true"> 70 view</i>
+                                                        class="fa fa-user-circle-o"> 70 view</i>
                                                 </button>
                                             </a>
                                         </div>
@@ -672,8 +670,8 @@
                                 <div class="row">
                                     <div class="col-md-1">
                                         <div class="left-user12923 left-user12923-repeat">
-                                            <a href="#"><img src="image/images.png" alt="image"> </a> <a
-                                                href="#"><i class="fa fa-check" aria-hidden="true"></i></a>
+                                            <a href="#"><img src="image/images.png" alt="test"> </a> <a
+                                                href="#"><i class="fa fa-check"></i></a>
                                         </div>
                                     </div>
                                     <div class="col-md-9">
@@ -688,24 +686,24 @@
                                                     scelerisque ut. Vivamus at elit quis urna adipiscing iaculis.</p>
                                             </div>
                                             <hr>
-                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star"
-                                                        aria-hidden="true"> 5 </i> </a> <a href="#"><i
-                                                        class="fa fa-folder" aria-hidden="true"> wordpress</i></a> <a
-                                                    href="#"><i class="fa fa-clock-o" aria-hidden="true"> 4 min
-                                                        ago</i></a> <a href="#"><i class="fa fa-question-circle-o"
-                                                        aria-hidden="true"> Question</i></a> <a href="#"><i
-                                                        class="fa fa-bug" aria-hidden="true"> Report</i></a> </div>
+                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star"> 5
+                                                    </i> </a> <a href="#"><i class="fa fa-folder"> wordpress</i></a>
+                                                <a href="#"><i class="fa fa-clock-o"> 4 min
+                                                        ago</i></a> <a href="#"><i class="fa fa-question-circle-o">
+                                                        Question</i></a> <a href="#"><i class="fa fa-bug">
+                                                        Report</i></a>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="col-md-2">
                                         <div class="ques-type302">
                                             <a href="#">
-                                                <button type="button" class="q-type238"><i class="fa fa-comment"
-                                                        aria-hidden="true"> 333335 answer</i></button>
+                                                <button type="button" class="q-type238"><i class="fa fa-comment"> 333335
+                                                        answer</i></button>
                                             </a>
                                             <a href="#">
                                                 <button type="button" class="q-type23 button-ques2973"> <i
-                                                        class="fa fa-user-circle-o" aria-hidden="true"> 70 view</i>
+                                                        class="fa fa-user-circle-o"> 70 view</i>
                                                 </button>
                                             </a>
                                         </div>
@@ -716,8 +714,8 @@
                                 <div class="row">
                                     <div class="col-md-1">
                                         <div class="left-user12923 left-user12923-repeat">
-                                            <a href="#"><img src="image/images.png" alt="image"> </a> <a
-                                                href="#"><i class="fa fa-check" aria-hidden="true"></i></a>
+                                            <a href="#"><img src="image/images.png" alt="test"> </a> <a
+                                                href="#"><i class="fa fa-check"></i></a>
                                         </div>
                                     </div>
                                     <div class="col-md-9">
@@ -732,24 +730,24 @@
                                                     scelerisque ut. Vivamus at elit quis urna adipiscing iaculis.</p>
                                             </div>
                                             <hr>
-                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star"
-                                                        aria-hidden="true"> 5 </i> </a> <a href="#"><i
-                                                        class="fa fa-folder" aria-hidden="true"> wordpress</i></a> <a
-                                                    href="#"><i class="fa fa-clock-o" aria-hidden="true"> 4 min
-                                                        ago</i></a> <a href="#"><i class="fa fa-question-circle-o"
-                                                        aria-hidden="true"> Question</i></a> <a href="#"><i
-                                                        class="fa fa-bug" aria-hidden="true"> Report</i></a> </div>
+                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star"> 5
+                                                    </i> </a> <a href="#"><i class="fa fa-folder"> wordpress</i></a>
+                                                <a href="#"><i class="fa fa-clock-o"> 4 min
+                                                        ago</i></a> <a href="#"><i class="fa fa-question-circle-o">
+                                                        Question</i></a> <a href="#"><i class="fa fa-bug">
+                                                        Report</i></a>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="col-md-2">
                                         <div class="ques-type302">
                                             <a href="#">
-                                                <button type="button" class="q-type238"><i class="fa fa-comment"
-                                                        aria-hidden="true"> 333335 answer</i></button>
+                                                <button type="button" class="q-type238"><i class="fa fa-comment"> 333335
+                                                        answer</i></button>
                                             </a>
                                             <a href="#">
                                                 <button type="button" class="q-type23 button-ques2973"> <i
-                                                        class="fa fa-user-circle-o" aria-hidden="true"> 70 view</i>
+                                                        class="fa fa-user-circle-o"> 70 view</i>
                                                 </button>
                                             </a>
                                         </div>
@@ -760,8 +758,8 @@
                                 <div class="row">
                                     <div class="col-md-1">
                                         <div class="left-user12923 left-user12923-repeat">
-                                            <a href="#"><img src="image/images.png" alt="image"> </a> <a
-                                                href="#"><i class="fa fa-check" aria-hidden="true"></i></a>
+                                            <a href="#"><img src="image/images.png" alt="test"> </a> <a
+                                                href="#"><i class="fa fa-check"></i></a>
                                         </div>
                                     </div>
                                     <div class="col-md-9">
@@ -776,24 +774,24 @@
                                                     scelerisque ut. Vivamus at elit quis urna adipiscing iaculis.</p>
                                             </div>
                                             <hr>
-                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star"
-                                                        aria-hidden="true"> 5 </i> </a> <a href="#"><i
-                                                        class="fa fa-folder" aria-hidden="true"> wordpress</i></a> <a
-                                                    href="#"><i class="fa fa-clock-o" aria-hidden="true"> 4 min
-                                                        ago</i></a> <a href="#"><i class="fa fa-question-circle-o"
-                                                        aria-hidden="true"> Question</i></a> <a href="#"><i
-                                                        class="fa fa-bug" aria-hidden="true"> Report</i></a> </div>
+                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star"> 5
+                                                    </i> </a> <a href="#"><i class="fa fa-folder"> wordpress</i></a>
+                                                <a href="#"><i class="fa fa-clock-o"> 4 min
+                                                        ago</i></a> <a href="#"><i class="fa fa-question-circle-o">
+                                                        Question</i></a> <a href="#"><i class="fa fa-bug">
+                                                        Report</i></a>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="col-md-2">
                                         <div class="ques-type302">
                                             <a href="#">
-                                                <button type="button" class="q-type238"><i class="fa fa-comment"
-                                                        aria-hidden="true"> 333335 answer</i></button>
+                                                <button type="button" class="q-type238"><i class="fa fa-comment"> 333335
+                                                        answer</i></button>
                                             </a>
                                             <a href="#">
                                                 <button type="button" class="q-type23 button-ques2973"> <i
-                                                        class="fa fa-user-circle-o" aria-hidden="true"> 70 view</i>
+                                                        class="fa fa-user-circle-o"> 70 view</i>
                                                 </button>
                                             </a>
                                         </div>
@@ -804,8 +802,8 @@
                                 <div class="row">
                                     <div class="col-md-1">
                                         <div class="left-user12923 left-user12923-repeat">
-                                            <a href="#"><img src="image/images.png" alt="image"> </a> <a
-                                                href="#"><i class="fa fa-check" aria-hidden="true"></i></a>
+                                            <a href="#"><img src="image/images.png" alt="test"> </a> <a
+                                                href="#"><i class="fa fa-check"></i></a>
                                         </div>
                                     </div>
                                     <div class="col-md-9">
@@ -820,24 +818,24 @@
                                                     scelerisque ut. Vivamus at elit quis urna adipiscing iaculis.</p>
                                             </div>
                                             <hr>
-                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star"
-                                                        aria-hidden="true"> 5 </i> </a> <a href="#"><i
-                                                        class="fa fa-folder" aria-hidden="true"> wordpress</i></a> <a
-                                                    href="#"><i class="fa fa-clock-o" aria-hidden="true"> 4 min
-                                                        ago</i></a> <a href="#"><i class="fa fa-question-circle-o"
-                                                        aria-hidden="true"> Question</i></a> <a href="#"><i
-                                                        class="fa fa-bug" aria-hidden="true"> Report</i></a> </div>
+                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star"> 5
+                                                    </i> </a> <a href="#"><i class="fa fa-folder"> wordpress</i></a>
+                                                <a href="#"><i class="fa fa-clock-o"> 4 min
+                                                        ago</i></a> <a href="#"><i class="fa fa-question-circle-o">
+                                                        Question</i></a> <a href="#"><i class="fa fa-bug">
+                                                        Report</i></a>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="col-md-2">
                                         <div class="ques-type302">
                                             <a href="#">
-                                                <button type="button" class="q-type238"><i class="fa fa-comment"
-                                                        aria-hidden="true"> 333335 answer</i></button>
+                                                <button type="button" class="q-type238"><i class="fa fa-comment"> 333335
+                                                        answer</i></button>
                                             </a>
                                             <a href="#">
                                                 <button type="button" class="q-type23 button-ques2973"> <i
-                                                        class="fa fa-user-circle-o" aria-hidden="true"> 70 view</i>
+                                                        class="fa fa-user-circle-o"> 70 view</i>
                                                 </button>
                                             </a>
                                         </div>
@@ -848,8 +846,8 @@
                                 <div class="row">
                                     <div class="col-md-1">
                                         <div class="left-user12923 left-user12923-repeat">
-                                            <a href="#"><img src="image/images.png" alt="image"> </a> <a
-                                                href="#"><i class="fa fa-check" aria-hidden="true"></i></a>
+                                            <a href="#"><img src="image/images.png" alt="test"> </a> <a
+                                                href="#"><i class="fa fa-check"></i></a>
                                         </div>
                                     </div>
                                     <div class="col-md-9">
@@ -864,24 +862,24 @@
                                                     scelerisque ut. Vivamus at elit quis urna adipiscing iaculis.</p>
                                             </div>
                                             <hr>
-                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star"
-                                                        aria-hidden="true"> 5 </i> </a> <a href="#"><i
-                                                        class="fa fa-folder" aria-hidden="true"> wordpress</i></a> <a
-                                                    href="#"><i class="fa fa-clock-o" aria-hidden="true"> 4 min
-                                                        ago</i></a> <a href="#"><i class="fa fa-question-circle-o"
-                                                        aria-hidden="true"> Question</i></a> <a href="#"><i
-                                                        class="fa fa-bug" aria-hidden="true"> Report</i></a> </div>
+                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star"> 5
+                                                    </i> </a> <a href="#"><i class="fa fa-folder"> wordpress</i></a>
+                                                <a href="#"><i class="fa fa-clock-o"> 4 min
+                                                        ago</i></a> <a href="#"><i class="fa fa-question-circle-o">
+                                                        Question</i></a> <a href="#"><i class="fa fa-bug">
+                                                        Report</i></a>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="col-md-2">
                                         <div class="ques-type302">
                                             <a href="#">
-                                                <button type="button" class="q-type238"><i class="fa fa-comment"
-                                                        aria-hidden="true"> 333335 answer</i></button>
+                                                <button type="button" class="q-type238"><i class="fa fa-comment"> 333335
+                                                        answer</i></button>
                                             </a>
                                             <a href="#">
                                                 <button type="button" class="q-type23 button-ques2973"> <i
-                                                        class="fa fa-user-circle-o" aria-hidden="true"> 70 view</i>
+                                                        class="fa fa-user-circle-o"> 70 view</i>
                                                 </button>
                                             </a>
                                         </div>
@@ -892,7 +890,7 @@
                                 <ul class="pagination">
                                     <li>
                                         <a href="#" aria-label="Previous">
-                                            <span aria-hidden="true">&laquo;</span>
+                                            <span>&laquo;</span>
                                         </a>
                                     </li>
                                     <li><a href="#">1</a></li>
@@ -902,7 +900,7 @@
                                     <li><a href="#">5</a></li>
                                     <li>
                                         <a href="#" aria-label="Next">
-                                            <span aria-hidden="true">&raquo;</span>
+                                            <span>&raquo;</span>
                                         </a>
                                     </li>
                                 </ul>
@@ -915,8 +913,8 @@
                                 <div class="row">
                                     <div class="col-md-1">
                                         <div class="left-user12923 left-user12923-repeat">
-                                            <a href="#"><img src="image/images.png" alt="image"> </a> <a
-                                                href="#"><i class="fa fa-check" aria-hidden="true"></i></a>
+                                            <a href="#"><img src="image/images.png" alt="test"> </a> <a
+                                                href="#"><i class="fa fa-check"></i></a>
                                         </div>
                                     </div>
                                     <div class="col-md-9">
@@ -931,26 +929,26 @@
                                                     scelerisque ut. Vivamus at elit quis urna adipiscing iaculis.</p>
                                             </div>
                                             <hr>
-                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-check"
-                                                        aria-hidden="true"> solved</i></a> <a href="#"><i
-                                                        class="fa fa-star" aria-hidden="true"> 5</i> </a> <a
-                                                    href="#"><i class="fa fa-folder" aria-hidden="true">
-                                                        wordpress</i></a> <a href="#"><i class="fa fa-clock-o"
-                                                        aria-hidden="true"> 4 min ago</i></a> <a href="#"><i
-                                                        class="fa fa-comment" aria-hidden="true"> 5 answer</i></a> <a
-                                                    href="#"><i class="fa fa-user-circle-o" aria-hidden="true"> 70
-                                                        view</i> </a> </div>
+                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-check">
+                                                        solved</i></a> <a href="#"><i class="fa fa-star"> 5</i> </a>
+                                                <a href="#"><i class="fa fa-folder">
+                                                        wordpress</i></a> <a href="#"><i class="fa fa-clock-o"> 4
+                                                        min ago</i></a> <a href="#"><i class="fa fa-comment"> 5
+                                                        answer</i></a> <a href="#"><i class="fa fa-user-circle-o">
+                                                        70
+                                                        view</i> </a>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="col-md-2">
                                         <div class="ques-type302">
                                             <a href="#">
-                                                <button type="button" class="q-type238"><i class="fa fa-comment"
-                                                        aria-hidden="true"> 333335 answer</i></button>
+                                                <button type="button" class="q-type238"><i class="fa fa-comment"> 333335
+                                                        answer</i></button>
                                             </a>
                                             <a href="#">
                                                 <button type="button" class="q-type23 button-ques2973"> <i
-                                                        class="fa fa-user-circle-o" aria-hidden="true"> 70 view</i>
+                                                        class="fa fa-user-circle-o"> 70 view</i>
                                                 </button>
                                             </a>
                                         </div>
@@ -961,8 +959,8 @@
                                 <div class="row">
                                     <div class="col-md-1">
                                         <div class="left-user12923 left-user12923-repeat">
-                                            <a href="#"><img src="image/images.png" alt="image"> </a> <a
-                                                href="#"><i class="fa fa-check" aria-hidden="true"></i></a>
+                                            <a href="#"><img src="image/images.png" alt="test"> </a> <a
+                                                href="#"><i class="fa fa-check"></i></a>
                                         </div>
                                     </div>
                                     <div class="col-md-9">
@@ -978,26 +976,25 @@
                                             </div>
                                             <hr>
                                             <div class="ques-icon-info3293"> <a href="#"><i
-                                                        class="fa fa-check check-color329" aria-hidden="true">
-                                                        solved</i></a> <a href="#"><i class="fa fa-star"
-                                                        aria-hidden="true"> 5</i> </a> <a href="#"><i
-                                                        class="fa fa-folder" aria-hidden="true"> wordpress</i></a> <a
-                                                    href="#"><i class="fa fa-clock-o" aria-hidden="true"> 4 min
-                                                        ago</i></a> <a href="#"><i class="fa fa-comment"
-                                                        aria-hidden="true"> 5 answer</i></a> <a href="#"><i
-                                                        class="fa fa-user-circle-o" aria-hidden="true"> 70 view</i> </a>
+                                                        class="fa fa-check check-color329">
+                                                        solved</i></a> <a href="#"><i class="fa fa-star"> 5</i> </a>
+                                                <a href="#"><i class="fa fa-folder"> wordpress</i></a> <a
+                                                    href="#"><i class="fa fa-clock-o"> 4 min
+                                                        ago</i></a> <a href="#"><i class="fa fa-comment"> 5
+                                                        answer</i></a> <a href="#"><i class="fa fa-user-circle-o">
+                                                        70 view</i> </a>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-md-2">
                                         <div class="ques-type302">
                                             <a href="#">
-                                                <button type="button" class="q-type238"><i class="fa fa-comment"
-                                                        aria-hidden="true"> 333335 answer</i></button>
+                                                <button type="button" class="q-type238"><i class="fa fa-comment"> 333335
+                                                        answer</i></button>
                                             </a>
                                             <a href="#">
                                                 <button type="button" class="q-type23 button-ques2973"> <i
-                                                        class="fa fa-user-circle-o" aria-hidden="true"> 70 view</i>
+                                                        class="fa fa-user-circle-o"> 70 view</i>
                                                 </button>
                                             </a>
                                         </div>
@@ -1008,8 +1005,8 @@
                                 <div class="row">
                                     <div class="col-md-1">
                                         <div class="left-user12923 left-user12923-repeat">
-                                            <a href="#"><img src="image/images.png" alt="image"> </a> <a
-                                                href="#"><i class="fa fa-check" aria-hidden="true"></i></a>
+                                            <a href="#"><img src="image/images.png" alt="test"> </a> <a
+                                                href="#"><i class="fa fa-check"></i></a>
                                         </div>
                                     </div>
                                     <div class="col-md-9">
@@ -1024,24 +1021,24 @@
                                                     scelerisque ut. Vivamus at elit quis urna adipiscing iaculis.</p>
                                             </div>
                                             <hr>
-                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star"
-                                                        aria-hidden="true"> 5 </i> </a> <a href="#"><i
-                                                        class="fa fa-folder" aria-hidden="true"> wordpress</i></a> <a
-                                                    href="#"><i class="fa fa-clock-o" aria-hidden="true"> 4 min
-                                                        ago</i></a> <a href="#"><i class="fa fa-question-circle-o"
-                                                        aria-hidden="true"> Question</i></a> <a href="#"><i
-                                                        class="fa fa-bug" aria-hidden="true"> Report</i></a> </div>
+                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star"> 5
+                                                    </i> </a> <a href="#"><i class="fa fa-folder"> wordpress</i></a>
+                                                <a href="#"><i class="fa fa-clock-o"> 4 min
+                                                        ago</i></a> <a href="#"><i class="fa fa-question-circle-o">
+                                                        Question</i></a> <a href="#"><i class="fa fa-bug">
+                                                        Report</i></a>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="col-md-2">
                                         <div class="ques-type302">
                                             <a href="#">
-                                                <button type="button" class="q-type238"><i class="fa fa-comment"
-                                                        aria-hidden="true"> 333335 answer</i></button>
+                                                <button type="button" class="q-type238"><i class="fa fa-comment"> 333335
+                                                        answer</i></button>
                                             </a>
                                             <a href="#">
                                                 <button type="button" class="q-type23 button-ques2973"> <i
-                                                        class="fa fa-user-circle-o" aria-hidden="true"> 70 view</i>
+                                                        class="fa fa-user-circle-o"> 70 view</i>
                                                 </button>
                                             </a>
                                         </div>
@@ -1052,8 +1049,8 @@
                                 <div class="row">
                                     <div class="col-md-1">
                                         <div class="left-user12923 left-user12923-repeat">
-                                            <a href="#"><img src="image/images.png" alt="image"> </a> <a
-                                                href="#"><i class="fa fa-check" aria-hidden="true"></i></a>
+                                            <a href="#"><img src="image/images.png" alt="test"> </a> <a
+                                                href="#"><i class="fa fa-check"></i></a>
                                         </div>
                                     </div>
                                     <div class="col-md-9">
@@ -1068,24 +1065,24 @@
                                                     scelerisque ut. Vivamus at elit quis urna adipiscing iaculis.</p>
                                             </div>
                                             <hr>
-                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star"
-                                                        aria-hidden="true"> 5 </i> </a> <a href="#"><i
-                                                        class="fa fa-folder" aria-hidden="true"> wordpress</i></a> <a
-                                                    href="#"><i class="fa fa-clock-o" aria-hidden="true"> 4 min
-                                                        ago</i></a> <a href="#"><i class="fa fa-question-circle-o"
-                                                        aria-hidden="true"> Question</i></a> <a href="#"><i
-                                                        class="fa fa-bug" aria-hidden="true"> Report</i></a> </div>
+                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star"> 5
+                                                    </i> </a> <a href="#"><i class="fa fa-folder"> wordpress</i></a>
+                                                <a href="#"><i class="fa fa-clock-o"> 4 min
+                                                        ago</i></a> <a href="#"><i class="fa fa-question-circle-o">
+                                                        Question</i></a> <a href="#"><i class="fa fa-bug">
+                                                        Report</i></a>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="col-md-2">
                                         <div class="ques-type302">
                                             <a href="#">
-                                                <button type="button" class="q-type238"><i class="fa fa-comment"
-                                                        aria-hidden="true"> 333335 answer</i></button>
+                                                <button type="button" class="q-type238"><i class="fa fa-comment"> 333335
+                                                        answer</i></button>
                                             </a>
                                             <a href="#">
                                                 <button type="button" class="q-type23 button-ques2973"> <i
-                                                        class="fa fa-user-circle-o" aria-hidden="true"> 70 view</i>
+                                                        class="fa fa-user-circle-o"> 70 view</i>
                                                 </button>
                                             </a>
                                         </div>
@@ -1096,8 +1093,8 @@
                                 <div class="row">
                                     <div class="col-md-1">
                                         <div class="left-user12923 left-user12923-repeat">
-                                            <a href="#"><img src="image/images.png" alt="image"> </a> <a
-                                                href="#"><i class="fa fa-check" aria-hidden="true"></i></a>
+                                            <a href="#"><img src="image/images.png" alt="test"> </a> <a
+                                                href="#"><i class="fa fa-check"></i></a>
                                         </div>
                                     </div>
                                     <div class="col-md-9">
@@ -1112,24 +1109,24 @@
                                                     scelerisque ut. Vivamus at elit quis urna adipiscing iaculis.</p>
                                             </div>
                                             <hr>
-                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star"
-                                                        aria-hidden="true"> 5 </i> </a> <a href="#"><i
-                                                        class="fa fa-folder" aria-hidden="true"> wordpress</i></a> <a
-                                                    href="#"><i class="fa fa-clock-o" aria-hidden="true"> 4 min
-                                                        ago</i></a> <a href="#"><i class="fa fa-question-circle-o"
-                                                        aria-hidden="true"> Question</i></a> <a href="#"><i
-                                                        class="fa fa-bug" aria-hidden="true"> Report</i></a> </div>
+                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star"> 5
+                                                    </i> </a> <a href="#"><i class="fa fa-folder"> wordpress</i></a>
+                                                <a href="#"><i class="fa fa-clock-o"> 4 min
+                                                        ago</i></a> <a href="#"><i class="fa fa-question-circle-o">
+                                                        Question</i></a> <a href="#"><i class="fa fa-bug">
+                                                        Report</i></a>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="col-md-2">
                                         <div class="ques-type302">
                                             <a href="#">
-                                                <button type="button" class="q-type238"><i class="fa fa-comment"
-                                                        aria-hidden="true"> 333335 answer</i></button>
+                                                <button type="button" class="q-type238"><i class="fa fa-comment"> 333335
+                                                        answer</i></button>
                                             </a>
                                             <a href="#">
                                                 <button type="button" class="q-type23 button-ques2973"> <i
-                                                        class="fa fa-user-circle-o" aria-hidden="true"> 70 view</i>
+                                                        class="fa fa-user-circle-o"> 70 view</i>
                                                 </button>
                                             </a>
                                         </div>
@@ -1140,8 +1137,8 @@
                                 <div class="row">
                                     <div class="col-md-1">
                                         <div class="left-user12923 left-user12923-repeat">
-                                            <a href="#"><img src="image/images.png" alt="image"> </a> <a
-                                                href="#"><i class="fa fa-check" aria-hidden="true"></i></a>
+                                            <a href="#"><img src="image/images.png" alt="test"> </a> <a
+                                                href="#"><i class="fa fa-check"></i></a>
                                         </div>
                                     </div>
                                     <div class="col-md-9">
@@ -1156,24 +1153,24 @@
                                                     scelerisque ut. Vivamus at elit quis urna adipiscing iaculis.</p>
                                             </div>
                                             <hr>
-                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star"
-                                                        aria-hidden="true"> 5 </i> </a> <a href="#"><i
-                                                        class="fa fa-folder" aria-hidden="true"> wordpress</i></a> <a
-                                                    href="#"><i class="fa fa-clock-o" aria-hidden="true"> 4 min
-                                                        ago</i></a> <a href="#"><i class="fa fa-question-circle-o"
-                                                        aria-hidden="true"> Question</i></a> <a href="#"><i
-                                                        class="fa fa-bug" aria-hidden="true"> Report</i></a> </div>
+                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star"> 5
+                                                    </i> </a> <a href="#"><i class="fa fa-folder"> wordpress</i></a>
+                                                <a href="#"><i class="fa fa-clock-o"> 4 min
+                                                        ago</i></a> <a href="#"><i class="fa fa-question-circle-o">
+                                                        Question</i></a> <a href="#"><i class="fa fa-bug">
+                                                        Report</i></a>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="col-md-2">
                                         <div class="ques-type302">
                                             <a href="#">
-                                                <button type="button" class="q-type238"><i class="fa fa-comment"
-                                                        aria-hidden="true"> 333335 answer</i></button>
+                                                <button type="button" class="q-type238"><i class="fa fa-comment"> 333335
+                                                        answer</i></button>
                                             </a>
                                             <a href="#">
                                                 <button type="button" class="q-type23 button-ques2973"> <i
-                                                        class="fa fa-user-circle-o" aria-hidden="true"> 70 view</i>
+                                                        class="fa fa-user-circle-o"> 70 view</i>
                                                 </button>
                                             </a>
                                         </div>
@@ -1184,8 +1181,8 @@
                                 <div class="row">
                                     <div class="col-md-1">
                                         <div class="left-user12923 left-user12923-repeat">
-                                            <a href="#"><img src="image/images.png" alt="image"> </a> <a
-                                                href="#"><i class="fa fa-check" aria-hidden="true"></i></a>
+                                            <a href="#"><img src="image/images.png" alt="test"> </a> <a
+                                                href="#"><i class="fa fa-check"></i></a>
                                         </div>
                                     </div>
                                     <div class="col-md-9">
@@ -1200,24 +1197,24 @@
                                                     scelerisque ut. Vivamus at elit quis urna adipiscing iaculis.</p>
                                             </div>
                                             <hr>
-                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star"
-                                                        aria-hidden="true"> 5 </i> </a> <a href="#"><i
-                                                        class="fa fa-folder" aria-hidden="true"> wordpress</i></a> <a
-                                                    href="#"><i class="fa fa-clock-o" aria-hidden="true"> 4 min
-                                                        ago</i></a> <a href="#"><i class="fa fa-question-circle-o"
-                                                        aria-hidden="true"> Question</i></a> <a href="#"><i
-                                                        class="fa fa-bug" aria-hidden="true"> Report</i></a> </div>
+                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star"> 5
+                                                    </i> </a> <a href="#"><i class="fa fa-folder"> wordpress</i></a>
+                                                <a href="#"><i class="fa fa-clock-o"> 4 min
+                                                        ago</i></a> <a href="#"><i class="fa fa-question-circle-o">
+                                                        Question</i></a> <a href="#"><i class="fa fa-bug">
+                                                        Report</i></a>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="col-md-2">
                                         <div class="ques-type302">
                                             <a href="#">
-                                                <button type="button" class="q-type238"><i class="fa fa-comment"
-                                                        aria-hidden="true"> 333335 answer</i></button>
+                                                <button type="button" class="q-type238"><i class="fa fa-comment"> 333335
+                                                        answer</i></button>
                                             </a>
                                             <a href="#">
                                                 <button type="button" class="q-type23 button-ques2973"> <i
-                                                        class="fa fa-user-circle-o" aria-hidden="true"> 70 view</i>
+                                                        class="fa fa-user-circle-o"> 70 view</i>
                                                 </button>
                                             </a>
                                         </div>
@@ -1228,8 +1225,8 @@
                                 <div class="row">
                                     <div class="col-md-1">
                                         <div class="left-user12923 left-user12923-repeat">
-                                            <a href="#"><img src="image/images.png" alt="image"> </a> <a
-                                                href="#"><i class="fa fa-check" aria-hidden="true"></i></a>
+                                            <a href="#"><img src="image/images.png" alt="test"> </a> <a
+                                                href="#"><i class="fa fa-check"></i></a>
                                         </div>
                                     </div>
                                     <div class="col-md-9">
@@ -1244,24 +1241,24 @@
                                                     scelerisque ut. Vivamus at elit quis urna adipiscing iaculis.</p>
                                             </div>
                                             <hr>
-                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star"
-                                                        aria-hidden="true"> 5 </i> </a> <a href="#"><i
-                                                        class="fa fa-folder" aria-hidden="true"> wordpress</i></a> <a
-                                                    href="#"><i class="fa fa-clock-o" aria-hidden="true"> 4 min
-                                                        ago</i></a> <a href="#"><i class="fa fa-question-circle-o"
-                                                        aria-hidden="true"> Question</i></a> <a href="#"><i
-                                                        class="fa fa-bug" aria-hidden="true"> Report</i></a> </div>
+                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star">
+                                                        5 </i> </a> <a href="#"><i class="fa fa-folder">
+                                                        wordpress</i></a> <a href="#"><i class="fa fa-clock-o"> 4
+                                                        min
+                                                        ago</i></a> <a href="#"><i
+                                                        class="fa fa-question-circle-o"> Question</i></a> <a
+                                                    href="#"><i class="fa fa-bug"> Report</i></a> </div>
                                         </div>
                                     </div>
                                     <div class="col-md-2">
                                         <div class="ques-type302">
                                             <a href="#">
-                                                <button type="button" class="q-type238"><i class="fa fa-comment"
-                                                        aria-hidden="true"> 333335 answer</i></button>
+                                                <button type="button" class="q-type238"><i class="fa fa-comment">
+                                                        333335 answer</i></button>
                                             </a>
                                             <a href="#">
                                                 <button type="button" class="q-type23 button-ques2973"> <i
-                                                        class="fa fa-user-circle-o" aria-hidden="true"> 70 view</i>
+                                                        class="fa fa-user-circle-o"> 70 view</i>
                                                 </button>
                                             </a>
                                         </div>
@@ -1272,8 +1269,8 @@
                                 <div class="row">
                                     <div class="col-md-1">
                                         <div class="left-user12923 left-user12923-repeat">
-                                            <a href="#"><img src="image/images.png" alt="image"> </a> <a
-                                                href="#"><i class="fa fa-check" aria-hidden="true"></i></a>
+                                            <a href="#"><img src="image/images.png" alt="test"> </a> <a
+                                                href="#"><i class="fa fa-check"></i></a>
                                         </div>
                                     </div>
                                     <div class="col-md-9">
@@ -1288,24 +1285,24 @@
                                                     scelerisque ut. Vivamus at elit quis urna adipiscing iaculis.</p>
                                             </div>
                                             <hr>
-                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star"
-                                                        aria-hidden="true"> 5 </i> </a> <a href="#"><i
-                                                        class="fa fa-folder" aria-hidden="true"> wordpress</i></a> <a
-                                                    href="#"><i class="fa fa-clock-o" aria-hidden="true"> 4 min
-                                                        ago</i></a> <a href="#"><i class="fa fa-question-circle-o"
-                                                        aria-hidden="true"> Question</i></a> <a href="#"><i
-                                                        class="fa fa-bug" aria-hidden="true"> Report</i></a> </div>
+                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star">
+                                                        5 </i> </a> <a href="#"><i class="fa fa-folder">
+                                                        wordpress</i></a> <a href="#"><i class="fa fa-clock-o"> 4
+                                                        min
+                                                        ago</i></a> <a href="#"><i
+                                                        class="fa fa-question-circle-o"> Question</i></a> <a
+                                                    href="#"><i class="fa fa-bug"> Report</i></a> </div>
                                         </div>
                                     </div>
                                     <div class="col-md-2">
                                         <div class="ques-type302">
                                             <a href="#">
-                                                <button type="button" class="q-type238"><i class="fa fa-comment"
-                                                        aria-hidden="true"> 333335 answer</i></button>
+                                                <button type="button" class="q-type238"><i class="fa fa-comment">
+                                                        333335 answer</i></button>
                                             </a>
                                             <a href="#">
                                                 <button type="button" class="q-type23 button-ques2973"> <i
-                                                        class="fa fa-user-circle-o" aria-hidden="true"> 70 view</i>
+                                                        class="fa fa-user-circle-o"> 70 view</i>
                                                 </button>
                                             </a>
                                         </div>
@@ -1316,7 +1313,7 @@
                                 <ul class="pagination">
                                     <li>
                                         <a href="#" aria-label="Previous">
-                                            <span aria-hidden="true">&laquo;</span>
+                                            <span>&laquo;</span>
                                         </a>
                                     </li>
                                     <li><a href="#">1</a></li>
@@ -1326,7 +1323,7 @@
                                     <li><a href="#">5</a></li>
                                     <li>
                                         <a href="#" aria-label="Next">
-                                            <span aria-hidden="true">&raquo;</span>
+                                            <span>&raquo;</span>
                                         </a>
                                     </li>
                                 </ul>
@@ -1339,8 +1336,8 @@
                                 <div class="row">
                                     <div class="col-md-1">
                                         <div class="left-user12923 left-user12923-repeat">
-                                            <a href="#"><img src="image/images.png" alt="image"> </a> <a
-                                                href="#"><i class="fa fa-check" aria-hidden="true"></i></a>
+                                            <a href="#"><img src="image/images.png" alt="test"> </a> <a
+                                                href="#"><i class="fa fa-check"></i></a>
                                         </div>
                                     </div>
                                     <div class="col-md-9">
@@ -1356,26 +1353,25 @@
                                             </div>
                                             <hr>
                                             <div class="ques-icon-info3293"> <a href="#"><i
-                                                        class="fa fa-check check-color329" aria-hidden="true">
-                                                        solved</i></a> <a href="#"><i class="fa fa-star"
-                                                        aria-hidden="true"> 5</i> </a> <a href="#"><i
-                                                        class="fa fa-folder" aria-hidden="true"> wordpress</i></a> <a
-                                                    href="#"><i class="fa fa-clock-o" aria-hidden="true"> 4 min
-                                                        ago</i></a> <a href="#"><i class="fa fa-comment"
-                                                        aria-hidden="true"> 5 answer</i></a> <a href="#"><i
-                                                        class="fa fa-user-circle-o" aria-hidden="true"> 70 view</i> </a>
+                                                        class="fa fa-check check-color329">
+                                                        solved</i></a> <a href="#"><i class="fa fa-star"> 5</i>
+                                                </a> <a href="#"><i class="fa fa-folder"> wordpress</i></a> <a
+                                                    href="#"><i class="fa fa-clock-o"> 4 min
+                                                        ago</i></a> <a href="#"><i class="fa fa-comment"> 5
+                                                        answer</i></a> <a href="#"><i class="fa fa-user-circle-o">
+                                                        70 view</i> </a>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-md-2">
                                         <div class="ques-type302">
                                             <a href="#">
-                                                <button type="button" class="q-type238"><i class="fa fa-comment"
-                                                        aria-hidden="true"> 333335 answer</i></button>
+                                                <button type="button" class="q-type238"><i class="fa fa-comment">
+                                                        333335 answer</i></button>
                                             </a>
                                             <a href="#">
                                                 <button type="button" class="q-type23 button-ques2973"> <i
-                                                        class="fa fa-user-circle-o" aria-hidden="true"> 70 view</i>
+                                                        class="fa fa-user-circle-o"> 70 view</i>
                                                 </button>
                                             </a>
                                         </div>
@@ -1386,8 +1382,8 @@
                                 <div class="row">
                                     <div class="col-md-1">
                                         <div class="left-user12923 left-user12923-repeat">
-                                            <a href="#"><img src="image/images.png" alt="image"> </a> <a
-                                                href="#"><i class="fa fa-check" aria-hidden="true"></i></a>
+                                            <a href="#"><img src="image/images.png" alt="test"> </a> <a
+                                                href="#"><i class="fa fa-check"></i></a>
                                         </div>
                                     </div>
                                     <div class="col-md-9">
@@ -1402,24 +1398,24 @@
                                                     scelerisque ut. Vivamus at elit quis urna adipiscing iaculis.</p>
                                             </div>
                                             <hr>
-                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star"
-                                                        aria-hidden="true"> 5 </i> </a> <a href="#"><i
-                                                        class="fa fa-folder" aria-hidden="true"> wordpress</i></a> <a
-                                                    href="#"><i class="fa fa-clock-o" aria-hidden="true"> 4 min
-                                                        ago</i></a> <a href="#"><i class="fa fa-question-circle-o"
-                                                        aria-hidden="true"> Question</i></a> <a href="#"><i
-                                                        class="fa fa-bug" aria-hidden="true"> Report</i></a> </div>
+                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star">
+                                                        5 </i> </a> <a href="#"><i class="fa fa-folder">
+                                                        wordpress</i></a> <a href="#"><i class="fa fa-clock-o"> 4
+                                                        min
+                                                        ago</i></a> <a href="#"><i
+                                                        class="fa fa-question-circle-o"> Question</i></a> <a
+                                                    href="#"><i class="fa fa-bug"> Report</i></a> </div>
                                         </div>
                                     </div>
                                     <div class="col-md-2">
                                         <div class="ques-type302">
                                             <a href="#">
-                                                <button type="button" class="q-type238"><i class="fa fa-comment"
-                                                        aria-hidden="true"> 333335 answer</i></button>
+                                                <button type="button" class="q-type238"><i class="fa fa-comment">
+                                                        333335 answer</i></button>
                                             </a>
                                             <a href="#">
                                                 <button type="button" class="q-type23 button-ques2973"> <i
-                                                        class="fa fa-user-circle-o" aria-hidden="true"> 70 view</i>
+                                                        class="fa fa-user-circle-o"> 70 view</i>
                                                 </button>
                                             </a>
                                         </div>
@@ -1430,8 +1426,8 @@
                                 <div class="row">
                                     <div class="col-md-1">
                                         <div class="left-user12923 left-user12923-repeat">
-                                            <a href="#"><img src="image/images.png" alt="image"> </a> <a
-                                                href="#"><i class="fa fa-check" aria-hidden="true"></i></a>
+                                            <a href="#"><img src="image/images.png" alt="test"> </a> <a
+                                                href="#"><i class="fa fa-check"></i></a>
                                         </div>
                                     </div>
                                     <div class="col-md-9">
@@ -1446,24 +1442,24 @@
                                                     scelerisque ut. Vivamus at elit quis urna adipiscing iaculis.</p>
                                             </div>
                                             <hr>
-                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star"
-                                                        aria-hidden="true"> 5 </i> </a> <a href="#"><i
-                                                        class="fa fa-folder" aria-hidden="true"> wordpress</i></a> <a
-                                                    href="#"><i class="fa fa-clock-o" aria-hidden="true"> 4 min
-                                                        ago</i></a> <a href="#"><i class="fa fa-question-circle-o"
-                                                        aria-hidden="true"> Question</i></a> <a href="#"><i
-                                                        class="fa fa-bug" aria-hidden="true"> Report</i></a> </div>
+                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star">
+                                                        5 </i> </a> <a href="#"><i class="fa fa-folder">
+                                                        wordpress</i></a> <a href="#"><i class="fa fa-clock-o"> 4
+                                                        min
+                                                        ago</i></a> <a href="#"><i
+                                                        class="fa fa-question-circle-o"> Question</i></a> <a
+                                                    href="#"><i class="fa fa-bug"> Report</i></a> </div>
                                         </div>
                                     </div>
                                     <div class="col-md-2">
                                         <div class="ques-type302">
                                             <a href="#">
-                                                <button type="button" class="q-type238"><i class="fa fa-comment"
-                                                        aria-hidden="true"> 333335 answer</i></button>
+                                                <button type="button" class="q-type238"><i class="fa fa-comment">
+                                                        333335 answer</i></button>
                                             </a>
                                             <a href="#">
                                                 <button type="button" class="q-type23 button-ques2973"> <i
-                                                        class="fa fa-user-circle-o" aria-hidden="true"> 70 view</i>
+                                                        class="fa fa-user-circle-o"> 70 view</i>
                                                 </button>
                                             </a>
                                         </div>
@@ -1474,8 +1470,8 @@
                                 <div class="row">
                                     <div class="col-md-1">
                                         <div class="left-user12923 left-user12923-repeat">
-                                            <a href="#"><img src="image/images.png" alt="image"> </a> <a
-                                                href="#"><i class="fa fa-check" aria-hidden="true"></i></a>
+                                            <a href="#"><img src="image/images.png" alt="test"> </a> <a
+                                                href="#"><i class="fa fa-check"></i></a>
                                         </div>
                                     </div>
                                     <div class="col-md-9">
@@ -1490,24 +1486,24 @@
                                                     scelerisque ut. Vivamus at elit quis urna adipiscing iaculis.</p>
                                             </div>
                                             <hr>
-                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star"
-                                                        aria-hidden="true"> 5 </i> </a> <a href="#"><i
-                                                        class="fa fa-folder" aria-hidden="true"> wordpress</i></a> <a
-                                                    href="#"><i class="fa fa-clock-o" aria-hidden="true"> 4 min
-                                                        ago</i></a> <a href="#"><i class="fa fa-question-circle-o"
-                                                        aria-hidden="true"> Question</i></a> <a href="#"><i
-                                                        class="fa fa-bug" aria-hidden="true"> Report</i></a> </div>
+                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star">
+                                                        5 </i> </a> <a href="#"><i class="fa fa-folder">
+                                                        wordpress</i></a> <a href="#"><i class="fa fa-clock-o"> 4
+                                                        min
+                                                        ago</i></a> <a href="#"><i
+                                                        class="fa fa-question-circle-o"> Question</i></a> <a
+                                                    href="#"><i class="fa fa-bug"> Report</i></a> </div>
                                         </div>
                                     </div>
                                     <div class="col-md-2">
                                         <div class="ques-type302">
                                             <a href="#">
-                                                <button type="button" class="q-type238"><i class="fa fa-comment"
-                                                        aria-hidden="true"> 333335 answer</i></button>
+                                                <button type="button" class="q-type238"><i class="fa fa-comment">
+                                                        333335 answer</i></button>
                                             </a>
                                             <a href="#">
                                                 <button type="button" class="q-type23 button-ques2973"> <i
-                                                        class="fa fa-user-circle-o" aria-hidden="true"> 70 view</i>
+                                                        class="fa fa-user-circle-o"> 70 view</i>
                                                 </button>
                                             </a>
                                         </div>
@@ -1518,8 +1514,8 @@
                                 <div class="row">
                                     <div class="col-md-1">
                                         <div class="left-user12923 left-user12923-repeat">
-                                            <a href="#"><img src="image/images.png" alt="image"> </a> <a
-                                                href="#"><i class="fa fa-check" aria-hidden="true"></i></a>
+                                            <a href="#"><img src="image/images.png" alt="test"> </a> <a
+                                                href="#"><i class="fa fa-check"></i></a>
                                         </div>
                                     </div>
                                     <div class="col-md-9">
@@ -1534,24 +1530,24 @@
                                                     scelerisque ut. Vivamus at elit quis urna adipiscing iaculis.</p>
                                             </div>
                                             <hr>
-                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star"
-                                                        aria-hidden="true"> 5 </i> </a> <a href="#"><i
-                                                        class="fa fa-folder" aria-hidden="true"> wordpress</i></a> <a
-                                                    href="#"><i class="fa fa-clock-o" aria-hidden="true"> 4 min
-                                                        ago</i></a> <a href="#"><i class="fa fa-question-circle-o"
-                                                        aria-hidden="true"> Question</i></a> <a href="#"><i
-                                                        class="fa fa-bug" aria-hidden="true"> Report</i></a> </div>
+                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star">
+                                                        5 </i> </a> <a href="#"><i class="fa fa-folder">
+                                                        wordpress</i></a> <a href="#"><i class="fa fa-clock-o"> 4
+                                                        min
+                                                        ago</i></a> <a href="#"><i
+                                                        class="fa fa-question-circle-o"> Question</i></a> <a
+                                                    href="#"><i class="fa fa-bug"> Report</i></a> </div>
                                         </div>
                                     </div>
                                     <div class="col-md-2">
                                         <div class="ques-type302">
                                             <a href="#">
-                                                <button type="button" class="q-type238"><i class="fa fa-comment"
-                                                        aria-hidden="true"> 333335 answer</i></button>
+                                                <button type="button" class="q-type238"><i class="fa fa-comment">
+                                                        333335 answer</i></button>
                                             </a>
                                             <a href="#">
                                                 <button type="button" class="q-type23 button-ques2973"> <i
-                                                        class="fa fa-user-circle-o" aria-hidden="true"> 70 view</i>
+                                                        class="fa fa-user-circle-o"> 70 view</i>
                                                 </button>
                                             </a>
                                         </div>
@@ -1562,8 +1558,8 @@
                                 <div class="row">
                                     <div class="col-md-1">
                                         <div class="left-user12923 left-user12923-repeat">
-                                            <a href="#"><img src="image/images.png" alt="image"> </a> <a
-                                                href="#"><i class="fa fa-check" aria-hidden="true"></i></a>
+                                            <a href="#"><img src="image/images.png" alt="test"> </a> <a
+                                                href="#"><i class="fa fa-check"></i></a>
                                         </div>
                                     </div>
                                     <div class="col-md-9">
@@ -1578,24 +1574,24 @@
                                                     scelerisque ut. Vivamus at elit quis urna adipiscing iaculis.</p>
                                             </div>
                                             <hr>
-                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star"
-                                                        aria-hidden="true"> 5 </i> </a> <a href="#"><i
-                                                        class="fa fa-folder" aria-hidden="true"> wordpress</i></a> <a
-                                                    href="#"><i class="fa fa-clock-o" aria-hidden="true"> 4 min
-                                                        ago</i></a> <a href="#"><i class="fa fa-question-circle-o"
-                                                        aria-hidden="true"> Question</i></a> <a href="#"><i
-                                                        class="fa fa-bug" aria-hidden="true"> Report</i></a> </div>
+                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star">
+                                                        5 </i> </a> <a href="#"><i class="fa fa-folder">
+                                                        wordpress</i></a> <a href="#"><i class="fa fa-clock-o"> 4
+                                                        min
+                                                        ago</i></a> <a href="#"><i
+                                                        class="fa fa-question-circle-o"> Question</i></a> <a
+                                                    href="#"><i class="fa fa-bug"> Report</i></a> </div>
                                         </div>
                                     </div>
                                     <div class="col-md-2">
                                         <div class="ques-type302">
                                             <a href="#">
-                                                <button type="button" class="q-type238"><i class="fa fa-comment"
-                                                        aria-hidden="true"> 333335 answer</i></button>
+                                                <button type="button" class="q-type238"><i class="fa fa-comment">
+                                                        333335 answer</i></button>
                                             </a>
                                             <a href="#">
                                                 <button type="button" class="q-type23 button-ques2973"> <i
-                                                        class="fa fa-user-circle-o" aria-hidden="true"> 70 view</i>
+                                                        class="fa fa-user-circle-o"> 70 view</i>
                                                 </button>
                                             </a>
                                         </div>
@@ -1606,8 +1602,8 @@
                                 <div class="row">
                                     <div class="col-md-1">
                                         <div class="left-user12923 left-user12923-repeat">
-                                            <a href="#"><img src="image/images.png" alt="image"> </a> <a
-                                                href="#"><i class="fa fa-check" aria-hidden="true"></i></a>
+                                            <a href="#"><img src="image/images.png" alt="test"> </a> <a
+                                                href="#"><i class="fa fa-check"></i></a>
                                         </div>
                                     </div>
                                     <div class="col-md-9">
@@ -1622,24 +1618,24 @@
                                                     scelerisque ut. Vivamus at elit quis urna adipiscing iaculis.</p>
                                             </div>
                                             <hr>
-                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star"
-                                                        aria-hidden="true"> 5 </i> </a> <a href="#"><i
-                                                        class="fa fa-folder" aria-hidden="true"> wordpress</i></a> <a
-                                                    href="#"><i class="fa fa-clock-o" aria-hidden="true"> 4 min
-                                                        ago</i></a> <a href="#"><i class="fa fa-question-circle-o"
-                                                        aria-hidden="true"> Question</i></a> <a href="#"><i
-                                                        class="fa fa-bug" aria-hidden="true"> Report</i></a> </div>
+                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star">
+                                                        5 </i> </a> <a href="#"><i class="fa fa-folder">
+                                                        wordpress</i></a> <a href="#"><i class="fa fa-clock-o"> 4
+                                                        min
+                                                        ago</i></a> <a href="#"><i
+                                                        class="fa fa-question-circle-o"> Question</i></a> <a
+                                                    href="#"><i class="fa fa-bug"> Report</i></a> </div>
                                         </div>
                                     </div>
                                     <div class="col-md-2">
                                         <div class="ques-type302">
                                             <a href="#">
-                                                <button type="button" class="q-type238"><i class="fa fa-comment"
-                                                        aria-hidden="true"> 333335 answer</i></button>
+                                                <button type="button" class="q-type238"><i class="fa fa-comment">
+                                                        333335 answer</i></button>
                                             </a>
                                             <a href="#">
                                                 <button type="button" class="q-type23 button-ques2973"> <i
-                                                        class="fa fa-user-circle-o" aria-hidden="true"> 70 view</i>
+                                                        class="fa fa-user-circle-o"> 70 view</i>
                                                 </button>
                                             </a>
                                         </div>
@@ -1650,8 +1646,8 @@
                                 <div class="row">
                                     <div class="col-md-1">
                                         <div class="left-user12923 left-user12923-repeat">
-                                            <a href="#"><img src="image/images.png" alt="image"> </a> <a
-                                                href="#"><i class="fa fa-check" aria-hidden="true"></i></a>
+                                            <a href="#"><img src="image/images.png" alt="test"> </a> <a
+                                                href="#"><i class="fa fa-check"></i></a>
                                         </div>
                                     </div>
                                     <div class="col-md-9">
@@ -1666,24 +1662,24 @@
                                                     scelerisque ut. Vivamus at elit quis urna adipiscing iaculis.</p>
                                             </div>
                                             <hr>
-                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star"
-                                                        aria-hidden="true"> 5 </i> </a> <a href="#"><i
-                                                        class="fa fa-folder" aria-hidden="true"> wordpress</i></a> <a
-                                                    href="#"><i class="fa fa-clock-o" aria-hidden="true"> 4 min
-                                                        ago</i></a> <a href="#"><i class="fa fa-question-circle-o"
-                                                        aria-hidden="true"> Question</i></a> <a href="#"><i
-                                                        class="fa fa-bug" aria-hidden="true"> Report</i></a> </div>
+                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star">
+                                                        5 </i> </a> <a href="#"><i class="fa fa-folder">
+                                                        wordpress</i></a> <a href="#"><i class="fa fa-clock-o"> 4
+                                                        min
+                                                        ago</i></a> <a href="#"><i
+                                                        class="fa fa-question-circle-o"> Question</i></a> <a
+                                                    href="#"><i class="fa fa-bug"> Report</i></a> </div>
                                         </div>
                                     </div>
                                     <div class="col-md-2">
                                         <div class="ques-type302">
                                             <a href="#">
-                                                <button type="button" class="q-type238"><i class="fa fa-comment"
-                                                        aria-hidden="true"> 333335 answer</i></button>
+                                                <button type="button" class="q-type238"><i class="fa fa-comment">
+                                                        333335 answer</i></button>
                                             </a>
                                             <a href="#">
                                                 <button type="button" class="q-type23 button-ques2973"> <i
-                                                        class="fa fa-user-circle-o" aria-hidden="true"> 70 view</i>
+                                                        class="fa fa-user-circle-o"> 70 view</i>
                                                 </button>
                                             </a>
                                         </div>
@@ -1694,8 +1690,8 @@
                                 <div class="row">
                                     <div class="col-md-1">
                                         <div class="left-user12923 left-user12923-repeat">
-                                            <a href="#"><img src="image/images.png" alt="image"> </a> <a
-                                                href="#"><i class="fa fa-check" aria-hidden="true"></i></a>
+                                            <a href="#"><img src="image/images.png" alt="test"> </a> <a
+                                                href="#"><i class="fa fa-check"></i></a>
                                         </div>
                                     </div>
                                     <div class="col-md-9">
@@ -1710,24 +1706,24 @@
                                                     scelerisque ut. Vivamus at elit quis urna adipiscing iaculis.</p>
                                             </div>
                                             <hr>
-                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star"
-                                                        aria-hidden="true"> 5 </i> </a> <a href="#"><i
-                                                        class="fa fa-folder" aria-hidden="true"> wordpress</i></a> <a
-                                                    href="#"><i class="fa fa-clock-o" aria-hidden="true"> 4 min
-                                                        ago</i></a> <a href="#"><i class="fa fa-question-circle-o"
-                                                        aria-hidden="true"> Question</i></a> <a href="#"><i
-                                                        class="fa fa-bug" aria-hidden="true"> Report</i></a> </div>
+                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star">
+                                                        5 </i> </a> <a href="#"><i class="fa fa-folder">
+                                                        wordpress</i></a> <a href="#"><i class="fa fa-clock-o"> 4
+                                                        min
+                                                        ago</i></a> <a href="#"><i
+                                                        class="fa fa-question-circle-o"> Question</i></a> <a
+                                                    href="#"><i class="fa fa-bug"> Report</i></a> </div>
                                         </div>
                                     </div>
                                     <div class="col-md-2">
                                         <div class="ques-type302">
                                             <a href="#">
-                                                <button type="button" class="q-type238"><i class="fa fa-comment"
-                                                        aria-hidden="true"> 333335 answer</i></button>
+                                                <button type="button" class="q-type238"><i class="fa fa-comment">
+                                                        333335 answer</i></button>
                                             </a>
                                             <a href="#">
                                                 <button type="button" class="q-type23 button-ques2973"> <i
-                                                        class="fa fa-user-circle-o" aria-hidden="true"> 70 view</i>
+                                                        class="fa fa-user-circle-o"> 70 view</i>
                                                 </button>
                                             </a>
                                         </div>
@@ -1739,7 +1735,7 @@
                                 <ul class="pagination">
                                     <li>
                                         <a href="#" aria-label="Previous">
-                                            <span aria-hidden="true">&laquo;</span>
+                                            <span>&laquo;</span>
                                         </a>
                                     </li>
                                     <li><a href="#">1</a></li>
@@ -1749,7 +1745,7 @@
                                     <li><a href="#">5</a></li>
                                     <li>
                                         <a href="#" aria-label="Next">
-                                            <span aria-hidden="true">&raquo;</span>
+                                            <span>&raquo;</span>
                                         </a>
                                     </li>
                                 </ul>
@@ -1761,8 +1757,8 @@
                                 <div class="row">
                                     <div class="col-md-1">
                                         <div class="left-user12923 left-user12923-repeat">
-                                            <a href="#"><img src="image/images.png" alt="image"> </a> <a
-                                                href="#"><i class="fa fa-check" aria-hidden="true"></i></a>
+                                            <a href="#"><img src="image/images.png" alt="test"> </a> <a
+                                                href="#"><i class="fa fa-check"></i></a>
                                         </div>
                                     </div>
                                     <div class="col-md-9">
@@ -1777,24 +1773,24 @@
                                                     scelerisque ut. Vivamus at elit quis urna adipiscing iaculis.</p>
                                             </div>
                                             <hr>
-                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star"
-                                                        aria-hidden="true"> 5 </i> </a> <a href="#"><i
-                                                        class="fa fa-folder" aria-hidden="true"> wordpress</i></a> <a
-                                                    href="#"><i class="fa fa-clock-o" aria-hidden="true"> 4 min
-                                                        ago</i></a> <a href="#"><i class="fa fa-question-circle-o"
-                                                        aria-hidden="true"> Question</i></a> <a href="#"><i
-                                                        class="fa fa-bug" aria-hidden="true"> Report</i></a> </div>
+                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star">
+                                                        5 </i> </a> <a href="#"><i class="fa fa-folder">
+                                                        wordpress</i></a> <a href="#"><i class="fa fa-clock-o"> 4
+                                                        min
+                                                        ago</i></a> <a href="#"><i
+                                                        class="fa fa-question-circle-o"> Question</i></a> <a
+                                                    href="#"><i class="fa fa-bug"> Report</i></a> </div>
                                         </div>
                                     </div>
                                     <div class="col-md-2">
                                         <div class="ques-type302">
                                             <a href="#">
-                                                <button type="button" class="q-type238"><i class="fa fa-comment"
-                                                        aria-hidden="true"> 333335 answer</i></button>
+                                                <button type="button" class="q-type238"><i class="fa fa-comment">
+                                                        333335 answer</i></button>
                                             </a>
                                             <a href="#">
                                                 <button type="button" class="q-type23 button-ques2973"> <i
-                                                        class="fa fa-user-circle-o" aria-hidden="true"> 70 view</i>
+                                                        class="fa fa-user-circle-o"> 70 view</i>
                                                 </button>
                                             </a>
                                         </div>
@@ -1805,8 +1801,8 @@
                                 <div class="row">
                                     <div class="col-md-1">
                                         <div class="left-user12923 left-user12923-repeat">
-                                            <a href="#"><img src="image/images.png" alt="image"> </a> <a
-                                                href="#"><i class="fa fa-check" aria-hidden="true"></i></a>
+                                            <a href="#"><img src="image/images.png" alt="test"> </a> <a
+                                                href="#"><i class="fa fa-check"></i></a>
                                         </div>
                                     </div>
                                     <div class="col-md-9">
@@ -1821,24 +1817,24 @@
                                                     scelerisque ut. Vivamus at elit quis urna adipiscing iaculis.</p>
                                             </div>
                                             <hr>
-                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star"
-                                                        aria-hidden="true"> 5 </i> </a> <a href="#"><i
-                                                        class="fa fa-folder" aria-hidden="true"> wordpress</i></a> <a
-                                                    href="#"><i class="fa fa-clock-o" aria-hidden="true"> 4 min
-                                                        ago</i></a> <a href="#"><i class="fa fa-question-circle-o"
-                                                        aria-hidden="true"> Question</i></a> <a href="#"><i
-                                                        class="fa fa-bug" aria-hidden="true"> Report</i></a> </div>
+                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star">
+                                                        5 </i> </a> <a href="#"><i class="fa fa-folder">
+                                                        wordpress</i></a> <a href="#"><i class="fa fa-clock-o"> 4
+                                                        min
+                                                        ago</i></a> <a href="#"><i
+                                                        class="fa fa-question-circle-o"> Question</i></a> <a
+                                                    href="#"><i class="fa fa-bug"> Report</i></a> </div>
                                         </div>
                                     </div>
                                     <div class="col-md-2">
                                         <div class="ques-type302">
                                             <a href="#">
-                                                <button type="button" class="q-type238"><i class="fa fa-comment"
-                                                        aria-hidden="true"> 333335 answer</i></button>
+                                                <button type="button" class="q-type238"><i class="fa fa-comment">
+                                                        333335 answer</i></button>
                                             </a>
                                             <a href="#">
                                                 <button type="button" class="q-type23 button-ques2973"> <i
-                                                        class="fa fa-user-circle-o" aria-hidden="true"> 70 view</i>
+                                                        class="fa fa-user-circle-o"> 70 view</i>
                                                 </button>
                                             </a>
                                         </div>
@@ -1849,8 +1845,8 @@
                                 <div class="row">
                                     <div class="col-md-1">
                                         <div class="left-user12923 left-user12923-repeat">
-                                            <a href="#"><img src="image/images.png" alt="image"> </a> <a
-                                                href="#"><i class="fa fa-check" aria-hidden="true"></i></a>
+                                            <a href="#"><img src="image/images.png" alt="test"> </a> <a
+                                                href="#"><i class="fa fa-check"></i></a>
                                         </div>
                                     </div>
                                     <div class="col-md-9">
@@ -1865,24 +1861,24 @@
                                                     scelerisque ut. Vivamus at elit quis urna adipiscing iaculis.</p>
                                             </div>
                                             <hr>
-                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star"
-                                                        aria-hidden="true"> 5 </i> </a> <a href="#"><i
-                                                        class="fa fa-folder" aria-hidden="true"> wordpress</i></a> <a
-                                                    href="#"><i class="fa fa-clock-o" aria-hidden="true"> 4 min
-                                                        ago</i></a> <a href="#"><i class="fa fa-question-circle-o"
-                                                        aria-hidden="true"> Question</i></a> <a href="#"><i
-                                                        class="fa fa-bug" aria-hidden="true"> Report</i></a> </div>
+                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star">
+                                                        5 </i> </a> <a href="#"><i class="fa fa-folder">
+                                                        wordpress</i></a> <a href="#"><i class="fa fa-clock-o"> 4
+                                                        min
+                                                        ago</i></a> <a href="#"><i
+                                                        class="fa fa-question-circle-o"> Question</i></a> <a
+                                                    href="#"><i class="fa fa-bug"> Report</i></a> </div>
                                         </div>
                                     </div>
                                     <div class="col-md-2">
                                         <div class="ques-type302">
                                             <a href="#">
-                                                <button type="button" class="q-type238"><i class="fa fa-comment"
-                                                        aria-hidden="true"> 333335 answer</i></button>
+                                                <button type="button" class="q-type238"><i class="fa fa-comment">
+                                                        333335 answer</i></button>
                                             </a>
                                             <a href="#">
                                                 <button type="button" class="q-type23 button-ques2973"> <i
-                                                        class="fa fa-user-circle-o" aria-hidden="true"> 70 view</i>
+                                                        class="fa fa-user-circle-o"> 70 view</i>
                                                 </button>
                                             </a>
                                         </div>
@@ -1893,8 +1889,8 @@
                                 <div class="row">
                                     <div class="col-md-1">
                                         <div class="left-user12923 left-user12923-repeat">
-                                            <a href="#"><img src="image/images.png" alt="image"> </a> <a
-                                                href="#"><i class="fa fa-check" aria-hidden="true"></i></a>
+                                            <a href="#"><img src="image/images.png" alt="test"> </a> <a
+                                                href="#"><i class="fa fa-check"></i></a>
                                         </div>
                                     </div>
                                     <div class="col-md-9">
@@ -1909,24 +1905,24 @@
                                                     scelerisque ut. Vivamus at elit quis urna adipiscing iaculis.</p>
                                             </div>
                                             <hr>
-                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star"
-                                                        aria-hidden="true"> 5 </i> </a> <a href="#"><i
-                                                        class="fa fa-folder" aria-hidden="true"> wordpress</i></a> <a
-                                                    href="#"><i class="fa fa-clock-o" aria-hidden="true"> 4 min
-                                                        ago</i></a> <a href="#"><i class="fa fa-question-circle-o"
-                                                        aria-hidden="true"> Question</i></a> <a href="#"><i
-                                                        class="fa fa-bug" aria-hidden="true"> Report</i></a> </div>
+                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star">
+                                                        5 </i> </a> <a href="#"><i class="fa fa-folder">
+                                                        wordpress</i></a> <a href="#"><i class="fa fa-clock-o"> 4
+                                                        min
+                                                        ago</i></a> <a href="#"><i
+                                                        class="fa fa-question-circle-o"> Question</i></a> <a
+                                                    href="#"><i class="fa fa-bug"> Report</i></a> </div>
                                         </div>
                                     </div>
                                     <div class="col-md-2">
                                         <div class="ques-type302">
                                             <a href="#">
-                                                <button type="button" class="q-type238"><i class="fa fa-comment"
-                                                        aria-hidden="true"> 333335 answer</i></button>
+                                                <button type="button" class="q-type238"><i class="fa fa-comment">
+                                                        333335 answer</i></button>
                                             </a>
                                             <a href="#">
                                                 <button type="button" class="q-type23 button-ques2973"> <i
-                                                        class="fa fa-user-circle-o" aria-hidden="true"> 70 view</i>
+                                                        class="fa fa-user-circle-o"> 70 view</i>
                                                 </button>
                                             </a>
                                         </div>
@@ -1937,8 +1933,8 @@
                                 <div class="row">
                                     <div class="col-md-1">
                                         <div class="left-user12923 left-user12923-repeat">
-                                            <a href="#"><img src="image/images.png" alt="image"> </a> <a
-                                                href="#"><i class="fa fa-check" aria-hidden="true"></i></a>
+                                            <a href="#"><img src="image/images.png" alt="test"> </a> <a
+                                                href="#"><i class="fa fa-check"></i></a>
                                         </div>
                                     </div>
                                     <div class="col-md-9">
@@ -1953,24 +1949,24 @@
                                                     scelerisque ut. Vivamus at elit quis urna adipiscing iaculis.</p>
                                             </div>
                                             <hr>
-                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star"
-                                                        aria-hidden="true"> 5 </i> </a> <a href="#"><i
-                                                        class="fa fa-folder" aria-hidden="true"> wordpress</i></a> <a
-                                                    href="#"><i class="fa fa-clock-o" aria-hidden="true"> 4 min
-                                                        ago</i></a> <a href="#"><i class="fa fa-question-circle-o"
-                                                        aria-hidden="true"> Question</i></a> <a href="#"><i
-                                                        class="fa fa-bug" aria-hidden="true"> Report</i></a> </div>
+                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star">
+                                                        5 </i> </a> <a href="#"><i class="fa fa-folder">
+                                                        wordpress</i></a> <a href="#"><i class="fa fa-clock-o"> 4
+                                                        min
+                                                        ago</i></a> <a href="#"><i
+                                                        class="fa fa-question-circle-o"> Question</i></a> <a
+                                                    href="#"><i class="fa fa-bug"> Report</i></a> </div>
                                         </div>
                                     </div>
                                     <div class="col-md-2">
                                         <div class="ques-type302">
                                             <a href="#">
-                                                <button type="button" class="q-type238"><i class="fa fa-comment"
-                                                        aria-hidden="true"> 333335 answer</i></button>
+                                                <button type="button" class="q-type238"><i class="fa fa-comment">
+                                                        333335 answer</i></button>
                                             </a>
                                             <a href="#">
                                                 <button type="button" class="q-type23 button-ques2973"> <i
-                                                        class="fa fa-user-circle-o" aria-hidden="true"> 70 view</i>
+                                                        class="fa fa-user-circle-o"> 70 view</i>
                                                 </button>
                                             </a>
                                         </div>
@@ -1981,8 +1977,8 @@
                                 <div class="row">
                                     <div class="col-md-1">
                                         <div class="left-user12923 left-user12923-repeat">
-                                            <a href="#"><img src="image/images.png" alt="image"> </a> <a
-                                                href="#"><i class="fa fa-check" aria-hidden="true"></i></a>
+                                            <a href="#"><img src="image/images.png" alt="test"> </a> <a
+                                                href="#"><i class="fa fa-check"></i></a>
                                         </div>
                                     </div>
                                     <div class="col-md-9">
@@ -1997,24 +1993,24 @@
                                                     scelerisque ut. Vivamus at elit quis urna adipiscing iaculis.</p>
                                             </div>
                                             <hr>
-                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star"
-                                                        aria-hidden="true"> 5 </i> </a> <a href="#"><i
-                                                        class="fa fa-folder" aria-hidden="true"> wordpress</i></a> <a
-                                                    href="#"><i class="fa fa-clock-o" aria-hidden="true"> 4 min
-                                                        ago</i></a> <a href="#"><i class="fa fa-question-circle-o"
-                                                        aria-hidden="true"> Question</i></a> <a href="#"><i
-                                                        class="fa fa-bug" aria-hidden="true"> Report</i></a> </div>
+                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star">
+                                                        5 </i> </a> <a href="#"><i class="fa fa-folder">
+                                                        wordpress</i></a> <a href="#"><i class="fa fa-clock-o"> 4
+                                                        min
+                                                        ago</i></a> <a href="#"><i
+                                                        class="fa fa-question-circle-o"> Question</i></a> <a
+                                                    href="#"><i class="fa fa-bug"> Report</i></a> </div>
                                         </div>
                                     </div>
                                     <div class="col-md-2">
                                         <div class="ques-type302">
                                             <a href="#">
-                                                <button type="button" class="q-type238"><i class="fa fa-comment"
-                                                        aria-hidden="true"> 333335 answer</i></button>
+                                                <button type="button" class="q-type238"><i class="fa fa-comment">
+                                                        333335 answer</i></button>
                                             </a>
                                             <a href="#">
                                                 <button type="button" class="q-type23 button-ques2973"> <i
-                                                        class="fa fa-user-circle-o" aria-hidden="true"> 70 view</i>
+                                                        class="fa fa-user-circle-o"> 70 view</i>
                                                 </button>
                                             </a>
                                         </div>
@@ -2025,8 +2021,8 @@
                                 <div class="row">
                                     <div class="col-md-1">
                                         <div class="left-user12923 left-user12923-repeat">
-                                            <a href="#"><img src="image/images.png" alt="image"> </a> <a
-                                                href="#"><i class="fa fa-check" aria-hidden="true"></i></a>
+                                            <a href="#"><img src="image/images.png" alt="test"> </a> <a
+                                                href="#"><i class="fa fa-check"></i></a>
                                         </div>
                                     </div>
                                     <div class="col-md-9">
@@ -2041,24 +2037,24 @@
                                                     scelerisque ut. Vivamus at elit quis urna adipiscing iaculis.</p>
                                             </div>
                                             <hr>
-                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star"
-                                                        aria-hidden="true"> 5 </i> </a> <a href="#"><i
-                                                        class="fa fa-folder" aria-hidden="true"> wordpress</i></a> <a
-                                                    href="#"><i class="fa fa-clock-o" aria-hidden="true"> 4 min
-                                                        ago</i></a> <a href="#"><i class="fa fa-question-circle-o"
-                                                        aria-hidden="true"> Question</i></a> <a href="#"><i
-                                                        class="fa fa-bug" aria-hidden="true"> Report</i></a> </div>
+                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star">
+                                                        5 </i> </a> <a href="#"><i class="fa fa-folder">
+                                                        wordpress</i></a> <a href="#"><i class="fa fa-clock-o"> 4
+                                                        min
+                                                        ago</i></a> <a href="#"><i
+                                                        class="fa fa-question-circle-o"> Question</i></a> <a
+                                                    href="#"><i class="fa fa-bug"> Report</i></a> </div>
                                         </div>
                                     </div>
                                     <div class="col-md-2">
                                         <div class="ques-type302">
                                             <a href="#">
-                                                <button type="button" class="q-type238"><i class="fa fa-comment"
-                                                        aria-hidden="true"> 333335 answer</i></button>
+                                                <button type="button" class="q-type238"><i class="fa fa-comment">
+                                                        333335 answer</i></button>
                                             </a>
                                             <a href="#">
                                                 <button type="button" class="q-type23 button-ques2973"> <i
-                                                        class="fa fa-user-circle-o" aria-hidden="true"> 70 view</i>
+                                                        class="fa fa-user-circle-o"> 70 view</i>
                                                 </button>
                                             </a>
                                         </div>
@@ -2069,8 +2065,8 @@
                                 <div class="row">
                                     <div class="col-md-1">
                                         <div class="left-user12923 left-user12923-repeat">
-                                            <a href="#"><img src="image/images.png" alt="image"> </a> <a
-                                                href="#"><i class="fa fa-check" aria-hidden="true"></i></a>
+                                            <a href="#"><img src="image/images.png" alt="test"> </a> <a
+                                                href="#"><i class="fa fa-check"></i></a>
                                         </div>
                                     </div>
                                     <div class="col-md-9">
@@ -2085,24 +2081,24 @@
                                                     scelerisque ut. Vivamus at elit quis urna adipiscing iaculis.</p>
                                             </div>
                                             <hr>
-                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star"
-                                                        aria-hidden="true"> 5 </i> </a> <a href="#"><i
-                                                        class="fa fa-folder" aria-hidden="true"> wordpress</i></a> <a
-                                                    href="#"><i class="fa fa-clock-o" aria-hidden="true"> 4 min
-                                                        ago</i></a> <a href="#"><i class="fa fa-question-circle-o"
-                                                        aria-hidden="true"> Question</i></a> <a href="#"><i
-                                                        class="fa fa-bug" aria-hidden="true"> Report</i></a> </div>
+                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star">
+                                                        5 </i> </a> <a href="#"><i class="fa fa-folder">
+                                                        wordpress</i></a> <a href="#"><i class="fa fa-clock-o"> 4
+                                                        min
+                                                        ago</i></a> <a href="#"><i
+                                                        class="fa fa-question-circle-o"> Question</i></a> <a
+                                                    href="#"><i class="fa fa-bug"> Report</i></a> </div>
                                         </div>
                                     </div>
                                     <div class="col-md-2">
                                         <div class="ques-type302">
                                             <a href="#">
-                                                <button type="button" class="q-type238"><i class="fa fa-comment"
-                                                        aria-hidden="true"> 333335 answer</i></button>
+                                                <button type="button" class="q-type238"><i class="fa fa-comment">
+                                                        333335 answer</i></button>
                                             </a>
                                             <a href="#">
                                                 <button type="button" class="q-type23 button-ques2973"> <i
-                                                        class="fa fa-user-circle-o" aria-hidden="true"> 70 view</i>
+                                                        class="fa fa-user-circle-o"> 70 view</i>
                                                 </button>
                                             </a>
                                         </div>
@@ -2113,8 +2109,8 @@
                                 <div class="row">
                                     <div class="col-md-1">
                                         <div class="left-user12923 left-user12923-repeat">
-                                            <a href="#"><img src="image/images.png" alt="image"> </a> <a
-                                                href="#"><i class="fa fa-check" aria-hidden="true"></i></a>
+                                            <a href="#"><img src="image/images.png" alt="test"> </a> <a
+                                                href="#"><i class="fa fa-check"></i></a>
                                         </div>
                                     </div>
                                     <div class="col-md-9">
@@ -2129,24 +2125,24 @@
                                                     scelerisque ut. Vivamus at elit quis urna adipiscing iaculis.</p>
                                             </div>
                                             <hr>
-                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star"
-                                                        aria-hidden="true"> 5 </i> </a> <a href="#"><i
-                                                        class="fa fa-folder" aria-hidden="true"> wordpress</i></a> <a
-                                                    href="#"><i class="fa fa-clock-o" aria-hidden="true"> 4 min
-                                                        ago</i></a> <a href="#"><i class="fa fa-question-circle-o"
-                                                        aria-hidden="true"> Question</i></a> <a href="#"><i
-                                                        class="fa fa-bug" aria-hidden="true"> Report</i></a> </div>
+                                            <div class="ques-icon-info3293"> <a href="#"><i class="fa fa-star">
+                                                        5 </i> </a> <a href="#"><i class="fa fa-folder">
+                                                        wordpress</i></a> <a href="#"><i class="fa fa-clock-o"> 4
+                                                        min
+                                                        ago</i></a> <a href="#"><i
+                                                        class="fa fa-question-circle-o"> Question</i></a> <a
+                                                    href="#"><i class="fa fa-bug"> Report</i></a> </div>
                                         </div>
                                     </div>
                                     <div class="col-md-2">
                                         <div class="ques-type302">
                                             <a href="#">
-                                                <button type="button" class="q-type238"><i class="fa fa-comment"
-                                                        aria-hidden="true"> 333335 answer</i></button>
+                                                <button type="button" class="q-type238"><i class="fa fa-comment">
+                                                        333335 answer</i></button>
                                             </a>
                                             <a href="#">
                                                 <button type="button" class="q-type23 button-ques2973"> <i
-                                                        class="fa fa-user-circle-o" aria-hidden="true"> 70 view</i>
+                                                        class="fa fa-user-circle-o"> 70 view</i>
                                                 </button>
                                             </a>
                                         </div>
@@ -2158,7 +2154,7 @@
                                 <ul class="pagination">
                                     <li>
                                         <a href="#" aria-label="Previous">
-                                            <span aria-hidden="true">&laquo;</span>
+                                            <span>&laquo;</span>
                                         </a>
                                     </li>
                                     <li><a href="#">1</a></li>
@@ -2168,7 +2164,7 @@
                                     <li><a href="#">5</a></li>
                                     <li>
                                         <a href="#" aria-label="Next">
-                                            <span aria-hidden="true">&raquo;</span>
+                                            <span>&raquo;</span>
                                         </a>
                                     </li>
                                 </ul>
@@ -2181,8 +2177,8 @@
                 <aside class="col-md-3 sidebar97239">
                     <div class="status-part3821">
                         <h4>stats</h4>
-                        <a href="#"><i class="fa fa-question-circle" aria-hidden="true"> Question(20)</i></a> <i
-                            class="fa fa-comment" aria-hidden="true"> Answers(50)</i>
+                        <a href="#"><i class="fa fa-question-circle"> Question(20)</i></a> <i
+                            class="fa fa-comment"> Answers(50)</i>
                     </div>
                     <div class="categori-part329">
                         <h4>Category</h4>
@@ -2199,7 +2195,7 @@
                         <li class="rss-one">
                             <a href="#" target="_blank"> <strong>
                                     <span>Subscribe</span>
-                                    <i class="fa fa-rss" aria-hidden="true"></i>
+                                    <i class="fa fa-rss"></i>
                                     <br>
                                     <small>To RSS Feed</small>
                                 </strong> </a>
@@ -2207,7 +2203,7 @@
                         <li class="facebook-two">
                             <a href="#" target="_blank"> <strong>
                                     <span>Subscribe</span>
-                                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                                    <i class="fa fa-facebook"></i>
                                     <br>
                                     <small>To Facebook Feed</small>
                                 </strong> </a>
@@ -2215,7 +2211,7 @@
                         <li class="twitter-three">
                             <a href="#" target="_blank"> <strong>
                                     <span>Subscribe</span>
-                                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                                    <i class="fa fa-twitter"></i>
                                     <br>
                                     <small>To twitter Feed</small>
                                 </strong> </a>
@@ -2223,7 +2219,7 @@
                         <li class="youtube-four">
                             <a href="#" target="_blank"> <strong>
                                     <span>Subscribe</span>
-                                    <i class="fa fa-youtube" aria-hidden="true"></i>
+                                    <i class="fa fa-youtube"></i>
                                     <br>
                                     <small>To youtube Feed</small>
                                 </strong> </a>
@@ -2232,10 +2228,10 @@
                     <!--               part-->
                     <div class="login-part2389">
                         <h4>Login</h4>
-                        <div class="input-group300"> <span><i class="fa fa-user" aria-hidden="true"></i></span>
+                        <div class="input-group300"> <span><i class="fa fa-user"></i></span>
                             <input type="text" class="namein309" placeholder="Username">
                         </div>
-                        <div class="input-group300"> <span><i class="fa fa-lock" aria-hidden="true"></i></span>
+                        <div class="input-group300"> <span><i class="fa fa-lock"></i></span>
                             <input type="password" class="passin309" placeholder="Name">
                         </div>
                         <a href="#">
@@ -2252,9 +2248,8 @@
                         <h4>Highest Points</h4>
                         <div class="pints-wrapper">
                             <div class="left-user3898">
-                                <a href="#"><img src="image/images.png" alt="Image"></a>
-                                <div class="imag-overlay39"> <a href="#"><i class="fa fa-plus"
-                                            aria-hidden="true"></i></a> </div>
+                                <a href="#"><img src="image/images.png" alt="test"></a>
+                                <div class="imag-overlay39"> <a href="#"><i class="fa fa-plus"></i></a> </div>
                             </div>
                             <span class="points-details938">
                                 <a href="#">
@@ -2267,9 +2262,8 @@
                         <hr>
                         <div class="pints-wrapper">
                             <div class="left-user3898">
-                                <a href="#"><img src="image/images.png" alt="Image"></a>
-                                <div class="imag-overlay39"> <a href="#"><i class="fa fa-plus"
-                                            aria-hidden="true"></i></a> </div>
+                                <a href="#"><img src="image/images.png" alt="test"></a>
+                                <div class="imag-overlay39"> <a href="#"><i class="fa fa-plus"></i></a> </div>
                             </div>
                             <span class="points-details938">
                                 <a href="#">
@@ -2282,9 +2276,8 @@
                         <hr>
                         <div class="pints-wrapper">
                             <div class="left-user3898">
-                                <a href="#"><img src="image/images.png" alt="Image"></a>
-                                <div class="imag-overlay39"> <a href="#"><i class="fa fa-plus"
-                                            aria-hidden="true"></i></a> </div>
+                                <a href="#"><img src="image/images.png" alt="test"></a>
+                                <div class="imag-overlay39"> <a href="#"><i class="fa fa-plus"></i></a> </div>
                             </div>
                             <span class="points-details938">
                                 <a href="#">
@@ -2297,9 +2290,8 @@
                         <hr>
                         <div class="pints-wrapper">
                             <div class="left-user3898">
-                                <a href="#"><img src="image/images.png" alt="Image"></a>
-                                <div class="imag-overlay39"> <a href="#"><i class="fa fa-plus"
-                                            aria-hidden="true"></i></a> </div>
+                                <a href="#"><img src="image/images.png" alt="test"></a>
+                                <div class="imag-overlay39"> <a href="#"><i class="fa fa-plus"></i></a> </div>
                             </div>
                             <span class="points-details938">
                                 <a href="#">
@@ -2312,9 +2304,8 @@
                         <hr>
                         <div class="pints-wrapper">
                             <div class="left-user3898">
-                                <a href="#"><img src="image/images.png" alt="Image"></a>
-                                <div class="imag-overlay39"> <a href="#"><i class="fa fa-plus"
-                                            aria-hidden="true"></i></a> </div>
+                                <a href="#"><img src="image/images.png" alt="test"></a>
+                                <div class="imag-overlay39"> <a href="#"><i class="fa fa-plus"></i></a> </div>
                             </div>
                             <span class="points-details938">
                                 <a href="#">

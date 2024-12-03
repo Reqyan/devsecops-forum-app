@@ -13,10 +13,10 @@
       <div class="col-md-6">
         <div class="navbar-menu-left-side239">
           <ul>
-            <li><a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i>Contact</a></li>
-            <li><a href="#"><i class="fa fa-headphones" aria-hidden="true"></i>Support</a></li>
-            <li><a href="/login"><i class="fa fa-user" aria-hidden="true"></i>Login Area</a></li>
-            <li><a href="/logout"><i class="fa fa-sign-out" aria-hidden="true"></i>Logout</a></li>
+            <li><a href="#"><i class="fa fa-envelope-o"  ></i>Contact</a></li>
+            <li><a href="#"><i class="fa fa-headphones"  ></i>Support</a></li>
+            <li><a href="/login"><i class="fa fa-user"  ></i>Login Area</a></li>
+            <li><a href="/logout"><i class="fa fa-sign-out"  ></i>Logout</a></li>
           </ul>
         </div>
       </div>
@@ -44,12 +44,11 @@
                         <!-- Cek apakah pengguna sudah login -->
                         @if (Auth::check())
                             <!-- Jika sudah login, tampilkan nama pengguna dan tautan ke profil -->
-                            <li><a href="/profile"><i class="fa fa-user"
-                                        aria-hidden="true"></i>{{ Auth::user()->name }}</a></li>
-                            <li><a href="/logout"><i class="fa fa-sign-out" aria-hidden="true"></i>Logout</a></li>
+                            <li><a href="/profile"><i class="fa fa-user"></i>{{ Auth::user()->name }}</a></li>
+                            <li><a href="/logout"><i class="fa fa-sign-out"></i>Logout</a></li>
                         @else
                             <!-- Jika belum login, tampilkan tautan login -->
-                            <li><a href="/login"><i class="fa fa-user" aria-hidden="true"></i>Login Area</a></li>
+                            <li><a href="/login"><i class="fa fa-user"></i>Login Area</a></li>
                         @endif
                     </ul>
                 </div>

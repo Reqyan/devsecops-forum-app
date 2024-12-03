@@ -3,7 +3,7 @@
     <div class="container">
         <div class="row">
             {{-- <div id="custom-search-input">
-                <div class="input-group col-md-12"> <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                <div class="input-group col-md-12"> <i class="fa fa-pencil-square-o"  ></i>
                     <input type="text" class="  search-query form-control user-control30"
                         placeholder="Search here...." /> <span class="input-group-btn">
                         <button class="btn btn-danger" type="button">
@@ -84,21 +84,21 @@
                 {{-- <div class="info-part-four320"> --}}
                 <h4>Latest Tweets</h4>
                 <div class="tweet-details29">
-                    <p><i class="fa fa-twitter-square" aria-hidden="true"></i><a href="#"> codeThemesCheck a new
+                    <p><i class="fa fa-twitter-square"></i><a href="#"> codeThemesCheck a new
                             update #AskMe #ThemeForest #WordPress #2code #Envato#2code
                             Themehttps://t.co/urb3LgsOCi</a>
                     </p>
                     <small>about 2 weeks ago</small>
                 </div>
                 <div class="tweet-details29">
-                    <p><i class="fa fa-twitter-square" aria-hidden="true"></i><a href="#"> codeThemesCheck a new
+                    <p><i class="fa fa-twitter-square"></i><a href="#"> codeThemesCheck a new
                             update #AskMe #ThemeForest #WordPress #2code #Envato#2code
                             Themehttps://t.co/urb3LgsOCi</a>
                     </p>
                     <small>about 2 weeks ago</small>
                 </div>
                 <div class="tweet-details29">
-                    <p><i class="fa fa-twitter-square" aria-hidden="true"></i><a href="#"> codeThemesCheck a new
+                    <p><i class="fa fa-twitter-square"></i><a href="#"> codeThemesCheck a new
                             update #AskMe #ThemeForest #WordPress #2code #Envato#2code
                             Themehttps://t.co/urb3LgsOCi</a>
                     </p>
@@ -117,13 +117,13 @@
             </div>
             {{-- <div class="col-md-6">
                 <div class="social-right2389"> <a href="#"><i class="fa fa-twitter-square"
-                            aria-hidden="true"></i></a> <a href="#"><i class="fa fa-facebook"
-                            aria-hidden="true"></i></a> <a href="#"><i class="fa fa-google-plus"
-                            aria-hidden="true"></i></a> <a href="#"><i class="fa fa-youtube"
-                            aria-hidden="true"></i></a> <a href="#"><i class="fa fa-skype"
-                            aria-hidden="true"></i></a> <a href="#"><i class="fa fa-linkedin"
-                            aria-hidden="true"></i></a> <a href="#"><i class="fa fa-rss"
-                            aria-hidden="true"></i></a> </div>
+                             ></i></a> <a href="#"><i class="fa fa-facebook"
+                             ></i></a> <a href="#"><i class="fa fa-google-plus"
+                             ></i></a> <a href="#"><i class="fa fa-youtube"
+                             ></i></a> <a href="#"><i class="fa fa-skype"
+                             ></i></a> <a href="#"><i class="fa fa-linkedin"
+                             ></i></a> <a href="#"><i class="fa fa-rss"
+                             ></i></a> </div>
             </div> --}}
         </div>
     </div>
