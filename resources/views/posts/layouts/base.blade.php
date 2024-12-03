@@ -36,9 +36,6 @@
 
     @include('posts.layouts.footer')
 
-
-
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.18/summernote-lite.min.js"></script> -->
     @yield('js')
 </body>
 

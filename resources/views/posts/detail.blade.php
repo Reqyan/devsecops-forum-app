@@ -79,8 +79,6 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="post9320-box">
-                                    <!-- <input type="text" class="comment-input219882" name="content"
-                                                placeholder="Enter Your Post"> -->
 
                                     <textarea id="txtEditor" name="content" class="comment-input219882"
                                         style="padding: 10px 10px; margin: 0 0 0 115px; width: 78%;"></textarea>
