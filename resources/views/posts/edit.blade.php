@@ -122,7 +122,7 @@
 @endsection
 
 @section('js')
-    <!-- jQuery from CDN -->
+    {{-- <!-- jQuery from CDN -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"
         integrity="sha384-DZRKVPI/tE3jQv8piUpdvBG+DW/VtaCwV5QeCjcWZm7dcuvl8CX8SfyW+0eU9dB6" crossorigin="anonymous">
     </script>
@@ -138,8 +138,26 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.18/summernote-lite.min.js"
         integrity="sha384-oeLSpDqOSDUrxU6lfTDY0RS9MHB+Bg5Ltv7yJ9udZc7rNql26zWmASzGzv0QNz7M" crossorigin="anonymous">
     </script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.20/dist/summernote-lite.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.9.1/summernote-bs4.min.css"
+        integrity="sha512-rDHV59PgRefDUbMm2lSjvf0ZhXZy3wgROFyao0JxZPGho3oOuWejq/ELx0FOZJpgaE5QovVtRN65Y3rrb7JhdQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" /> --}}
+
+    <script src="{{ asset('js/jquery-3.1.1.min.js') }}"></script>
+    <script src="{{ asset('js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('js/npm.js') }}"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"
+        integrity="sha384-Cp6vkjfrF8NflVeFYhUziOhR5GF7TATUbxMauz/j98k7H4UK6lgZt8V50+PQ07Tw" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.18/summernote-lite.min.js"
+        integrity="sha384-uHAJ7p8GoBhlrsy5StjfphGneNrmLymZ6EEmcM3yEGmXPhUxX8GILjv02KDdJJvS" crossorigin="anonymous">
+    </script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.18/summernote-lite.min.css" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.9.1/summernote.min.js"
+        integrity="sha512-07bR+AJ2enmNU5RDrZkqMfVq06mQHgFxcmWN/hNSNY4E5SgYNOmTVqo/HCzrSxBhWU8mx3WB3ZJOixA9cRnCdA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <!-- Summernote Initialization -->
     <script>
