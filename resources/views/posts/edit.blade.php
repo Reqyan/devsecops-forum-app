@@ -158,6 +158,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.9.1/summernote.min.js"
         integrity="sha512-07bR+AJ2enmNU5RDrZkqMfVq06mQHgFxcmWN/hNSNY4E5SgYNOmTVqo/HCzrSxBhWU8mx3WB3ZJOixA9cRnCdA=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl5+5hb7ue5rt3IIeT4f9KP4W4PH5wxxG4IvoRxNY" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.20/dist/summernote-lite.min.js"
+        integrity="sha384-iQOOYhA2lDFP59KdhXaDFvhu8fv1yk9eYECnFPQskHd3/W4ArANwwIp68LPlsU8g" crossorigin="anonymous">
+    </script>
+
 
     <!-- Summernote Initialization -->
     <script>
