@@ -122,50 +122,15 @@
 @endsection
 
 @section('js')
-    {{-- <!-- jQuery from CDN -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"
-        integrity="sha384-DZRKVPI/tE3jQv8piUpdvBG+DW/VtaCwV5QeCjcWZm7dcuvl8CX8SfyW+0eU9dB6" crossorigin="anonymous">
-    </script>
-
-    <!-- Bootstrap JS (if required) -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js"
-        integrity="sha384-o/Yq6QKw7aIHyWDEWFXkC7wtXPOFbyJ0gOqCvBaYlqY/ep2EdVYMtjX6HZvXZTUl" crossorigin="anonymous">
-    </script>
-
-    <!-- Summernote -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.18/summernote-lite.min.css" rel="stylesheet"
-        integrity="sha384-QF1D5nFb2pmmR/kF3/2ChDWHDik1QuZGRv2xtJoBIp95AlyMbU7xF9G/kGV5AAk8" crossorigin="anonymous">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.18/summernote-lite.min.js"
-        integrity="sha384-oeLSpDqOSDUrxU6lfTDY0RS9MHB+Bg5Ltv7yJ9udZc7rNql26zWmASzGzv0QNz7M" crossorigin="anonymous">
-    </script>
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.9.1/summernote-bs4.min.css"
-        integrity="sha512-rDHV59PgRefDUbMm2lSjvf0ZhXZy3wgROFyao0JxZPGho3oOuWejq/ELx0FOZJpgaE5QovVtRN65Y3rrb7JhdQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" /> --}}
-
     <script src="{{ asset('js/jquery-3.1.1.min.js') }}"></script>
     <script src="{{ asset('js/bootstrap.min.js') }}"></script>
     <script src="{{ asset('js/npm.js') }}"></script>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"
-        integrity="sha384-Cp6vkjfrF8NflVeFYhUziOhR5GF7TATUbxMauz/j98k7H4UK6lgZt8V50+PQ07Tw" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.18/summernote-lite.min.js"
-        integrity="sha384-uHAJ7p8GoBhlrsy5StjfphGneNrmLymZ6EEmcM3yEGmXPhUxX8GILjv02KDdJJvS" crossorigin="anonymous">
-    </script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.18/summernote-lite.min.css" rel="stylesheet">
-
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl5+5hb7ue5rt3IIeT4f9KP4W4PH5wxxG4IvoRxNY" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.9.1/summernote.min.js"
         integrity="sha512-07bR+AJ2enmNU5RDrZkqMfVq06mQHgFxcmWN/hNSNY4E5SgYNOmTVqo/HCzrSxBhWU8mx3WB3ZJOixA9cRnCdA=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-        integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl5+5hb7ue5rt3IIeT4f9KP4W4PH5wxxG4IvoRxNY" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.20/dist/summernote-lite.min.js"
-        integrity="sha384-iQOOYhA2lDFP59KdhXaDFvhu8fv1yk9eYECnFPQskHd3/W4ArANwwIp68LPlsU8g" crossorigin="anonymous">
-    </script>
-
-
-    <!-- Summernote Initialization -->
     <script>
         $(document).ready(function() {
             $('#txtEditor').summernote({
